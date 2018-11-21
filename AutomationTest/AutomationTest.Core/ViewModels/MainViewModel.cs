@@ -1,10 +1,12 @@
-﻿using MvvmCross.Commands;
+﻿using AutomationTest.Core.Services;
+using MvvmCross.Commands;
 using MvvmCross.ViewModels;
 
 namespace AutomationTest.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {
+        #region Properties
         private string _barcode;
 
         public string Barcode
@@ -37,18 +39,37 @@ namespace AutomationTest.Core.ViewModels
             set { SetProperty(ref _depth, value); }
         }
 
+        #endregion
+
+        #region Commands
+
         public IMvxCommand ResetCommand { get; }
         public IMvxCommand SaveCommand { get; }
 
-        public MainViewModel()
+#endregion
+
+        private readonly IPopupService _popupService;
+
+        public MainViewModel(IPopupService popupService)
         {
+            _popupService = popupService;
             ResetCommand = new MvxCommand(ResetAction);
             SaveCommand = new MvxCommand(SaveAction);
         }
 
         private void SaveAction()
         {
-            
+            if (!string.IsNullOrEmpty(Barcode) && !string.IsNullOrEmpty(Width) && !string.IsNullOrEmpty(Height) &&
+                !string.IsNullOrEmpty(Depth))
+            {
+                var message = $"Dimm ({Width} x {Height} x {Depth}) {Barcode} saved";
+                _popupService.ShowMessage(message);
+            }
+
+            else
+            {
+                _popupService.ShowMessage("Dimm doesn't saved. Please fill all fields.");
+            }
         }
 
         private void ResetAction()
