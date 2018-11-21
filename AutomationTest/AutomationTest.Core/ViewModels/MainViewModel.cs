@@ -1,6 +1,8 @@
-﻿using AutomationTest.Core.Services;
+﻿using AutomationTest.Core.Common;
+using AutomationTest.Core.Services;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
+using MvvmValidation;
 
 namespace AutomationTest.Core.ViewModels
 {
@@ -39,6 +41,14 @@ namespace AutomationTest.Core.ViewModels
             set { SetProperty(ref _depth, value); }
         }
 
+        private ObservableDictionary<string, string> _errors;
+
+        public ObservableDictionary<string, string> Errors
+        {
+            get => _errors;
+            set { SetProperty(ref _errors, value); }
+        }
+
         #endregion
 
         #region Commands
@@ -59,17 +69,13 @@ namespace AutomationTest.Core.ViewModels
 
         private void SaveAction()
         {
-            if (!string.IsNullOrEmpty(Barcode) && !string.IsNullOrEmpty(Width) && !string.IsNullOrEmpty(Height) &&
-                !string.IsNullOrEmpty(Depth))
+            if (!Validate())
             {
-                var message = $"Dimm ({Width} x {Height} x {Depth}) {Barcode} saved";
-                _popupService.ShowMessage(message);
+                return;
             }
 
-            else
-            {
-                _popupService.ShowMessage("Dimm doesn't saved. Please fill all fields.");
-            }
+            var message = $"Dimm ({Width} x {Height} x {Depth}) {Barcode} saved";
+            _popupService.ShowMessage(message);
         }
 
         private void ResetAction()
@@ -78,6 +84,21 @@ namespace AutomationTest.Core.ViewModels
             Width = string.Empty;
             Height = string.Empty;
             Depth = string.Empty;
+        }
+
+        private bool Validate()
+        {
+            var validator = new ValidationHelper();
+            validator.AddRequiredRule(() => Barcode, "Barcode is required.");
+            validator.AddRequiredRule(() => Width, "Width is required.");
+            validator.AddRequiredRule(() => Height, "Height is required.");
+            validator.AddRequiredRule(() => Depth, "Depth is required.");
+
+            var result = validator.ValidateAll();
+            Errors = result.AsObservableDictionary();
+
+            return result.IsValid;
+
         }
     }
 }

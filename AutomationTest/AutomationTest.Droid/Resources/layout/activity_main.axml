@@ -22,18 +22,6 @@
       android:text="@string/app_name" />
   </android.support.v7.widget.Toolbar>
 
-    <TextView
-        android:id="@+id/barcodeTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/enter_barcode"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
-
     <EditText
         android:id="@+id/barcodeEditText"
         android:layout_width="0dp"
@@ -47,8 +35,8 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barcodeTextView"
-        app:MvxBind="Text Barcode"/>
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:MvxBind="Text Barcode; Error Errors['Barcode']"/>
 
     <TextView
         android:id="@+id/enterDimmsTextView"
@@ -74,7 +62,7 @@
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
-        app:MvxBind="Text Width"/>
+        app:MvxBind="Text Width; Error Errors['Width']"/>
 
     <EditText
         android:id="@+id/heightEditText"
@@ -88,7 +76,7 @@
         app:layout_constraintEnd_toStartOf="@+id/depthEditText"
         app:layout_constraintStart_toEndOf="@+id/widthEditText"
         app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
-        app:MvxBind="Text Height"/>
+        app:MvxBind="Text Height; Error Errors['Height']"/>
 
     <EditText
         android:id="@+id/depthEditText"
@@ -102,7 +90,7 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
-        app:MvxBind="Text Depth"/>
+        app:MvxBind="Text Depth; Error Errors['Depth']"/>
 
     <Button
         android:id="@+id/resetButton"
