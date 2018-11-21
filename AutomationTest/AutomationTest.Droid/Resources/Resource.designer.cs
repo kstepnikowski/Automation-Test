@@ -7185,9 +7185,6 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0a0010
 			public const int abc_toolbar_collapse_description = 2131361808;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int action_settings = 2131361834;
-			
 			// aapt resource value: 0x7f0a0029
 			public const int app_name = 2131361833;
 			
@@ -7197,11 +7194,29 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0a001f
 			public const int bottom_sheet_behavior = 2131361823;
 			
+			// aapt resource value: 0x7f0a002f
+			public const int button_reset = 2131361839;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int button_save = 2131361840;
+			
 			// aapt resource value: 0x7f0a0020
 			public const int character_counter_pattern = 2131361824;
 			
+			// aapt resource value: 0x7f0a002e
+			public const int depth_placeholder = 2131361838;
+			
+			// aapt resource value: 0x7f0a002b
+			public const int enter_barcode = 2131361835;
+			
+			// aapt resource value: 0x7f0a002a
+			public const int enter_dimms_width_x_height_x_depth = 2131361834;
+			
 			// aapt resource value: 0x7f0a0027
 			public const int fab_scroll_shrink_grow_autohide_behavior = 2131361831;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int height_placeholder = 2131361837;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int password_toggle_content_description = 2131361825;
@@ -7226,6 +7241,9 @@ namespace AutomationTest.Droid
 			
 			// aapt resource value: 0x7f0a0028
 			public const int view_scroll_translation_autohide_behavior = 2131361832;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int width_placeholder = 2131361836;
 			
 			static String()
 			{

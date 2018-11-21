@@ -6,23 +6,24 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="20dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter Barcode"/>
+        android:text="@string/enter_barcode"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Barcode"/>
+        android:hint="Enter Barcode"
+        android:textSize="14sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Enter Dimms Width x Height x Depth" />
+        android:text="@string/enter_dimms_width_x_height_x_depth" />
 
     <RelativeLayout
         android:id="@+id/entries"
@@ -35,23 +36,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:hint="W"/>
+            android:hint="@string/width_placeholder"
+            android:inputType="numberDecimal"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:hint="H"
-            android:gravity="center"/>
+            android:hint="@string/height_placeholder"
+            android:inputType="numberDecimal"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_alignParentRight="true"
-            android:hint="D"
-            android:gravity="center"/>
+            android:hint="@string/depth_placeholder"
+            android:inputType="numberDecimal"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -64,7 +65,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:text="Reset" />
+            android:text="@string/button_reset"
+            android:background="@color/primaryDark"
+            android:textColor="@color/text_color"/>
 
         <Button
             android:id="@+id/save"
@@ -72,7 +75,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:text="Save" />
+            android:text="@string/button_save"
+            android:background="@color/primaryDark"
+            android:textColor="@color/text_color" />
     </RelativeLayout>
 
 </LinearLayout>
