@@ -1,89 +1,134 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_content"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:orientation="vertical"
-    android:padding="20dp">
+    android:layout_height="match_parent">
+
+  <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:title="@string/app_name"
+    android:background="@drawable/app_background">
 
     <TextView
-        android:layout_width="wrap_content"
+      style="@style/TextAppearance.AppCompat.Title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textColor="@color/text_color"
+      android:textSize="20sp"
+      android:textStyle="normal"
+      android:text="@string/app_name" />
+  </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/barcodeTextView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/enter_barcode"/>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/enter_barcode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <EditText
-        android:layout_width="match_parent"
+        android:id="@+id/barcodeEditText"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Enter Barcode"
-        android:textSize="14sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/enter_barcode"
+        android:textSize="15sp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barcodeTextView"
         app:MvxBind="Text Barcode"/>
 
     <TextView
+        android:id="@+id/enterDimmsTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/enter_dimms_width_x_height_x_depth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barcodeEditText"/>
+
+    <EditText
+        android:id="@+id/widthEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/enter_dimms_width_x_height_x_depth" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="2"
+        android:gravity="center"
+        android:hint="@string/width_placeholder"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
+        app:MvxBind="Text Width"/>
 
-    <RelativeLayout
-        android:id="@+id/entries"
+    <EditText
+        android:id="@+id/heightEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp">
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:hint="@string/width_placeholder"
-            android:inputType="numberDecimal"
-            app:MvxBind="Text Width"/>
+        android:layout_marginTop="8dp"
+        android:ems="2"
+        android:gravity="center"
+        android:hint="@string/height_placeholder"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/depthEditText"
+        app:layout_constraintStart_toEndOf="@+id/widthEditText"
+        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
+        app:MvxBind="Text Height"/>
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:hint="@string/height_placeholder"
-            android:inputType="numberDecimal"
-            app:MvxBind="Text Height"/>
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_alignParentRight="true"
-            android:hint="@string/depth_placeholder"
-            android:inputType="numberDecimal"
-            app:MvxBind="Text Depth"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="fill_parent"
+    <EditText
+        android:id="@+id/depthEditText"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="2"
+        android:gravity="center"
+        android:hint="@string/depth_placeholder"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
+        app:MvxBind="Text Depth"/>
 
-        <Button
-            android:id="@+id/reset"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:text="@string/button_reset"
-            android:background="@drawable/border_button"
-            android:textColor="#FFFFFF"
-            app:MvxBind="Click ResetCommand"/>
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/button_reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border_button"
+        android:textColor="@color/text_color"
+        app:MvxBind="Click ResetCommand"/>
 
-        <Button
-            android:id="@+id/save"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:text="@string/button_save"
-            android:background="@drawable/border_button"
-            android:textColor="#FFFFFF"
-            app:MvxBind="Click SaveCommand"/>
-    </RelativeLayout>
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/button_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/border_button"
+        android:textColor="@color/text_color"
+        app:MvxBind="Click SaveCommand"/>
 
-</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
