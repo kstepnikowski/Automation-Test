@@ -66,8 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:text="@string/button_reset"
-            android:background="@color/primaryDark"
-            android:textColor="@color/text_color"/>
+            android:background="@drawable/border_button"
+            android:textColor="#FFFFFF"/>
 
         <Button
             android:id="@+id/save"
@@ -76,8 +76,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:text="@string/button_save"
-            android:background="@color/primaryDark"
-            android:textColor="@color/text_color" />
+            android:background="@drawable/border_button"
+            android:textColor="#FFFFFF" />
     </RelativeLayout>
 
 </LinearLayout>
