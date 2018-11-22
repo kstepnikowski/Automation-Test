@@ -9,7 +9,6 @@ namespace AutomationTest.Droid.Resources.Views.Presenters
 {
     public class DroidPresenter : MvxAndroidViewPresenter
     {
-
         private readonly IMvxViewModelLoader _viewModelLoader;
         private readonly IFragmentTypeLookup _fragmentTypeLookup;
         private FragmentManager _fragmentManager;
@@ -31,6 +30,7 @@ namespace AutomationTest.Droid.Resources.Views.Presenters
         {
             if (_fragmentManager == null || !_fragmentTypeLookup.TryGetFragmentType(request.ViewModelType, out var fragmentType))
             {
+                base.Show(request);
                 return;
             }
 
