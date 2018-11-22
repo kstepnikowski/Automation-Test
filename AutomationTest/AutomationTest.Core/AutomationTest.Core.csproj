@@ -5,12 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="6.2.2" />
+    <PackageReference Include="MvvmCross" Version="5.0.0" />
     <PackageReference Include="MvvmValidation" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MvvmCross.Core">
+      <HintPath>C:\Users\kstepnikowski\.nuget\packages\mvvmcross.core\4.3.0\lib\MonoAndroid\MvvmCross.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Platform">
+      <HintPath>C:\Users\kstepnikowski\.nuget\packages\mvvmcross.platform\4.3.0\lib\MonoAndroid\MvvmCross.Platform.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

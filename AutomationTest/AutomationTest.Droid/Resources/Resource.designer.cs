@@ -26,1981 +26,27 @@ namespace AutomationTest.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::MvvmCross.Resource.Attribute.MvxBind = global::AutomationTest.Droid.Resource.Attribute.MvxBind;
-			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxDropDownItemTemplate;
-			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxGroupItemTemplate;
-			global::MvvmCross.Resource.Attribute.MvxItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxItemTemplate;
-			global::MvvmCross.Resource.Attribute.MvxLang = global::AutomationTest.Droid.Resource.Attribute.MvxLang;
-			global::MvvmCross.Resource.Attribute.MvxTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxTemplate;
-			global::MvvmCross.Resource.Id.MvvmCrossTagId = global::AutomationTest.Droid.Resource.Id.MvvmCrossTagId;
-			global::MvvmCross.Resource.Id.MvxBindingTagUnique = global::AutomationTest.Droid.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Resource.Styleable.MvxBinding = global::AutomationTest.Droid.Resource.Styleable.MvxBinding;
-			global::MvvmCross.Resource.Styleable.MvxBinding_MvxBind = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxBind;
-			global::MvvmCross.Resource.Styleable.MvxBinding_MvxLang = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxLang;
-			global::MvvmCross.Resource.Styleable.MvxControl = global::AutomationTest.Droid.Resource.Styleable.MvxControl;
-			global::MvvmCross.Resource.Styleable.MvxControl_MvxTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxControl_MvxTemplate;
-			global::MvvmCross.Resource.Styleable.MvxExpandableListView = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView;
-			global::MvvmCross.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
-			global::MvvmCross.Resource.Styleable.MvxListView = global::AutomationTest.Droid.Resource.Styleable.MvxListView;
-			global::MvvmCross.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
-			global::MvvmCross.Resource.Styleable.MvxListView_MvxItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_fade_in = global::AutomationTest.Droid.Resource.Animation.abc_fade_in;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_fade_out = global::AutomationTest.Droid.Resource.Animation.abc_fade_out;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_grow_fade_in_from_bottom = global::AutomationTest.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_popup_enter = global::AutomationTest.Droid.Resource.Animation.abc_popup_enter;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_popup_exit = global::AutomationTest.Droid.Resource.Animation.abc_popup_exit;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_shrink_fade_out_from_bottom = global::AutomationTest.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_in_bottom = global::AutomationTest.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_in_top = global::AutomationTest.Droid.Resource.Animation.abc_slide_in_top;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_bottom = global::AutomationTest.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_top = global::AutomationTest.Droid.Resource.Animation.abc_slide_out_top;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_in = global::AutomationTest.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_out = global::AutomationTest.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_in = global::AutomationTest.Droid.Resource.Animation.design_snackbar_in;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_out = global::AutomationTest.Droid.Resource.Animation.design_snackbar_out;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.tooltip_enter = global::AutomationTest.Droid.Resource.Animation.tooltip_enter;
-			global::MvvmCross.Droid.Support.Design.Resource.Animation.tooltip_exit = global::AutomationTest.Droid.Resource.Animation.tooltip_exit;
-			global::MvvmCross.Droid.Support.Design.Resource.Animator.design_appbar_state_list_animator = global::AutomationTest.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxBind = global::AutomationTest.Droid.Resource.Attribute.MvxBind;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxDropDownItemTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxGroupItemTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxItemTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxLang = global::AutomationTest.Droid.Resource.Attribute.MvxLang;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarDivider = global::AutomationTest.Droid.Resource.Attribute.actionBarDivider;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarItemBackground = global::AutomationTest.Droid.Resource.Attribute.actionBarItemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarPopupTheme = global::AutomationTest.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarSize = global::AutomationTest.Droid.Resource.Attribute.actionBarSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarSplitStyle = global::AutomationTest.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarStyle = global::AutomationTest.Droid.Resource.Attribute.actionBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabBarStyle = global::AutomationTest.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabStyle = global::AutomationTest.Droid.Resource.Attribute.actionBarTabStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabTextStyle = global::AutomationTest.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTheme = global::AutomationTest.Droid.Resource.Attribute.actionBarTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarWidgetTheme = global::AutomationTest.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionButtonStyle = global::AutomationTest.Droid.Resource.Attribute.actionButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionDropDownStyle = global::AutomationTest.Droid.Resource.Attribute.actionDropDownStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionLayout = global::AutomationTest.Droid.Resource.Attribute.actionLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionMenuTextAppearance = global::AutomationTest.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionMenuTextColor = global::AutomationTest.Droid.Resource.Attribute.actionMenuTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeBackground = global::AutomationTest.Droid.Resource.Attribute.actionModeBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCloseButtonStyle = global::AutomationTest.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCloseDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCopyDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCutDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeFindDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModePasteDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModePopupWindowStyle = global::AutomationTest.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeSelectAllDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeShareDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeSplitBackground = global::AutomationTest.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeStyle = global::AutomationTest.Droid.Resource.Attribute.actionModeStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeWebSearchDrawable = global::AutomationTest.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionOverflowButtonStyle = global::AutomationTest.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionOverflowMenuStyle = global::AutomationTest.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionProviderClass = global::AutomationTest.Droid.Resource.Attribute.actionProviderClass;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionViewClass = global::AutomationTest.Droid.Resource.Attribute.actionViewClass;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.activityChooserViewStyle = global::AutomationTest.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogButtonGroupStyle = global::AutomationTest.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogCenterButtons = global::AutomationTest.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogStyle = global::AutomationTest.Droid.Resource.Attribute.alertDialogStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogTheme = global::AutomationTest.Droid.Resource.Attribute.alertDialogTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.allowStacking = global::AutomationTest.Droid.Resource.Attribute.allowStacking;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alpha = global::AutomationTest.Droid.Resource.Attribute.alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alphabeticModifiers = global::AutomationTest.Droid.Resource.Attribute.alphabeticModifiers;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.arrowHeadLength = global::AutomationTest.Droid.Resource.Attribute.arrowHeadLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.arrowShaftLength = global::AutomationTest.Droid.Resource.Attribute.arrowShaftLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoCompleteTextViewStyle = global::AutomationTest.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoSizeMaxTextSize = global::AutomationTest.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoSizeMinTextSize = global::AutomationTest.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoSizePresetSizes = global::AutomationTest.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoSizeStepGranularity = global::AutomationTest.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoSizeTextType = global::AutomationTest.Droid.Resource.Attribute.autoSizeTextType;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.background = global::AutomationTest.Droid.Resource.Attribute.background;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundSplit = global::AutomationTest.Droid.Resource.Attribute.backgroundSplit;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundStacked = global::AutomationTest.Droid.Resource.Attribute.backgroundStacked;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundTint = global::AutomationTest.Droid.Resource.Attribute.backgroundTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundTintMode = global::AutomationTest.Droid.Resource.Attribute.backgroundTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.barLength = global::AutomationTest.Droid.Resource.Attribute.barLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_autoHide = global::AutomationTest.Droid.Resource.Attribute.behavior_autoHide;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_hideable = global::AutomationTest.Droid.Resource.Attribute.behavior_hideable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_overlapTop = global::AutomationTest.Droid.Resource.Attribute.behavior_overlapTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_peekHeight = global::AutomationTest.Droid.Resource.Attribute.behavior_peekHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_skipCollapsed = global::AutomationTest.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderWidth = global::AutomationTest.Droid.Resource.Attribute.borderWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderlessButtonStyle = global::AutomationTest.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetDialogTheme = global::AutomationTest.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetStyle = global::AutomationTest.Droid.Resource.Attribute.bottomSheetStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarButtonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNegativeButtonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNeutralButtonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarPositiveButtonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonGravity = global::AutomationTest.Droid.Resource.Attribute.buttonGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonPanelSideLayout = global::AutomationTest.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyleSmall = global::AutomationTest.Droid.Resource.Attribute.buttonStyleSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTint = global::AutomationTest.Droid.Resource.Attribute.buttonTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTintMode = global::AutomationTest.Droid.Resource.Attribute.buttonTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkboxStyle = global::AutomationTest.Droid.Resource.Attribute.checkboxStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedTextViewStyle = global::AutomationTest.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIcon = global::AutomationTest.Droid.Resource.Attribute.closeIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeItemLayout = global::AutomationTest.Droid.Resource.Attribute.closeItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseContentDescription = global::AutomationTest.Droid.Resource.Attribute.collapseContentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseIcon = global::AutomationTest.Droid.Resource.Attribute.collapseIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapsedTitleGravity = global::AutomationTest.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapsedTitleTextAppearance = global::AutomationTest.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.color = global::AutomationTest.Droid.Resource.Attribute.color;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorAccent = global::AutomationTest.Droid.Resource.Attribute.colorAccent;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorBackgroundFloating = global::AutomationTest.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorButtonNormal = global::AutomationTest.Droid.Resource.Attribute.colorButtonNormal;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlActivated = global::AutomationTest.Droid.Resource.Attribute.colorControlActivated;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlHighlight = global::AutomationTest.Droid.Resource.Attribute.colorControlHighlight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlNormal = global::AutomationTest.Droid.Resource.Attribute.colorControlNormal;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorError = global::AutomationTest.Droid.Resource.Attribute.colorError;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimary = global::AutomationTest.Droid.Resource.Attribute.colorPrimary;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimaryDark = global::AutomationTest.Droid.Resource.Attribute.colorPrimaryDark;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorSwitchThumbNormal = global::AutomationTest.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.commitIcon = global::AutomationTest.Droid.Resource.Attribute.commitIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentDescription = global::AutomationTest.Droid.Resource.Attribute.contentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetEnd = global::AutomationTest.Droid.Resource.Attribute.contentInsetEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetEndWithActions = global::AutomationTest.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetLeft = global::AutomationTest.Droid.Resource.Attribute.contentInsetLeft;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetRight = global::AutomationTest.Droid.Resource.Attribute.contentInsetRight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetStart = global::AutomationTest.Droid.Resource.Attribute.contentInsetStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetStartWithNavigation = global::AutomationTest.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentScrim = global::AutomationTest.Droid.Resource.Attribute.contentScrim;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.controlBackground = global::AutomationTest.Droid.Resource.Attribute.controlBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterEnabled = global::AutomationTest.Droid.Resource.Attribute.counterEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterMaxLength = global::AutomationTest.Droid.Resource.Attribute.counterMaxLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterOverflowTextAppearance = global::AutomationTest.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterTextAppearance = global::AutomationTest.Droid.Resource.Attribute.counterTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.customNavigationLayout = global::AutomationTest.Droid.Resource.Attribute.customNavigationLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.defaultQueryHint = global::AutomationTest.Droid.Resource.Attribute.defaultQueryHint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogPreferredPadding = global::AutomationTest.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogTheme = global::AutomationTest.Droid.Resource.Attribute.dialogTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.displayOptions = global::AutomationTest.Droid.Resource.Attribute.displayOptions;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.divider = global::AutomationTest.Droid.Resource.Attribute.divider;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerHorizontal = global::AutomationTest.Droid.Resource.Attribute.dividerHorizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerPadding = global::AutomationTest.Droid.Resource.Attribute.dividerPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerVertical = global::AutomationTest.Droid.Resource.Attribute.dividerVertical;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.drawableSize = global::AutomationTest.Droid.Resource.Attribute.drawableSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.drawerArrowStyle = global::AutomationTest.Droid.Resource.Attribute.drawerArrowStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dropDownListViewStyle = global::AutomationTest.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dropdownListPreferredItemHeight = global::AutomationTest.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextBackground = global::AutomationTest.Droid.Resource.Attribute.editTextBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextColor = global::AutomationTest.Droid.Resource.Attribute.editTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextStyle = global::AutomationTest.Droid.Resource.Attribute.editTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.elevation = global::AutomationTest.Droid.Resource.Attribute.elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorEnabled = global::AutomationTest.Droid.Resource.Attribute.errorEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorTextAppearance = global::AutomationTest.Droid.Resource.Attribute.errorTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandActivityOverflowButtonDrawable = global::AutomationTest.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expanded = global::AutomationTest.Droid.Resource.Attribute.expanded;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleGravity = global::AutomationTest.Droid.Resource.Attribute.expandedTitleGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMargin = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMargin;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginBottom = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginEnd = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginStart = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginTop = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleTextAppearance = global::AutomationTest.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabSize = global::AutomationTest.Droid.Resource.Attribute.fabSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollEnabled = global::AutomationTest.Droid.Resource.Attribute.fastScrollEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollVerticalThumbDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fastScrollVerticalTrackDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.font = global::AutomationTest.Droid.Resource.Attribute.font;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontFamily = global::AutomationTest.Droid.Resource.Attribute.fontFamily;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderAuthority = global::AutomationTest.Droid.Resource.Attribute.fontProviderAuthority;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderCerts = global::AutomationTest.Droid.Resource.Attribute.fontProviderCerts;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderFetchStrategy = global::AutomationTest.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderFetchTimeout = global::AutomationTest.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderPackage = global::AutomationTest.Droid.Resource.Attribute.fontProviderPackage;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontProviderQuery = global::AutomationTest.Droid.Resource.Attribute.fontProviderQuery;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontStyle = global::AutomationTest.Droid.Resource.Attribute.fontStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fontWeight = global::AutomationTest.Droid.Resource.Attribute.fontWeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.foregroundInsidePadding = global::AutomationTest.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.gapBetweenBars = global::AutomationTest.Droid.Resource.Attribute.gapBetweenBars;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.goIcon = global::AutomationTest.Droid.Resource.Attribute.goIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.headerLayout = global::AutomationTest.Droid.Resource.Attribute.headerLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.height = global::AutomationTest.Droid.Resource.Attribute.height;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hideOnContentScroll = global::AutomationTest.Droid.Resource.Attribute.hideOnContentScroll;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintAnimationEnabled = global::AutomationTest.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintEnabled = global::AutomationTest.Droid.Resource.Attribute.hintEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintTextAppearance = global::AutomationTest.Droid.Resource.Attribute.hintTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeAsUpIndicator = global::AutomationTest.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeLayout = global::AutomationTest.Droid.Resource.Attribute.homeLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.icon = global::AutomationTest.Droid.Resource.Attribute.icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconTint = global::AutomationTest.Droid.Resource.Attribute.iconTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconTintMode = global::AutomationTest.Droid.Resource.Attribute.iconTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconifiedByDefault = global::AutomationTest.Droid.Resource.Attribute.iconifiedByDefault;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.imageButtonStyle = global::AutomationTest.Droid.Resource.Attribute.imageButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.indeterminateProgressStyle = global::AutomationTest.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.initialActivityCount = global::AutomationTest.Droid.Resource.Attribute.initialActivityCount;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.insetForeground = global::AutomationTest.Droid.Resource.Attribute.insetForeground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.isLightTheme = global::AutomationTest.Droid.Resource.Attribute.isLightTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemBackground = global::AutomationTest.Droid.Resource.Attribute.itemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemIconTint = global::AutomationTest.Droid.Resource.Attribute.itemIconTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemPadding = global::AutomationTest.Droid.Resource.Attribute.itemPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextAppearance = global::AutomationTest.Droid.Resource.Attribute.itemTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextColor = global::AutomationTest.Droid.Resource.Attribute.itemTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.keylines = global::AutomationTest.Droid.Resource.Attribute.keylines;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout = global::AutomationTest.Droid.Resource.Attribute.layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layoutManager = global::AutomationTest.Droid.Resource.Attribute.layoutManager;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_anchor = global::AutomationTest.Droid.Resource.Attribute.layout_anchor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_anchorGravity = global::AutomationTest.Droid.Resource.Attribute.layout_anchorGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_behavior = global::AutomationTest.Droid.Resource.Attribute.layout_behavior;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_collapseMode = global::AutomationTest.Droid.Resource.Attribute.layout_collapseMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_collapseParallaxMultiplier = global::AutomationTest.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_dodgeInsetEdges = global::AutomationTest.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_insetEdge = global::AutomationTest.Droid.Resource.Attribute.layout_insetEdge;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_keyline = global::AutomationTest.Droid.Resource.Attribute.layout_keyline;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollFlags = global::AutomationTest.Droid.Resource.Attribute.layout_scrollFlags;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollInterpolator = global::AutomationTest.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listChoiceBackgroundIndicator = global::AutomationTest.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listDividerAlertDialog = global::AutomationTest.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listItemLayout = global::AutomationTest.Droid.Resource.Attribute.listItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listLayout = global::AutomationTest.Droid.Resource.Attribute.listLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listMenuViewStyle = global::AutomationTest.Droid.Resource.Attribute.listMenuViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPopupWindowStyle = global::AutomationTest.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeight = global::AutomationTest.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeightLarge = global::AutomationTest.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeightSmall = global::AutomationTest.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemPaddingLeft = global::AutomationTest.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemPaddingRight = global::AutomationTest.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logo = global::AutomationTest.Droid.Resource.Attribute.logo;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logoDescription = global::AutomationTest.Droid.Resource.Attribute.logoDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxActionInlineWidth = global::AutomationTest.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxButtonHeight = global::AutomationTest.Droid.Resource.Attribute.maxButtonHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.measureWithLargestChild = global::AutomationTest.Droid.Resource.Attribute.measureWithLargestChild;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.menu = global::AutomationTest.Droid.Resource.Attribute.menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.multiChoiceItemLayout = global::AutomationTest.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationContentDescription = global::AutomationTest.Droid.Resource.Attribute.navigationContentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationIcon = global::AutomationTest.Droid.Resource.Attribute.navigationIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationMode = global::AutomationTest.Droid.Resource.Attribute.navigationMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.numericModifiers = global::AutomationTest.Droid.Resource.Attribute.numericModifiers;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.overlapAnchor = global::AutomationTest.Droid.Resource.Attribute.overlapAnchor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingBottomNoButtons = global::AutomationTest.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingEnd = global::AutomationTest.Droid.Resource.Attribute.paddingEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingStart = global::AutomationTest.Droid.Resource.Attribute.paddingStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingTopNoTitle = global::AutomationTest.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelBackground = global::AutomationTest.Droid.Resource.Attribute.panelBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelMenuListTheme = global::AutomationTest.Droid.Resource.Attribute.panelMenuListTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelMenuListWidth = global::AutomationTest.Droid.Resource.Attribute.panelMenuListWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.passwordToggleContentDescription = global::AutomationTest.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.passwordToggleDrawable = global::AutomationTest.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.passwordToggleEnabled = global::AutomationTest.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.passwordToggleTint = global::AutomationTest.Droid.Resource.Attribute.passwordToggleTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.passwordToggleTintMode = global::AutomationTest.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupMenuStyle = global::AutomationTest.Droid.Resource.Attribute.popupMenuStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupTheme = global::AutomationTest.Droid.Resource.Attribute.popupTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupWindowStyle = global::AutomationTest.Droid.Resource.Attribute.popupWindowStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.preserveIconSpacing = global::AutomationTest.Droid.Resource.Attribute.preserveIconSpacing;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.pressedTranslationZ = global::AutomationTest.Droid.Resource.Attribute.pressedTranslationZ;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.progressBarPadding = global::AutomationTest.Droid.Resource.Attribute.progressBarPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.progressBarStyle = global::AutomationTest.Droid.Resource.Attribute.progressBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.queryBackground = global::AutomationTest.Droid.Resource.Attribute.queryBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.queryHint = global::AutomationTest.Droid.Resource.Attribute.queryHint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.radioButtonStyle = global::AutomationTest.Droid.Resource.Attribute.radioButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyle = global::AutomationTest.Droid.Resource.Attribute.ratingBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyleIndicator = global::AutomationTest.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyleSmall = global::AutomationTest.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.reverseLayout = global::AutomationTest.Droid.Resource.Attribute.reverseLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.rippleColor = global::AutomationTest.Droid.Resource.Attribute.rippleColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.scrimAnimationDuration = global::AutomationTest.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.scrimVisibleHeightTrigger = global::AutomationTest.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchHintIcon = global::AutomationTest.Droid.Resource.Attribute.searchHintIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchIcon = global::AutomationTest.Droid.Resource.Attribute.searchIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchViewStyle = global::AutomationTest.Droid.Resource.Attribute.searchViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.seekBarStyle = global::AutomationTest.Droid.Resource.Attribute.seekBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.selectableItemBackground = global::AutomationTest.Droid.Resource.Attribute.selectableItemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.selectableItemBackgroundBorderless = global::AutomationTest.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showAsAction = global::AutomationTest.Droid.Resource.Attribute.showAsAction;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showDividers = global::AutomationTest.Droid.Resource.Attribute.showDividers;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showText = global::AutomationTest.Droid.Resource.Attribute.showText;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showTitle = global::AutomationTest.Droid.Resource.Attribute.showTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.singleChoiceItemLayout = global::AutomationTest.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spanCount = global::AutomationTest.Droid.Resource.Attribute.spanCount;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinBars = global::AutomationTest.Droid.Resource.Attribute.spinBars;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinnerDropDownItemStyle = global::AutomationTest.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinnerStyle = global::AutomationTest.Droid.Resource.Attribute.spinnerStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.splitTrack = global::AutomationTest.Droid.Resource.Attribute.splitTrack;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.srcCompat = global::AutomationTest.Droid.Resource.Attribute.srcCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.stackFromEnd = global::AutomationTest.Droid.Resource.Attribute.stackFromEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_above_anchor = global::AutomationTest.Droid.Resource.Attribute.state_above_anchor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_collapsed = global::AutomationTest.Droid.Resource.Attribute.state_collapsed;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_collapsible = global::AutomationTest.Droid.Resource.Attribute.state_collapsible;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarBackground = global::AutomationTest.Droid.Resource.Attribute.statusBarBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarScrim = global::AutomationTest.Droid.Resource.Attribute.statusBarScrim;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subMenuArrow = global::AutomationTest.Droid.Resource.Attribute.subMenuArrow;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.submitBackground = global::AutomationTest.Droid.Resource.Attribute.submitBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitle = global::AutomationTest.Droid.Resource.Attribute.subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextAppearance = global::AutomationTest.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextColor = global::AutomationTest.Droid.Resource.Attribute.subtitleTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextStyle = global::AutomationTest.Droid.Resource.Attribute.subtitleTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.suggestionRowLayout = global::AutomationTest.Droid.Resource.Attribute.suggestionRowLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchMinWidth = global::AutomationTest.Droid.Resource.Attribute.switchMinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchPadding = global::AutomationTest.Droid.Resource.Attribute.switchPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchStyle = global::AutomationTest.Droid.Resource.Attribute.switchStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchTextAppearance = global::AutomationTest.Droid.Resource.Attribute.switchTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabBackground = global::AutomationTest.Droid.Resource.Attribute.tabBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabContentStart = global::AutomationTest.Droid.Resource.Attribute.tabContentStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabGravity = global::AutomationTest.Droid.Resource.Attribute.tabGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorColor = global::AutomationTest.Droid.Resource.Attribute.tabIndicatorColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorHeight = global::AutomationTest.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMaxWidth = global::AutomationTest.Droid.Resource.Attribute.tabMaxWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMinWidth = global::AutomationTest.Droid.Resource.Attribute.tabMinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMode = global::AutomationTest.Droid.Resource.Attribute.tabMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPadding = global::AutomationTest.Droid.Resource.Attribute.tabPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingBottom = global::AutomationTest.Droid.Resource.Attribute.tabPaddingBottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingEnd = global::AutomationTest.Droid.Resource.Attribute.tabPaddingEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingStart = global::AutomationTest.Droid.Resource.Attribute.tabPaddingStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingTop = global::AutomationTest.Droid.Resource.Attribute.tabPaddingTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabSelectedTextColor = global::AutomationTest.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextAppearance = global::AutomationTest.Droid.Resource.Attribute.tabTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextColor = global::AutomationTest.Droid.Resource.Attribute.tabTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAllCaps = global::AutomationTest.Droid.Resource.Attribute.textAllCaps;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceLargePopupMenu = global::AutomationTest.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItem = global::AutomationTest.Droid.Resource.Attribute.textAppearanceListItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItemSecondary = global::AutomationTest.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItemSmall = global::AutomationTest.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearancePopupMenuHeader = global::AutomationTest.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultSubtitle = global::AutomationTest.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultTitle = global::AutomationTest.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSmallPopupMenu = global::AutomationTest.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorAlertDialogListItem = global::AutomationTest.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorError = global::AutomationTest.Droid.Resource.Attribute.textColorError;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorSearchUrl = global::AutomationTest.Droid.Resource.Attribute.textColorSearchUrl;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.theme = global::AutomationTest.Droid.Resource.Attribute.theme;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thickness = global::AutomationTest.Droid.Resource.Attribute.thickness;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thumbTextPadding = global::AutomationTest.Droid.Resource.Attribute.thumbTextPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thumbTint = global::AutomationTest.Droid.Resource.Attribute.thumbTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thumbTintMode = global::AutomationTest.Droid.Resource.Attribute.thumbTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tickMark = global::AutomationTest.Droid.Resource.Attribute.tickMark;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tickMarkTint = global::AutomationTest.Droid.Resource.Attribute.tickMarkTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tickMarkTintMode = global::AutomationTest.Droid.Resource.Attribute.tickMarkTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tint = global::AutomationTest.Droid.Resource.Attribute.tint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tintMode = global::AutomationTest.Droid.Resource.Attribute.tintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.title = global::AutomationTest.Droid.Resource.Attribute.title;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleEnabled = global::AutomationTest.Droid.Resource.Attribute.titleEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMargin = global::AutomationTest.Droid.Resource.Attribute.titleMargin;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginBottom = global::AutomationTest.Droid.Resource.Attribute.titleMarginBottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginEnd = global::AutomationTest.Droid.Resource.Attribute.titleMarginEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginStart = global::AutomationTest.Droid.Resource.Attribute.titleMarginStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginTop = global::AutomationTest.Droid.Resource.Attribute.titleMarginTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMargins = global::AutomationTest.Droid.Resource.Attribute.titleMargins;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextAppearance = global::AutomationTest.Droid.Resource.Attribute.titleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextColor = global::AutomationTest.Droid.Resource.Attribute.titleTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextStyle = global::AutomationTest.Droid.Resource.Attribute.titleTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarId = global::AutomationTest.Droid.Resource.Attribute.toolbarId;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarNavigationButtonStyle = global::AutomationTest.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarStyle = global::AutomationTest.Droid.Resource.Attribute.toolbarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tooltipForegroundColor = global::AutomationTest.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tooltipFrameBackground = global::AutomationTest.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tooltipText = global::AutomationTest.Droid.Resource.Attribute.tooltipText;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.track = global::AutomationTest.Droid.Resource.Attribute.track;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.trackTint = global::AutomationTest.Droid.Resource.Attribute.trackTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.trackTintMode = global::AutomationTest.Droid.Resource.Attribute.trackTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.useCompatPadding = global::AutomationTest.Droid.Resource.Attribute.useCompatPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.voiceIcon = global::AutomationTest.Droid.Resource.Attribute.voiceIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBar = global::AutomationTest.Droid.Resource.Attribute.windowActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBarOverlay = global::AutomationTest.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionModeOverlay = global::AutomationTest.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedHeightMajor = global::AutomationTest.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedHeightMinor = global::AutomationTest.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedWidthMajor = global::AutomationTest.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedWidthMinor = global::AutomationTest.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowMinWidthMajor = global::AutomationTest.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowMinWidthMinor = global::AutomationTest.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowNoTitle = global::AutomationTest.Droid.Resource.Attribute.windowNoTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_embed_tabs = global::AutomationTest.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_allow_stacked_button_bar = global::AutomationTest.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::AutomationTest.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::AutomationTest.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::AutomationTest.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_dark = global::AutomationTest.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_light = global::AutomationTest.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_btn_colored_borderless_text_material = global::AutomationTest.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_btn_colored_text_material = global::AutomationTest.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_color_highlight_material = global::AutomationTest.Droid.Resource.Color.abc_color_highlight_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_hint_foreground_material_dark = global::AutomationTest.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_hint_foreground_material_light = global::AutomationTest.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_input_method_navigation_guard = global::AutomationTest.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_disable_only_material_dark = global::AutomationTest.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_disable_only_material_light = global::AutomationTest.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_material_dark = global::AutomationTest.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_material_light = global::AutomationTest.Droid.Resource.Color.abc_primary_text_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text = global::AutomationTest.Droid.Resource.Color.abc_search_url_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_normal = global::AutomationTest.Droid.Resource.Color.abc_search_url_text_normal;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_pressed = global::AutomationTest.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_selected = global::AutomationTest.Droid.Resource.Color.abc_search_url_text_selected;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_secondary_text_material_dark = global::AutomationTest.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_secondary_text_material_light = global::AutomationTest.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_tint_btn_checkable = global::AutomationTest.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_tint_default = global::AutomationTest.Droid.Resource.Color.abc_tint_default;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_tint_edittext = global::AutomationTest.Droid.Resource.Color.abc_tint_edittext;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_tint_seek_thumb = global::AutomationTest.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_tint_spinner = global::AutomationTest.Droid.Resource.Color.abc_tint_spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_tint_switch_track = global::AutomationTest.Droid.Resource.Color.abc_tint_switch_track;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.accent_material_dark = global::AutomationTest.Droid.Resource.Color.accent_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.accent_material_light = global::AutomationTest.Droid.Resource.Color.accent_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.background_floating_material_dark = global::AutomationTest.Droid.Resource.Color.background_floating_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.background_floating_material_light = global::AutomationTest.Droid.Resource.Color.background_floating_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.background_material_dark = global::AutomationTest.Droid.Resource.Color.background_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.background_material_light = global::AutomationTest.Droid.Resource.Color.background_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_disabled_material_dark = global::AutomationTest.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_disabled_material_light = global::AutomationTest.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_inverse_material_dark = global::AutomationTest.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_inverse_material_light = global::AutomationTest.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_material_dark = global::AutomationTest.Droid.Resource.Color.bright_foreground_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_material_light = global::AutomationTest.Droid.Resource.Color.bright_foreground_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_dark = global::AutomationTest.Droid.Resource.Color.button_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_light = global::AutomationTest.Droid.Resource.Color.button_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_bottom_navigation_shadow_color = global::AutomationTest.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_error = global::AutomationTest.Droid.Resource.Color.design_error;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_end_color = global::AutomationTest.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_mid_color = global::AutomationTest.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_start_color = global::AutomationTest.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_end_inner_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_end_outer_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_top_inner_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_top_outer_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_snackbar_background_color = global::AutomationTest.Droid.Resource.Color.design_snackbar_background_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.design_tint_password_toggle = global::AutomationTest.Droid.Resource.Color.design_tint_password_toggle;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_disabled_material_dark = global::AutomationTest.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_disabled_material_light = global::AutomationTest.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_dark = global::AutomationTest.Droid.Resource.Color.dim_foreground_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_light = global::AutomationTest.Droid.Resource.Color.dim_foreground_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.error_color_material = global::AutomationTest.Droid.Resource.Color.error_color_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_dark = global::AutomationTest.Droid.Resource.Color.foreground_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_light = global::AutomationTest.Droid.Resource.Color.foreground_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.highlighted_text_material_dark = global::AutomationTest.Droid.Resource.Color.highlighted_text_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.highlighted_text_material_light = global::AutomationTest.Droid.Resource.Color.highlighted_text_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_800 = global::AutomationTest.Droid.Resource.Color.material_blue_grey_800;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_900 = global::AutomationTest.Droid.Resource.Color.material_blue_grey_900;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_950 = global::AutomationTest.Droid.Resource.Color.material_blue_grey_950;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_deep_teal_200 = global::AutomationTest.Droid.Resource.Color.material_deep_teal_200;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_deep_teal_500 = global::AutomationTest.Droid.Resource.Color.material_deep_teal_500;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_100 = global::AutomationTest.Droid.Resource.Color.material_grey_100;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_300 = global::AutomationTest.Droid.Resource.Color.material_grey_300;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_50 = global::AutomationTest.Droid.Resource.Color.material_grey_50;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_600 = global::AutomationTest.Droid.Resource.Color.material_grey_600;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_800 = global::AutomationTest.Droid.Resource.Color.material_grey_800;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_850 = global::AutomationTest.Droid.Resource.Color.material_grey_850;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_900 = global::AutomationTest.Droid.Resource.Color.material_grey_900;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.notification_action_color_filter = global::AutomationTest.Droid.Resource.Color.notification_action_color_filter;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.notification_icon_bg_color = global::AutomationTest.Droid.Resource.Color.notification_icon_bg_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.notification_material_background_media_default_color = global::AutomationTest.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_dark_material_dark = global::AutomationTest.Droid.Resource.Color.primary_dark_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_dark_material_light = global::AutomationTest.Droid.Resource.Color.primary_dark_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_material_dark = global::AutomationTest.Droid.Resource.Color.primary_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_material_light = global::AutomationTest.Droid.Resource.Color.primary_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_default_material_dark = global::AutomationTest.Droid.Resource.Color.primary_text_default_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_default_material_light = global::AutomationTest.Droid.Resource.Color.primary_text_default_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_disabled_material_dark = global::AutomationTest.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_disabled_material_light = global::AutomationTest.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.ripple_material_dark = global::AutomationTest.Droid.Resource.Color.ripple_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.ripple_material_light = global::AutomationTest.Droid.Resource.Color.ripple_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_default_material_dark = global::AutomationTest.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_default_material_light = global::AutomationTest.Droid.Resource.Color.secondary_text_default_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_disabled_material_dark = global::AutomationTest.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_disabled_material_light = global::AutomationTest.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_disabled_material_dark = global::AutomationTest.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_disabled_material_light = global::AutomationTest.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_material_dark = global::AutomationTest.Droid.Resource.Color.switch_thumb_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_material_light = global::AutomationTest.Droid.Resource.Color.switch_thumb_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_normal_material_dark = global::AutomationTest.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_normal_material_light = global::AutomationTest.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.tooltip_background_dark = global::AutomationTest.Droid.Resource.Color.tooltip_background_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Color.tooltip_background_light = global::AutomationTest.Droid.Resource.Color.tooltip_background_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_content_inset_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_height_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_padding_end_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_padding_start_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_elevation_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_progress_bar_size = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_stacked_max_height = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_height_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_overflow_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_alert_dialog_button_bar_height = global::AutomationTest.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_vertical_material = global::AutomationTest.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_padding_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_padding_vertical_material = global::AutomationTest.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::AutomationTest.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_config_prefDialogWidth = global::AutomationTest.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_corner_material = global::AutomationTest.Droid.Resource.Dimension.abc_control_corner_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_inset_material = global::AutomationTest.Droid.Resource.Dimension.abc_control_inset_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_padding_material = global::AutomationTest.Droid.Resource.Dimension.abc_control_padding_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_major = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_minor = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_width_major = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_width_minor = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_min_width_major = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_min_width_minor = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_padding_material = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_padding_top_material = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_title_divider_material = global::AutomationTest.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_disabled_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_disabled_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_icon_width = global::AutomationTest.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_text_padding_left = global::AutomationTest.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_text_padding_right = global::AutomationTest.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_bottom_material = global::AutomationTest.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_top_material = global::AutomationTest.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_floating_window_z = global::AutomationTest.Droid.Resource.Dimension.abc_floating_window_z;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_list_item_padding_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_panel_menu_list_width = global::AutomationTest.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_progress_bar_height_material = global::AutomationTest.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_search_view_preferred_height = global::AutomationTest.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_search_view_preferred_width = global::AutomationTest.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_seekbar_track_background_height_material = global::AutomationTest.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_seekbar_track_progress_height_material = global::AutomationTest.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_select_dialog_padding_start_material = global::AutomationTest.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_switch_padding = global::AutomationTest.Droid.Resource.Dimension.abc_switch_padding;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_body_1_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_body_2_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_button_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_caption_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_1_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_2_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_3_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_4_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_headline_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_large_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_medium_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_menu_header_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_menu_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_small_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_subhead_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material_toolbar = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_inset_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_inset_vertical_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_padding_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_button_padding_vertical_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.compat_control_corner_material = global::AutomationTest.Droid.Resource.Dimension.compat_control_corner_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_appbar_elevation = global::AutomationTest.Droid.Resource.Dimension.design_appbar_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_active_text_size = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_elevation = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_height = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_item_max_width = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_item_min_width = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_margin = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_shadow_height = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_navigation_text_size = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_sheet_modal_elevation = global::AutomationTest.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_sheet_peek_height_min = global::AutomationTest.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_border_width = global::AutomationTest.Droid.Resource.Dimension.design_fab_border_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_elevation = global::AutomationTest.Droid.Resource.Dimension.design_fab_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_image_size = global::AutomationTest.Droid.Resource.Dimension.design_fab_image_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_mini = global::AutomationTest.Droid.Resource.Dimension.design_fab_size_mini;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_normal = global::AutomationTest.Droid.Resource.Dimension.design_fab_size_normal;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_translation_z_pressed = global::AutomationTest.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_elevation = global::AutomationTest.Droid.Resource.Dimension.design_navigation_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_padding = global::AutomationTest.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_size = global::AutomationTest.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_max_width = global::AutomationTest.Droid.Resource.Dimension.design_navigation_max_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_padding_bottom = global::AutomationTest.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_separator_vertical_padding = global::AutomationTest.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_action_inline_max_width = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_background_corner_radius = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_elevation = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_max_width = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_min_width = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_horizontal = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_vertical = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_text_size = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_max_width = global::AutomationTest.Droid.Resource.Dimension.design_tab_max_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_scrollable_min_width = global::AutomationTest.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size = global::AutomationTest.Droid.Resource.Dimension.design_tab_text_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size_2line = global::AutomationTest.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.fastscroll_default_thickness = global::AutomationTest.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.fastscroll_margin = global::AutomationTest.Droid.Resource.Dimension.fastscroll_margin;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.fastscroll_minimum_range = global::AutomationTest.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_colored = global::AutomationTest.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.hint_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.hint_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.hint_pressed_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.hint_pressed_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_action_icon_size = global::AutomationTest.Droid.Resource.Dimension.notification_action_icon_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_action_text_size = global::AutomationTest.Droid.Resource.Dimension.notification_action_text_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_big_circle_margin = global::AutomationTest.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_content_margin_start = global::AutomationTest.Droid.Resource.Dimension.notification_content_margin_start;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_large_icon_height = global::AutomationTest.Droid.Resource.Dimension.notification_large_icon_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_large_icon_width = global::AutomationTest.Droid.Resource.Dimension.notification_large_icon_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_main_column_padding_top = global::AutomationTest.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_media_narrow_margin = global::AutomationTest.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_right_icon_size = global::AutomationTest.Droid.Resource.Dimension.notification_right_icon_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_right_side_padding_top = global::AutomationTest.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_small_icon_background_padding = global::AutomationTest.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_small_icon_size_as_large = global::AutomationTest.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_subtext_size = global::AutomationTest.Droid.Resource.Dimension.notification_subtext_size;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_top_pad = global::AutomationTest.Droid.Resource.Dimension.notification_top_pad;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_top_pad_large_text = global::AutomationTest.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_corner_radius = global::AutomationTest.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_horizontal_padding = global::AutomationTest.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_margin = global::AutomationTest.Droid.Resource.Dimension.tooltip_margin;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::AutomationTest.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_precise_anchor_threshold = global::AutomationTest.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_vertical_padding = global::AutomationTest.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_y_offset_non_touch = global::AutomationTest.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::MvvmCross.Droid.Support.Design.Resource.Dimension.tooltip_y_offset_touch = global::AutomationTest.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_action_bar_item_background_material = global::AutomationTest.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_borderless_material = global::AutomationTest.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_material = global::AutomationTest.Droid.Resource.Drawable.abc_btn_check_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::AutomationTest.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::AutomationTest.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_colored_material = global::AutomationTest.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_default_mtrl_shape = global::AutomationTest.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_material = global::AutomationTest.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::AutomationTest.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::AutomationTest.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::AutomationTest.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::AutomationTest.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_internal_bg = global::AutomationTest.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_top_material = global::AutomationTest.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_control_background_material = global::AutomationTest.Droid.Resource.Drawable.abc_control_background_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_dialog_material_background = global::AutomationTest.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_edit_text_material = global::AutomationTest.Droid.Resource.Drawable.abc_edit_text_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_ab_back_material = global::AutomationTest.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::AutomationTest.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_clear_material = global::AutomationTest.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_go_search_api_material = global::AutomationTest.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_overflow_material = global::AutomationTest.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_search_api_material = global::AutomationTest.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_black_16dp = global::AutomationTest.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_black_36dp = global::AutomationTest.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_black_48dp = global::AutomationTest.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_half_black_16dp = global::AutomationTest.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_half_black_36dp = global::AutomationTest.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_half_black_48dp = global::AutomationTest.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_voice_search_api_material = global::AutomationTest.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_dark = global::AutomationTest.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_light = global::AutomationTest.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_divider_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_focused_holo = global::AutomationTest.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_longpressed_holo = global::AutomationTest.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_pressed_holo_dark = global::AutomationTest.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_pressed_holo_light = global::AutomationTest.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::AutomationTest.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::AutomationTest.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::AutomationTest.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_disabled_holo_light = global::AutomationTest.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_holo_dark = global::AutomationTest.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_holo_light = global::AutomationTest.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::AutomationTest.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_popup_background_mtrl_mult = global::AutomationTest.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_indicator_material = global::AutomationTest.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_material = global::AutomationTest.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_small_material = global::AutomationTest.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::AutomationTest.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::AutomationTest.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_seekbar_thumb_material = global::AutomationTest.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_seekbar_tick_mark_material = global::AutomationTest.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_seekbar_track_material = global::AutomationTest.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_spinner_textfield_background_material = global::AutomationTest.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_switch_thumb_material = global::AutomationTest.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_switch_track_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_tab_indicator_material = global::AutomationTest.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_cursor_material = global::AutomationTest.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::AutomationTest.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::AutomationTest.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::AutomationTest.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::AutomationTest.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::AutomationTest.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::AutomationTest.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_material = global::AutomationTest.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_vector_test = global::AutomationTest.Droid.Resource.Drawable.abc_vector_test;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_hide_password = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_hide_password_1 = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password_1;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_hide_password_2 = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password_2;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_hide_password_3 = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password_3;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_show_password = global::AutomationTest.Droid.Resource.Drawable.avd_show_password;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_show_password_1 = global::AutomationTest.Droid.Resource.Drawable.avd_show_password_1;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_show_password_2 = global::AutomationTest.Droid.Resource.Drawable.avd_show_password_2;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.avd_show_password_3 = global::AutomationTest.Droid.Resource.Drawable.avd_show_password_3;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_bottom_navigation_item_background = global::AutomationTest.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_fab_background = global::AutomationTest.Droid.Resource.Drawable.design_fab_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_ic_visibility = global::AutomationTest.Droid.Resource.Drawable.design_ic_visibility;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_ic_visibility_off = global::AutomationTest.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_password_eye = global::AutomationTest.Droid.Resource.Drawable.design_password_eye;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_snackbar_background = global::AutomationTest.Droid.Resource.Drawable.design_snackbar_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.navigation_empty_icon = global::AutomationTest.Droid.Resource.Drawable.navigation_empty_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_action_background = global::AutomationTest.Droid.Resource.Drawable.notification_action_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_bg = global::AutomationTest.Droid.Resource.Drawable.notification_bg;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_bg_low = global::AutomationTest.Droid.Resource.Drawable.notification_bg_low;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_bg_low_normal = global::AutomationTest.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_bg_low_pressed = global::AutomationTest.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_bg_normal = global::AutomationTest.Droid.Resource.Drawable.notification_bg_normal;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_bg_normal_pressed = global::AutomationTest.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_icon_background = global::AutomationTest.Droid.Resource.Drawable.notification_icon_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_template_icon_bg = global::AutomationTest.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_template_icon_low_bg = global::AutomationTest.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_tile_bg = global::AutomationTest.Droid.Resource.Drawable.notification_tile_bg;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notify_panel_notification_icon_bg = global::AutomationTest.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.tooltip_frame_dark = global::AutomationTest.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Drawable.tooltip_frame_light = global::AutomationTest.Droid.Resource.Drawable.tooltip_frame_light;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.ALT = global::AutomationTest.Droid.Resource.Id.ALT;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.CTRL = global::AutomationTest.Droid.Resource.Id.CTRL;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.FUNCTION = global::AutomationTest.Droid.Resource.Id.FUNCTION;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.META = global::AutomationTest.Droid.Resource.Id.META;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.MvvmCrossTagId = global::AutomationTest.Droid.Resource.Id.MvvmCrossTagId;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.MvxBindingTagUnique = global::AutomationTest.Droid.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.SHIFT = global::AutomationTest.Droid.Resource.Id.SHIFT;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.SYM = global::AutomationTest.Droid.Resource.Id.SYM;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action0 = global::AutomationTest.Droid.Resource.Id.action0;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar = global::AutomationTest.Droid.Resource.Id.action_bar;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_activity_content = global::AutomationTest.Droid.Resource.Id.action_bar_activity_content;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_container = global::AutomationTest.Droid.Resource.Id.action_bar_container;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_root = global::AutomationTest.Droid.Resource.Id.action_bar_root;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_spinner = global::AutomationTest.Droid.Resource.Id.action_bar_spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_subtitle = global::AutomationTest.Droid.Resource.Id.action_bar_subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_title = global::AutomationTest.Droid.Resource.Id.action_bar_title;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_container = global::AutomationTest.Droid.Resource.Id.action_container;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_context_bar = global::AutomationTest.Droid.Resource.Id.action_context_bar;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_divider = global::AutomationTest.Droid.Resource.Id.action_divider;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_image = global::AutomationTest.Droid.Resource.Id.action_image;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_menu_divider = global::AutomationTest.Droid.Resource.Id.action_menu_divider;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_menu_presenter = global::AutomationTest.Droid.Resource.Id.action_menu_presenter;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_bar = global::AutomationTest.Droid.Resource.Id.action_mode_bar;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_bar_stub = global::AutomationTest.Droid.Resource.Id.action_mode_bar_stub;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_close_button = global::AutomationTest.Droid.Resource.Id.action_mode_close_button;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.action_text = global::AutomationTest.Droid.Resource.Id.action_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.actions = global::AutomationTest.Droid.Resource.Id.actions;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.activity_chooser_view_content = global::AutomationTest.Droid.Resource.Id.activity_chooser_view_content;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.add = global::AutomationTest.Droid.Resource.Id.add;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.alertTitle = global::AutomationTest.Droid.Resource.Id.alertTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.all = global::AutomationTest.Droid.Resource.Id.all;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.always = global::AutomationTest.Droid.Resource.Id.always;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.async = global::AutomationTest.Droid.Resource.Id.async;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.auto = global::AutomationTest.Droid.Resource.Id.auto;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.beginning = global::AutomationTest.Droid.Resource.Id.beginning;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.blocking = global::AutomationTest.Droid.Resource.Id.blocking;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.bottom = global::AutomationTest.Droid.Resource.Id.bottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.buttonPanel = global::AutomationTest.Droid.Resource.Id.buttonPanel;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.cancel_action = global::AutomationTest.Droid.Resource.Id.cancel_action;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.center = global::AutomationTest.Droid.Resource.Id.center;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.center_horizontal = global::AutomationTest.Droid.Resource.Id.center_horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.center_vertical = global::AutomationTest.Droid.Resource.Id.center_vertical;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.checkbox = global::AutomationTest.Droid.Resource.Id.checkbox;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.chronometer = global::AutomationTest.Droid.Resource.Id.chronometer;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.clip_horizontal = global::AutomationTest.Droid.Resource.Id.clip_horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.clip_vertical = global::AutomationTest.Droid.Resource.Id.clip_vertical;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.collapseActionView = global::AutomationTest.Droid.Resource.Id.collapseActionView;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.container = global::AutomationTest.Droid.Resource.Id.container;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.contentPanel = global::AutomationTest.Droid.Resource.Id.contentPanel;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.coordinator = global::AutomationTest.Droid.Resource.Id.coordinator;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.custom = global::AutomationTest.Droid.Resource.Id.custom;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.customPanel = global::AutomationTest.Droid.Resource.Id.customPanel;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.decor_content_parent = global::AutomationTest.Droid.Resource.Id.decor_content_parent;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.default_activity_button = global::AutomationTest.Droid.Resource.Id.default_activity_button;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.design_bottom_sheet = global::AutomationTest.Droid.Resource.Id.design_bottom_sheet;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_action_area = global::AutomationTest.Droid.Resource.Id.design_menu_item_action_area;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_action_area_stub = global::AutomationTest.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_text = global::AutomationTest.Droid.Resource.Id.design_menu_item_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.design_navigation_view = global::AutomationTest.Droid.Resource.Id.design_navigation_view;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.disableHome = global::AutomationTest.Droid.Resource.Id.disableHome;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.edit_query = global::AutomationTest.Droid.Resource.Id.edit_query;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.end = global::AutomationTest.Droid.Resource.Id.end;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.end_padder = global::AutomationTest.Droid.Resource.Id.end_padder;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.enterAlways = global::AutomationTest.Droid.Resource.Id.enterAlways;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.enterAlwaysCollapsed = global::AutomationTest.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.exitUntilCollapsed = global::AutomationTest.Droid.Resource.Id.exitUntilCollapsed;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.expand_activities_button = global::AutomationTest.Droid.Resource.Id.expand_activities_button;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.expanded_menu = global::AutomationTest.Droid.Resource.Id.expanded_menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.fill = global::AutomationTest.Droid.Resource.Id.fill;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_horizontal = global::AutomationTest.Droid.Resource.Id.fill_horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_vertical = global::AutomationTest.Droid.Resource.Id.fill_vertical;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.@fixed = global::AutomationTest.Droid.Resource.Id.@fixed;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.forever = global::AutomationTest.Droid.Resource.Id.forever;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.ghost_view = global::AutomationTest.Droid.Resource.Id.ghost_view;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.home = global::AutomationTest.Droid.Resource.Id.home;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.homeAsUp = global::AutomationTest.Droid.Resource.Id.homeAsUp;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.icon = global::AutomationTest.Droid.Resource.Id.icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.icon_group = global::AutomationTest.Droid.Resource.Id.icon_group;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.ifRoom = global::AutomationTest.Droid.Resource.Id.ifRoom;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.image = global::AutomationTest.Droid.Resource.Id.image;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.info = global::AutomationTest.Droid.Resource.Id.info;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.italic = global::AutomationTest.Droid.Resource.Id.italic;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.item_touch_helper_previous_elevation = global::AutomationTest.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.largeLabel = global::AutomationTest.Droid.Resource.Id.largeLabel;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.left = global::AutomationTest.Droid.Resource.Id.left;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.line1 = global::AutomationTest.Droid.Resource.Id.line1;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.line3 = global::AutomationTest.Droid.Resource.Id.line3;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.listMode = global::AutomationTest.Droid.Resource.Id.listMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.list_item = global::AutomationTest.Droid.Resource.Id.list_item;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.masked = global::AutomationTest.Droid.Resource.Id.masked;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.media_actions = global::AutomationTest.Droid.Resource.Id.media_actions;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.message = global::AutomationTest.Droid.Resource.Id.message;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.middle = global::AutomationTest.Droid.Resource.Id.middle;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.mini = global::AutomationTest.Droid.Resource.Id.mini;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.multiply = global::AutomationTest.Droid.Resource.Id.multiply;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.navigation_header_container = global::AutomationTest.Droid.Resource.Id.navigation_header_container;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.never = global::AutomationTest.Droid.Resource.Id.never;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.none = global::AutomationTest.Droid.Resource.Id.none;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.normal = global::AutomationTest.Droid.Resource.Id.normal;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.notification_background = global::AutomationTest.Droid.Resource.Id.notification_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.notification_main_column = global::AutomationTest.Droid.Resource.Id.notification_main_column;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.notification_main_column_container = global::AutomationTest.Droid.Resource.Id.notification_main_column_container;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.parallax = global::AutomationTest.Droid.Resource.Id.parallax;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.parentPanel = global::AutomationTest.Droid.Resource.Id.parentPanel;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.parent_matrix = global::AutomationTest.Droid.Resource.Id.parent_matrix;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.pin = global::AutomationTest.Droid.Resource.Id.pin;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.progress_circular = global::AutomationTest.Droid.Resource.Id.progress_circular;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.progress_horizontal = global::AutomationTest.Droid.Resource.Id.progress_horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.radio = global::AutomationTest.Droid.Resource.Id.radio;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.right = global::AutomationTest.Droid.Resource.Id.right;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.right_icon = global::AutomationTest.Droid.Resource.Id.right_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.right_side = global::AutomationTest.Droid.Resource.Id.right_side;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.save_image_matrix = global::AutomationTest.Droid.Resource.Id.save_image_matrix;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.save_non_transition_alpha = global::AutomationTest.Droid.Resource.Id.save_non_transition_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.save_scale_type = global::AutomationTest.Droid.Resource.Id.save_scale_type;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.screen = global::AutomationTest.Droid.Resource.Id.screen;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.scroll = global::AutomationTest.Droid.Resource.Id.scroll;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollIndicatorDown = global::AutomationTest.Droid.Resource.Id.scrollIndicatorDown;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollIndicatorUp = global::AutomationTest.Droid.Resource.Id.scrollIndicatorUp;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollView = global::AutomationTest.Droid.Resource.Id.scrollView;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollable = global::AutomationTest.Droid.Resource.Id.scrollable;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_badge = global::AutomationTest.Droid.Resource.Id.search_badge;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_bar = global::AutomationTest.Droid.Resource.Id.search_bar;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_button = global::AutomationTest.Droid.Resource.Id.search_button;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_close_btn = global::AutomationTest.Droid.Resource.Id.search_close_btn;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_edit_frame = global::AutomationTest.Droid.Resource.Id.search_edit_frame;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_go_btn = global::AutomationTest.Droid.Resource.Id.search_go_btn;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_mag_icon = global::AutomationTest.Droid.Resource.Id.search_mag_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_plate = global::AutomationTest.Droid.Resource.Id.search_plate;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_src_text = global::AutomationTest.Droid.Resource.Id.search_src_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.search_voice_btn = global::AutomationTest.Droid.Resource.Id.search_voice_btn;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.select_dialog_listview = global::AutomationTest.Droid.Resource.Id.select_dialog_listview;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.shortcut = global::AutomationTest.Droid.Resource.Id.shortcut;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.showCustom = global::AutomationTest.Droid.Resource.Id.showCustom;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.showHome = global::AutomationTest.Droid.Resource.Id.showHome;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.showTitle = global::AutomationTest.Droid.Resource.Id.showTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.smallLabel = global::AutomationTest.Droid.Resource.Id.smallLabel;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_action = global::AutomationTest.Droid.Resource.Id.snackbar_action;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_text = global::AutomationTest.Droid.Resource.Id.snackbar_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.snap = global::AutomationTest.Droid.Resource.Id.snap;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.spacer = global::AutomationTest.Droid.Resource.Id.spacer;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.split_action_bar = global::AutomationTest.Droid.Resource.Id.split_action_bar;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.src_atop = global::AutomationTest.Droid.Resource.Id.src_atop;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.src_in = global::AutomationTest.Droid.Resource.Id.src_in;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.src_over = global::AutomationTest.Droid.Resource.Id.src_over;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.start = global::AutomationTest.Droid.Resource.Id.start;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.status_bar_latest_event_content = global::AutomationTest.Droid.Resource.Id.status_bar_latest_event_content;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.submenuarrow = global::AutomationTest.Droid.Resource.Id.submenuarrow;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.submit_area = global::AutomationTest.Droid.Resource.Id.submit_area;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.tabMode = global::AutomationTest.Droid.Resource.Id.tabMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.tag_transition_group = global::AutomationTest.Droid.Resource.Id.tag_transition_group;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.text = global::AutomationTest.Droid.Resource.Id.text;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.text2 = global::AutomationTest.Droid.Resource.Id.text2;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.textSpacerNoButtons = global::AutomationTest.Droid.Resource.Id.textSpacerNoButtons;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.textSpacerNoTitle = global::AutomationTest.Droid.Resource.Id.textSpacerNoTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.text_input_password_toggle = global::AutomationTest.Droid.Resource.Id.text_input_password_toggle;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.textinput_counter = global::AutomationTest.Droid.Resource.Id.textinput_counter;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.textinput_error = global::AutomationTest.Droid.Resource.Id.textinput_error;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.time = global::AutomationTest.Droid.Resource.Id.time;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.title = global::AutomationTest.Droid.Resource.Id.title;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.titleDividerNoCustom = global::AutomationTest.Droid.Resource.Id.titleDividerNoCustom;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.title_template = global::AutomationTest.Droid.Resource.Id.title_template;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.top = global::AutomationTest.Droid.Resource.Id.top;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.topPanel = global::AutomationTest.Droid.Resource.Id.topPanel;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.touch_outside = global::AutomationTest.Droid.Resource.Id.touch_outside;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.transition_current_scene = global::AutomationTest.Droid.Resource.Id.transition_current_scene;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.transition_layout_save = global::AutomationTest.Droid.Resource.Id.transition_layout_save;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.transition_position = global::AutomationTest.Droid.Resource.Id.transition_position;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.transition_scene_layoutid_cache = global::AutomationTest.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.transition_transform = global::AutomationTest.Droid.Resource.Id.transition_transform;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.uniform = global::AutomationTest.Droid.Resource.Id.uniform;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.up = global::AutomationTest.Droid.Resource.Id.up;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.useLogo = global::AutomationTest.Droid.Resource.Id.useLogo;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.view_offset_helper = global::AutomationTest.Droid.Resource.Id.view_offset_helper;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.visible = global::AutomationTest.Droid.Resource.Id.visible;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.withText = global::AutomationTest.Droid.Resource.Id.withText;
-			global::MvvmCross.Droid.Support.Design.Resource.Id.wrap_content = global::AutomationTest.Droid.Resource.Id.wrap_content;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_config_activityDefaultDur = global::AutomationTest.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_config_activityShortDur = global::AutomationTest.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.app_bar_elevation_anim_duration = global::AutomationTest.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.bottom_sheet_slide_duration = global::AutomationTest.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.cancel_button_image_alpha = global::AutomationTest.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.config_tooltipAnimTime = global::AutomationTest.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.design_snackbar_text_max_lines = global::AutomationTest.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.hide_password_duration = global::AutomationTest.Droid.Resource.Integer.hide_password_duration;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.show_password_duration = global::AutomationTest.Droid.Resource.Integer.show_password_duration;
-			global::MvvmCross.Droid.Support.Design.Resource.Integer.status_bar_notification_info_maxnum = global::AutomationTest.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_title_item = global::AutomationTest.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_up_container = global::AutomationTest.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_menu_item_layout = global::AutomationTest.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_menu_layout = global::AutomationTest.Droid.Resource.Layout.abc_action_menu_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_mode_bar = global::AutomationTest.Droid.Resource.Layout.abc_action_mode_bar;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_mode_close_item_material = global::AutomationTest.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_activity_chooser_view = global::AutomationTest.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_activity_chooser_view_list_item = global::AutomationTest.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_button_bar_material = global::AutomationTest.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_material = global::AutomationTest.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_title_material = global::AutomationTest.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_dialog_title_material = global::AutomationTest.Droid.Resource.Layout.abc_dialog_title_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_expanded_menu_layout = global::AutomationTest.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_checkbox = global::AutomationTest.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_icon = global::AutomationTest.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_layout = global::AutomationTest.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_radio = global::AutomationTest.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_popup_menu_header_item_layout = global::AutomationTest.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_popup_menu_item_layout = global::AutomationTest.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_content_include = global::AutomationTest.Droid.Resource.Layout.abc_screen_content_include;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_simple = global::AutomationTest.Droid.Resource.Layout.abc_screen_simple;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_simple_overlay_action_mode = global::AutomationTest.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_toolbar = global::AutomationTest.Droid.Resource.Layout.abc_screen_toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_dropdown_item_icons_2line = global::AutomationTest.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_view = global::AutomationTest.Droid.Resource.Layout.abc_search_view;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_select_dialog_material = global::AutomationTest.Droid.Resource.Layout.abc_select_dialog_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_bottom_navigation_item = global::AutomationTest.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_bottom_sheet_dialog = global::AutomationTest.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_snackbar = global::AutomationTest.Droid.Resource.Layout.design_layout_snackbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_snackbar_include = global::AutomationTest.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_tab_icon = global::AutomationTest.Droid.Resource.Layout.design_layout_tab_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_tab_text = global::AutomationTest.Droid.Resource.Layout.design_layout_tab_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_menu_item_action_area = global::AutomationTest.Droid.Resource.Layout.design_menu_item_action_area;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item = global::AutomationTest.Droid.Resource.Layout.design_navigation_item;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_header = global::AutomationTest.Droid.Resource.Layout.design_navigation_item_header;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_separator = global::AutomationTest.Droid.Resource.Layout.design_navigation_item_separator;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_subheader = global::AutomationTest.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu = global::AutomationTest.Droid.Resource.Layout.design_navigation_menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu_item = global::AutomationTest.Droid.Resource.Layout.design_navigation_menu_item;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_text_input_password_icon = global::AutomationTest.Droid.Resource.Layout.design_text_input_password_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_action = global::AutomationTest.Droid.Resource.Layout.notification_action;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_action_tombstone = global::AutomationTest.Droid.Resource.Layout.notification_action_tombstone;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_media_action = global::AutomationTest.Droid.Resource.Layout.notification_media_action;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_media_cancel_action = global::AutomationTest.Droid.Resource.Layout.notification_media_cancel_action;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media = global::AutomationTest.Droid.Resource.Layout.notification_template_big_media;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media_custom = global::AutomationTest.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media_narrow = global::AutomationTest.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media_narrow_custom = global::AutomationTest.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_custom_big = global::AutomationTest.Droid.Resource.Layout.notification_template_custom_big;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_icon_group = global::AutomationTest.Droid.Resource.Layout.notification_template_icon_group;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_lines_media = global::AutomationTest.Droid.Resource.Layout.notification_template_lines_media;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_media = global::AutomationTest.Droid.Resource.Layout.notification_template_media;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_media_custom = global::AutomationTest.Droid.Resource.Layout.notification_template_media_custom;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_part_chronometer = global::AutomationTest.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_part_time = global::AutomationTest.Droid.Resource.Layout.notification_template_part_time;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_item_material = global::AutomationTest.Droid.Resource.Layout.select_dialog_item_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_multichoice_material = global::AutomationTest.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_singlechoice_material = global::AutomationTest.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.support_simple_spinner_dropdown_item = global::AutomationTest.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::MvvmCross.Droid.Support.Design.Resource.Layout.tooltip = global::AutomationTest.Droid.Resource.Layout.tooltip;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_home_description = global::AutomationTest.Droid.Resource.String.abc_action_bar_home_description;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_up_description = global::AutomationTest.Droid.Resource.String.abc_action_bar_up_description;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_menu_overflow_description = global::AutomationTest.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_mode_done = global::AutomationTest.Droid.Resource.String.abc_action_mode_done;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_activity_chooser_view_see_all = global::AutomationTest.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_activitychooserview_choose_application = global::AutomationTest.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_capital_off = global::AutomationTest.Droid.Resource.String.abc_capital_off;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_capital_on = global::AutomationTest.Droid.Resource.String.abc_capital_on;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_body_1_material = global::AutomationTest.Droid.Resource.String.abc_font_family_body_1_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_body_2_material = global::AutomationTest.Droid.Resource.String.abc_font_family_body_2_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_button_material = global::AutomationTest.Droid.Resource.String.abc_font_family_button_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_caption_material = global::AutomationTest.Droid.Resource.String.abc_font_family_caption_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_display_1_material = global::AutomationTest.Droid.Resource.String.abc_font_family_display_1_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_display_2_material = global::AutomationTest.Droid.Resource.String.abc_font_family_display_2_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_display_3_material = global::AutomationTest.Droid.Resource.String.abc_font_family_display_3_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_display_4_material = global::AutomationTest.Droid.Resource.String.abc_font_family_display_4_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_headline_material = global::AutomationTest.Droid.Resource.String.abc_font_family_headline_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_menu_material = global::AutomationTest.Droid.Resource.String.abc_font_family_menu_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_subhead_material = global::AutomationTest.Droid.Resource.String.abc_font_family_subhead_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_font_family_title_material = global::AutomationTest.Droid.Resource.String.abc_font_family_title_material;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_search_hint = global::AutomationTest.Droid.Resource.String.abc_search_hint;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_clear = global::AutomationTest.Droid.Resource.String.abc_searchview_description_clear;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_query = global::AutomationTest.Droid.Resource.String.abc_searchview_description_query;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_search = global::AutomationTest.Droid.Resource.String.abc_searchview_description_search;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_submit = global::AutomationTest.Droid.Resource.String.abc_searchview_description_submit;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_voice = global::AutomationTest.Droid.Resource.String.abc_searchview_description_voice;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_shareactionprovider_share_with = global::AutomationTest.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_shareactionprovider_share_with_application = global::AutomationTest.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::MvvmCross.Droid.Support.Design.Resource.String.abc_toolbar_collapse_description = global::AutomationTest.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::MvvmCross.Droid.Support.Design.Resource.String.appbar_scrolling_view_behavior = global::AutomationTest.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::MvvmCross.Droid.Support.Design.Resource.String.bottom_sheet_behavior = global::AutomationTest.Droid.Resource.String.bottom_sheet_behavior;
-			global::MvvmCross.Droid.Support.Design.Resource.String.character_counter_pattern = global::AutomationTest.Droid.Resource.String.character_counter_pattern;
-			global::MvvmCross.Droid.Support.Design.Resource.String.fab_scroll_shrink_grow_autohide_behavior = global::AutomationTest.Droid.Resource.String.fab_scroll_shrink_grow_autohide_behavior;
-			global::MvvmCross.Droid.Support.Design.Resource.String.password_toggle_content_description = global::AutomationTest.Droid.Resource.String.password_toggle_content_description;
-			global::MvvmCross.Droid.Support.Design.Resource.String.path_password_eye = global::AutomationTest.Droid.Resource.String.path_password_eye;
-			global::MvvmCross.Droid.Support.Design.Resource.String.path_password_eye_mask_strike_through = global::AutomationTest.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::MvvmCross.Droid.Support.Design.Resource.String.path_password_eye_mask_visible = global::AutomationTest.Droid.Resource.String.path_password_eye_mask_visible;
-			global::MvvmCross.Droid.Support.Design.Resource.String.path_password_strike_through = global::AutomationTest.Droid.Resource.String.path_password_strike_through;
-			global::MvvmCross.Droid.Support.Design.Resource.String.search_menu_title = global::AutomationTest.Droid.Resource.String.search_menu_title;
-			global::MvvmCross.Droid.Support.Design.Resource.String.status_bar_notification_info_overflow = global::AutomationTest.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.String.view_scroll_translation_autohide_behavior = global::AutomationTest.Droid.Resource.String.view_scroll_translation_autohide_behavior;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.AlertDialog_AppCompat = global::AutomationTest.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.AlertDialog_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_AppCompat_DropDownUp = global::AutomationTest.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_Design_BottomSheetDialog = global::AutomationTest.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_AlertDialog_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::AutomationTest.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitle_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Button = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Large = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Small = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Title = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::AutomationTest.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::AutomationTest.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::AutomationTest.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::AutomationTest.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::AutomationTest.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::AutomationTest.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::AutomationTest.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V14_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V22_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V22_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V23_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V23_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V26_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V26_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V26_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::AutomationTest.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::AutomationTest.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionMode = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Small = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_EditText = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ImageButton = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SearchView = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SeekBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Spinner = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_Design_TabLayout = global::AutomationTest.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::AutomationTest.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V11_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V11_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V14_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V14_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V21_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V21_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V25_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V25_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_Widget_AppCompat_Spinner = global::AutomationTest.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::AutomationTest.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::AutomationTest.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::AutomationTest.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Body1 = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Body2 = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Button = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Caption = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display1 = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display2 = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display3 = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display4 = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Headline = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Large = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Medium = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Menu = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Small = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Subhead = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Info = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Time = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter_Overflow = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Error = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Hint = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Snackbar_Message = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Tab = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AutomationTest.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AutomationTest.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_CompactMenu = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog_Alert = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design = global::AutomationTest.Droid.Resource.Style.Theme_Design;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_BottomSheetDialog = global::AutomationTest.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light = global::AutomationTest.Droid.Resource.Style.Theme_Design_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::AutomationTest.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dark = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionMode = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActivityChooserView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Borderless = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Colored = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Small = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ButtonBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_EditText = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ImageButton = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_SearchView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListMenuView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListPopupWindow = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView_DropDown = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView_Menu = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupMenu = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupWindow = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ProgressBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar_Small = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SearchView = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SeekBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Compat_NotificationActionContainer = global::AutomationTest.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Compat_NotificationActionText = global::AutomationTest.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_BottomNavigationView = global::AutomationTest.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_BottomSheet_Modal = global::AutomationTest.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_CollapsingToolbar = global::AutomationTest.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_CoordinatorLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_FloatingActionButton = global::AutomationTest.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_NavigationView = global::AutomationTest.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_Snackbar = global::AutomationTest.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TabLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TextInputLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar = global::AutomationTest.Droid.Resource.Styleable.ActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_background = global::AutomationTest.Droid.Resource.Styleable.ActionBar_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_backgroundSplit = global::AutomationTest.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_backgroundStacked = global::AutomationTest.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetEnd = global::AutomationTest.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::AutomationTest.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetLeft = global::AutomationTest.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetRight = global::AutomationTest.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetStart = global::AutomationTest.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::AutomationTest.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_customNavigationLayout = global::AutomationTest.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_displayOptions = global::AutomationTest.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_divider = global::AutomationTest.Droid.Resource.Styleable.ActionBar_divider;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_elevation = global::AutomationTest.Droid.Resource.Styleable.ActionBar_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_height = global::AutomationTest.Droid.Resource.Styleable.ActionBar_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_hideOnContentScroll = global::AutomationTest.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_homeAsUpIndicator = global::AutomationTest.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_homeLayout = global::AutomationTest.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_icon = global::AutomationTest.Droid.Resource.Styleable.ActionBar_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::AutomationTest.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_itemPadding = global::AutomationTest.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_logo = global::AutomationTest.Droid.Resource.Styleable.ActionBar_logo;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_navigationMode = global::AutomationTest.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_popupTheme = global::AutomationTest.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_progressBarPadding = global::AutomationTest.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_progressBarStyle = global::AutomationTest.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_subtitle = global::AutomationTest.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_subtitleTextStyle = global::AutomationTest.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_title = global::AutomationTest.Droid.Resource.Styleable.ActionBar_title;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_titleTextStyle = global::AutomationTest.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBarLayout = global::AutomationTest.Droid.Resource.Styleable.ActionBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::AutomationTest.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuItemView = global::AutomationTest.Droid.Resource.Styleable.ActionMenuItemView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuItemView_android_minWidth = global::AutomationTest.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuView = global::AutomationTest.Droid.Resource.Styleable.ActionMenuView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode = global::AutomationTest.Droid.Resource.Styleable.ActionMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_background = global::AutomationTest.Droid.Resource.Styleable.ActionMode_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_backgroundSplit = global::AutomationTest.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_closeItemLayout = global::AutomationTest.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_height = global::AutomationTest.Droid.Resource.Styleable.ActionMode_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_subtitleTextStyle = global::AutomationTest.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_titleTextStyle = global::AutomationTest.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView = global::AutomationTest.Droid.Resource.Styleable.ActivityChooserView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::AutomationTest.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView_initialActivityCount = global::AutomationTest.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog = global::AutomationTest.Droid.Resource.Styleable.AlertDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_android_layout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listItemLayout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listLayout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_showTitle = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_background = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_elevation = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_expanded = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates = global::AutomationTest.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::AutomationTest.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::AutomationTest.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_Layout = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_android_src = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_srcCompat = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_tint = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_tintMode = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatSeekBar = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatSeekBar_android_thumb = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatSeekBar_tickMark = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_android_textAppearance = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_fontFamily = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_textAllCaps = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarDivider = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarSize = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_checkboxStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorAccent = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlActivated = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlNormal = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorError = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorPrimary = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_controlBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dividerVertical = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextColor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_searchViewStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_seekBarStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_spinnerStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_switchStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_toolbarStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBar = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowNoTitle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_elevation = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemBackground = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemIconTint = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_itemTextColor = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomNavigationView_menu = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout = global::AutomationTest.Droid.Resource.Styleable.ButtonBarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout_allowStacking = global::AutomationTest.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_title = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_Layout = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ColorStateListItem = global::AutomationTest.Droid.Resource.Styleable.ColorStateListItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ColorStateListItem_alpha = global::AutomationTest.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ColorStateListItem_android_alpha = global::AutomationTest.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ColorStateListItem_android_color = global::AutomationTest.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton = global::AutomationTest.Droid.Resource.Styleable.CompoundButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_android_button = global::AutomationTest.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_buttonTint = global::AutomationTest.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_buttonTintMode = global::AutomationTest.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_keylines = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme = global::AutomationTest.Droid.Resource.Styleable.DesignTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::AutomationTest.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_bottomSheetStyle = global::AutomationTest.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_textColorError = global::AutomationTest.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_barLength = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_color = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_drawableSize = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_spinBars = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_thickness = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_backgroundTint = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_borderWidth = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_elevation = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_fabSize = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_rippleColor = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_useCompatPadding = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily = global::AutomationTest.Droid.Resource.Styleable.FontFamily;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderAuthority = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderCerts = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderPackage = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamily_fontProviderQuery = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_font = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_font = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_fontStyle = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FontFamilyFont_fontWeight = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_gravity = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_orientation = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_divider = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_showDividers = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow = global::AutomationTest.Droid.Resource.Styleable.ListPopupWindow;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::AutomationTest.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::AutomationTest.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup = global::AutomationTest.Droid.Resource.Styleable.MenuGroup;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_checkableBehavior = global::AutomationTest.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_enabled = global::AutomationTest.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_id = global::AutomationTest.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_menuCategory = global::AutomationTest.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_orderInCategory = global::AutomationTest.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_visible = global::AutomationTest.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem = global::AutomationTest.Droid.Resource.Styleable.MenuItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionLayout = global::AutomationTest.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionProviderClass = global::AutomationTest.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionViewClass = global::AutomationTest.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_alphabeticModifiers = global::AutomationTest.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_checkable = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_checked = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_enabled = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_icon = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_id = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_id;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_menuCategory = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_numericShortcut = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_onClick = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_orderInCategory = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_title = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_title;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_titleCondensed = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_visible = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_contentDescription = global::AutomationTest.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_iconTint = global::AutomationTest.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_iconTintMode = global::AutomationTest.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_numericModifiers = global::AutomationTest.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_showAsAction = global::AutomationTest.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_tooltipText = global::AutomationTest.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView = global::AutomationTest.Droid.Resource.Styleable.MenuView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_headerBackground = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_horizontalDivider = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemBackground = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemTextAppearance = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_verticalDivider = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_windowAnimationStyle = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_preserveIconSpacing = global::AutomationTest.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_subMenuArrow = global::AutomationTest.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding = global::AutomationTest.Droid.Resource.Styleable.MvxBinding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding_MvxBind = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxBind;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding_MvxLang = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxLang;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxControl = global::AutomationTest.Droid.Resource.Styleable.MvxControl;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxControl_MvxTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxControl_MvxTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxExpandableListView = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView = global::AutomationTest.Droid.Resource.Styleable.MvxListView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView_MvxItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView = global::AutomationTest.Droid.Resource.Styleable.NavigationView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_background = global::AutomationTest.Droid.Resource.Styleable.NavigationView_android_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::AutomationTest.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_maxWidth = global::AutomationTest.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_elevation = global::AutomationTest.Droid.Resource.Styleable.NavigationView_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_headerLayout = global::AutomationTest.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemBackground = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemIconTint = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextAppearance = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextColor = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_menu = global::AutomationTest.Droid.Resource.Styleable.NavigationView_menu;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow = global::AutomationTest.Droid.Resource.Styleable.PopupWindow;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::AutomationTest.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow_android_popupBackground = global::AutomationTest.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow_overlapAnchor = global::AutomationTest.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindowBackgroundState = global::AutomationTest.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::AutomationTest.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecycleListView = global::AutomationTest.Droid.Resource.Styleable.RecycleListView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::AutomationTest.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::AutomationTest.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView = global::AutomationTest.Droid.Resource.Styleable.RecyclerView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_android_descendantFocusability = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_android_orientation = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_fastScrollEnabled = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_layoutManager = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_reverseLayout = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_spanCount = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_stackFromEnd = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrimInsetsFrameLayout = global::AutomationTest.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::AutomationTest.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrollingViewBehavior_Layout = global::AutomationTest.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::AutomationTest.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView = global::AutomationTest.Droid.Resource.Styleable.SearchView;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_focusable = global::AutomationTest.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_imeOptions = global::AutomationTest.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_inputType = global::AutomationTest.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_maxWidth = global::AutomationTest.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_closeIcon = global::AutomationTest.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_commitIcon = global::AutomationTest.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_defaultQueryHint = global::AutomationTest.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_goIcon = global::AutomationTest.Droid.Resource.Styleable.SearchView_goIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_iconifiedByDefault = global::AutomationTest.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_layout = global::AutomationTest.Droid.Resource.Styleable.SearchView_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_queryBackground = global::AutomationTest.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_queryHint = global::AutomationTest.Droid.Resource.Styleable.SearchView_queryHint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_searchHintIcon = global::AutomationTest.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_searchIcon = global::AutomationTest.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_submitBackground = global::AutomationTest.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_suggestionRowLayout = global::AutomationTest.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_voiceIcon = global::AutomationTest.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_android_maxWidth = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_elevation = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner = global::AutomationTest.Droid.Resource.Styleable.Spinner;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_dropDownWidth = global::AutomationTest.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_entries = global::AutomationTest.Droid.Resource.Styleable.Spinner_android_entries;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_popupBackground = global::AutomationTest.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_prompt = global::AutomationTest.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_popupTheme = global::AutomationTest.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOff = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOn = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_thumb = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_showText = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_splitTrack = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchMinWidth = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchPadding = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchTextAppearance = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_thumbTextPadding = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_thumbTint = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_thumbTintMode = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_track = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_track;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_trackTint = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_trackTintMode = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem = global::AutomationTest.Droid.Resource.Styleable.TabItem;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_icon = global::AutomationTest.Droid.Resource.Styleable.TabItem_android_icon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_layout = global::AutomationTest.Droid.Resource.Styleable.TabItem_android_layout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_text = global::AutomationTest.Droid.Resource.Styleable.TabItem_android_text;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout = global::AutomationTest.Droid.Resource.Styleable.TabLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabBackground = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabContentStart = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabGravity = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorColor = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorHeight = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMaxWidth = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMinWidth = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMode = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPadding = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingBottom = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingEnd = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingStart = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingTop = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabSelectedTextColor = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextColor = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_fontFamily = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowColor = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowDx = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowDy = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowRadius = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textColor = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textColorHint = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textColorLink = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textSize = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textStyle = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_typeface = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_fontFamily = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_textAllCaps = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_hint = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_textColorHint = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterMaxLength = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleTint = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar = global::AutomationTest.Droid.Resource.Styleable.Toolbar;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_gravity = global::AutomationTest.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_minHeight = global::AutomationTest.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_buttonGravity = global::AutomationTest.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_collapseContentDescription = global::AutomationTest.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_collapseIcon = global::AutomationTest.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetEnd = global::AutomationTest.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::AutomationTest.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetLeft = global::AutomationTest.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetRight = global::AutomationTest.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetStart = global::AutomationTest.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::AutomationTest.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_logo = global::AutomationTest.Droid.Resource.Styleable.Toolbar_logo;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_logoDescription = global::AutomationTest.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_maxButtonHeight = global::AutomationTest.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_navigationContentDescription = global::AutomationTest.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_navigationIcon = global::AutomationTest.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_popupTheme = global::AutomationTest.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitle = global::AutomationTest.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitleTextAppearance = global::AutomationTest.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitleTextColor = global::AutomationTest.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_title = global::AutomationTest.Droid.Resource.Styleable.Toolbar_title;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMargin = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginBottom = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginEnd = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginStart = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginTop = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMargins = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleTextAppearance = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleTextColor = global::AutomationTest.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View = global::AutomationTest.Droid.Resource.Styleable.View;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_android_focusable = global::AutomationTest.Droid.Resource.Styleable.View_android_focusable;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_android_theme = global::AutomationTest.Droid.Resource.Styleable.View_android_theme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_paddingEnd = global::AutomationTest.Droid.Resource.Styleable.View_paddingEnd;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_paddingStart = global::AutomationTest.Droid.Resource.Styleable.View_paddingStart;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_theme = global::AutomationTest.Droid.Resource.Styleable.View_theme;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper = global::AutomationTest.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_android_background = global::AutomationTest.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::AutomationTest.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::AutomationTest.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat = global::AutomationTest.Droid.Resource.Styleable.ViewStubCompat;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_id = global::AutomationTest.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_inflatedId = global::AutomationTest.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_layout = global::AutomationTest.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::AutomationTest.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxLang = global::AutomationTest.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxSource = global::AutomationTest.Droid.Resource.Attribute.MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvvmCrossTagId = global::AutomationTest.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvxBindingTagUnique = global::AutomationTest.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding = global::AutomationTest.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxBind = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxLang = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl = global::AutomationTest.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView = global::AutomationTest.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView_MvxSource = global::AutomationTest.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::AutomationTest.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_fade_in = global::AutomationTest.Droid.Resource.Animation.abc_fade_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_fade_out = global::AutomationTest.Droid.Resource.Animation.abc_fade_out;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_grow_fade_in_from_bottom = global::AutomationTest.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2011,18 +57,12 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_in_top = global::AutomationTest.Droid.Resource.Animation.abc_slide_in_top;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_out_bottom = global::AutomationTest.Droid.Resource.Animation.abc_slide_out_bottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_out_top = global::AutomationTest.Droid.Resource.Animation.abc_slide_out_top;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_bottom_sheet_slide_in = global::AutomationTest.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_bottom_sheet_slide_out = global::AutomationTest.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_snackbar_in = global::AutomationTest.Droid.Resource.Animation.design_snackbar_in;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_snackbar_out = global::AutomationTest.Droid.Resource.Animation.design_snackbar_out;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.tooltip_enter = global::AutomationTest.Droid.Resource.Animation.tooltip_enter;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.tooltip_exit = global::AutomationTest.Droid.Resource.Animation.tooltip_exit;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.design_appbar_state_list_animator = global::AutomationTest.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxBind = global::AutomationTest.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxGroupItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxLang = global::AutomationTest.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxSource = global::AutomationTest.Droid.Resource.Attribute.MvxSource;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.actionBarDivider = global::AutomationTest.Droid.Resource.Attribute.actionBarDivider;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.actionBarItemBackground = global::AutomationTest.Droid.Resource.Attribute.actionBarItemBackground;
@@ -2064,30 +104,16 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.alertDialogTheme = global::AutomationTest.Droid.Resource.Attribute.alertDialogTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.allowStacking = global::AutomationTest.Droid.Resource.Attribute.allowStacking;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.alpha = global::AutomationTest.Droid.Resource.Attribute.alpha;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.alphabeticModifiers = global::AutomationTest.Droid.Resource.Attribute.alphabeticModifiers;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.arrowHeadLength = global::AutomationTest.Droid.Resource.Attribute.arrowHeadLength;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.arrowShaftLength = global::AutomationTest.Droid.Resource.Attribute.arrowShaftLength;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.autoCompleteTextViewStyle = global::AutomationTest.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.autoSizeMaxTextSize = global::AutomationTest.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.autoSizeMinTextSize = global::AutomationTest.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.autoSizePresetSizes = global::AutomationTest.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.autoSizeStepGranularity = global::AutomationTest.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.autoSizeTextType = global::AutomationTest.Droid.Resource.Attribute.autoSizeTextType;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.background = global::AutomationTest.Droid.Resource.Attribute.background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.backgroundSplit = global::AutomationTest.Droid.Resource.Attribute.backgroundSplit;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.backgroundStacked = global::AutomationTest.Droid.Resource.Attribute.backgroundStacked;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.backgroundTint = global::AutomationTest.Droid.Resource.Attribute.backgroundTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.backgroundTintMode = global::AutomationTest.Droid.Resource.Attribute.backgroundTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.barLength = global::AutomationTest.Droid.Resource.Attribute.barLength;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_autoHide = global::AutomationTest.Droid.Resource.Attribute.behavior_autoHide;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_hideable = global::AutomationTest.Droid.Resource.Attribute.behavior_hideable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_overlapTop = global::AutomationTest.Droid.Resource.Attribute.behavior_overlapTop;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_peekHeight = global::AutomationTest.Droid.Resource.Attribute.behavior_peekHeight;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_skipCollapsed = global::AutomationTest.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.borderWidth = global::AutomationTest.Droid.Resource.Attribute.borderWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.borderlessButtonStyle = global::AutomationTest.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomSheetDialogTheme = global::AutomationTest.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomSheetStyle = global::AutomationTest.Droid.Resource.Attribute.bottomSheetStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarButtonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarNegativeButtonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarNeutralButtonStyle = global::AutomationTest.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -2105,8 +131,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeItemLayout = global::AutomationTest.Droid.Resource.Attribute.closeItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapseContentDescription = global::AutomationTest.Droid.Resource.Attribute.collapseContentDescription;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapseIcon = global::AutomationTest.Droid.Resource.Attribute.collapseIcon;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapsedTitleGravity = global::AutomationTest.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapsedTitleTextAppearance = global::AutomationTest.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.color = global::AutomationTest.Droid.Resource.Attribute.color;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorAccent = global::AutomationTest.Droid.Resource.Attribute.colorAccent;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorBackgroundFloating = global::AutomationTest.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -2114,24 +138,17 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorControlActivated = global::AutomationTest.Droid.Resource.Attribute.colorControlActivated;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorControlHighlight = global::AutomationTest.Droid.Resource.Attribute.colorControlHighlight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorControlNormal = global::AutomationTest.Droid.Resource.Attribute.colorControlNormal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorError = global::AutomationTest.Droid.Resource.Attribute.colorError;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorPrimary = global::AutomationTest.Droid.Resource.Attribute.colorPrimary;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorPrimaryDark = global::AutomationTest.Droid.Resource.Attribute.colorPrimaryDark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorSwitchThumbNormal = global::AutomationTest.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.commitIcon = global::AutomationTest.Droid.Resource.Attribute.commitIcon;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentDescription = global::AutomationTest.Droid.Resource.Attribute.contentDescription;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetEnd = global::AutomationTest.Droid.Resource.Attribute.contentInsetEnd;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetEndWithActions = global::AutomationTest.Droid.Resource.Attribute.contentInsetEndWithActions;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetLeft = global::AutomationTest.Droid.Resource.Attribute.contentInsetLeft;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetRight = global::AutomationTest.Droid.Resource.Attribute.contentInsetRight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetStart = global::AutomationTest.Droid.Resource.Attribute.contentInsetStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetStartWithNavigation = global::AutomationTest.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentScrim = global::AutomationTest.Droid.Resource.Attribute.contentScrim;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.controlBackground = global::AutomationTest.Droid.Resource.Attribute.controlBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterEnabled = global::AutomationTest.Droid.Resource.Attribute.counterEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterMaxLength = global::AutomationTest.Droid.Resource.Attribute.counterMaxLength;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterOverflowTextAppearance = global::AutomationTest.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterTextAppearance = global::AutomationTest.Droid.Resource.Attribute.counterTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.customNavigationLayout = global::AutomationTest.Droid.Resource.Attribute.customNavigationLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.defaultQueryHint = global::AutomationTest.Droid.Resource.Attribute.defaultQueryHint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.dialogPreferredPadding = global::AutomationTest.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -2149,71 +166,21 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.editTextColor = global::AutomationTest.Droid.Resource.Attribute.editTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.editTextStyle = global::AutomationTest.Droid.Resource.Attribute.editTextStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.elevation = global::AutomationTest.Droid.Resource.Attribute.elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.errorEnabled = global::AutomationTest.Droid.Resource.Attribute.errorEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.errorTextAppearance = global::AutomationTest.Droid.Resource.Attribute.errorTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandActivityOverflowButtonDrawable = global::AutomationTest.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expanded = global::AutomationTest.Droid.Resource.Attribute.expanded;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleGravity = global::AutomationTest.Droid.Resource.Attribute.expandedTitleGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMargin = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMargin;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginBottom = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginEnd = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginStart = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginTop = global::AutomationTest.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleTextAppearance = global::AutomationTest.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabSize = global::AutomationTest.Droid.Resource.Attribute.fabSize;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollEnabled = global::AutomationTest.Droid.Resource.Attribute.fastScrollEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollVerticalThumbDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fastScrollVerticalTrackDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.font = global::AutomationTest.Droid.Resource.Attribute.font;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontFamily = global::AutomationTest.Droid.Resource.Attribute.fontFamily;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderAuthority = global::AutomationTest.Droid.Resource.Attribute.fontProviderAuthority;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderCerts = global::AutomationTest.Droid.Resource.Attribute.fontProviderCerts;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderFetchStrategy = global::AutomationTest.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderFetchTimeout = global::AutomationTest.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderPackage = global::AutomationTest.Droid.Resource.Attribute.fontProviderPackage;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontProviderQuery = global::AutomationTest.Droid.Resource.Attribute.fontProviderQuery;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontStyle = global::AutomationTest.Droid.Resource.Attribute.fontStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fontWeight = global::AutomationTest.Droid.Resource.Attribute.fontWeight;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.foregroundInsidePadding = global::AutomationTest.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.gapBetweenBars = global::AutomationTest.Droid.Resource.Attribute.gapBetweenBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.goIcon = global::AutomationTest.Droid.Resource.Attribute.goIcon;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.headerLayout = global::AutomationTest.Droid.Resource.Attribute.headerLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.height = global::AutomationTest.Droid.Resource.Attribute.height;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hideOnContentScroll = global::AutomationTest.Droid.Resource.Attribute.hideOnContentScroll;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintAnimationEnabled = global::AutomationTest.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintEnabled = global::AutomationTest.Droid.Resource.Attribute.hintEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintTextAppearance = global::AutomationTest.Droid.Resource.Attribute.hintTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.homeAsUpIndicator = global::AutomationTest.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.homeLayout = global::AutomationTest.Droid.Resource.Attribute.homeLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.icon = global::AutomationTest.Droid.Resource.Attribute.icon;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconTint = global::AutomationTest.Droid.Resource.Attribute.iconTint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconTintMode = global::AutomationTest.Droid.Resource.Attribute.iconTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.iconifiedByDefault = global::AutomationTest.Droid.Resource.Attribute.iconifiedByDefault;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.imageButtonStyle = global::AutomationTest.Droid.Resource.Attribute.imageButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.indeterminateProgressStyle = global::AutomationTest.Droid.Resource.Attribute.indeterminateProgressStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.initialActivityCount = global::AutomationTest.Droid.Resource.Attribute.initialActivityCount;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.insetForeground = global::AutomationTest.Droid.Resource.Attribute.insetForeground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.isLightTheme = global::AutomationTest.Droid.Resource.Attribute.isLightTheme;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemBackground = global::AutomationTest.Droid.Resource.Attribute.itemBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemIconTint = global::AutomationTest.Droid.Resource.Attribute.itemIconTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemPadding = global::AutomationTest.Droid.Resource.Attribute.itemPadding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextAppearance = global::AutomationTest.Droid.Resource.Attribute.itemTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextColor = global::AutomationTest.Droid.Resource.Attribute.itemTextColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.keylines = global::AutomationTest.Droid.Resource.Attribute.keylines;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout = global::AutomationTest.Droid.Resource.Attribute.layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layoutManager = global::AutomationTest.Droid.Resource.Attribute.layoutManager;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_anchor = global::AutomationTest.Droid.Resource.Attribute.layout_anchor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_anchorGravity = global::AutomationTest.Droid.Resource.Attribute.layout_anchorGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_behavior = global::AutomationTest.Droid.Resource.Attribute.layout_behavior;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_collapseMode = global::AutomationTest.Droid.Resource.Attribute.layout_collapseMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_collapseParallaxMultiplier = global::AutomationTest.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_dodgeInsetEdges = global::AutomationTest.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_insetEdge = global::AutomationTest.Droid.Resource.Attribute.layout_insetEdge;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_keyline = global::AutomationTest.Droid.Resource.Attribute.layout_keyline;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_scrollFlags = global::AutomationTest.Droid.Resource.Attribute.layout_scrollFlags;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_scrollInterpolator = global::AutomationTest.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listChoiceBackgroundIndicator = global::AutomationTest.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listDividerAlertDialog = global::AutomationTest.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listItemLayout = global::AutomationTest.Droid.Resource.Attribute.listItemLayout;
@@ -2227,15 +194,12 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listPreferredItemPaddingRight = global::AutomationTest.Droid.Resource.Attribute.listPreferredItemPaddingRight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.logo = global::AutomationTest.Droid.Resource.Attribute.logo;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.logoDescription = global::AutomationTest.Droid.Resource.Attribute.logoDescription;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.maxActionInlineWidth = global::AutomationTest.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.maxButtonHeight = global::AutomationTest.Droid.Resource.Attribute.maxButtonHeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.measureWithLargestChild = global::AutomationTest.Droid.Resource.Attribute.measureWithLargestChild;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.menu = global::AutomationTest.Droid.Resource.Attribute.menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.multiChoiceItemLayout = global::AutomationTest.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationContentDescription = global::AutomationTest.Droid.Resource.Attribute.navigationContentDescription;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationIcon = global::AutomationTest.Droid.Resource.Attribute.navigationIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationMode = global::AutomationTest.Droid.Resource.Attribute.navigationMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.numericModifiers = global::AutomationTest.Droid.Resource.Attribute.numericModifiers;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.overlapAnchor = global::AutomationTest.Droid.Resource.Attribute.overlapAnchor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.paddingBottomNoButtons = global::AutomationTest.Droid.Resource.Attribute.paddingBottomNoButtons;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.paddingEnd = global::AutomationTest.Droid.Resource.Attribute.paddingEnd;
@@ -2244,16 +208,10 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.panelBackground = global::AutomationTest.Droid.Resource.Attribute.panelBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.panelMenuListTheme = global::AutomationTest.Droid.Resource.Attribute.panelMenuListTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.panelMenuListWidth = global::AutomationTest.Droid.Resource.Attribute.panelMenuListWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleContentDescription = global::AutomationTest.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleDrawable = global::AutomationTest.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleEnabled = global::AutomationTest.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleTint = global::AutomationTest.Droid.Resource.Attribute.passwordToggleTint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleTintMode = global::AutomationTest.Droid.Resource.Attribute.passwordToggleTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.popupMenuStyle = global::AutomationTest.Droid.Resource.Attribute.popupMenuStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.popupTheme = global::AutomationTest.Droid.Resource.Attribute.popupTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.popupWindowStyle = global::AutomationTest.Droid.Resource.Attribute.popupWindowStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.preserveIconSpacing = global::AutomationTest.Droid.Resource.Attribute.preserveIconSpacing;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.pressedTranslationZ = global::AutomationTest.Droid.Resource.Attribute.pressedTranslationZ;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.progressBarPadding = global::AutomationTest.Droid.Resource.Attribute.progressBarPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.progressBarStyle = global::AutomationTest.Droid.Resource.Attribute.progressBarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.queryBackground = global::AutomationTest.Droid.Resource.Attribute.queryBackground;
@@ -2262,10 +220,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.ratingBarStyle = global::AutomationTest.Droid.Resource.Attribute.ratingBarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.ratingBarStyleIndicator = global::AutomationTest.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.ratingBarStyleSmall = global::AutomationTest.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.reverseLayout = global::AutomationTest.Droid.Resource.Attribute.reverseLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.rippleColor = global::AutomationTest.Droid.Resource.Attribute.rippleColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.scrimAnimationDuration = global::AutomationTest.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.scrimVisibleHeightTrigger = global::AutomationTest.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchHintIcon = global::AutomationTest.Droid.Resource.Attribute.searchHintIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchIcon = global::AutomationTest.Droid.Resource.Attribute.searchIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchViewStyle = global::AutomationTest.Droid.Resource.Attribute.searchViewStyle;
@@ -2277,18 +231,12 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showText = global::AutomationTest.Droid.Resource.Attribute.showText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showTitle = global::AutomationTest.Droid.Resource.Attribute.showTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.singleChoiceItemLayout = global::AutomationTest.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spanCount = global::AutomationTest.Droid.Resource.Attribute.spanCount;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinBars = global::AutomationTest.Droid.Resource.Attribute.spinBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinnerDropDownItemStyle = global::AutomationTest.Droid.Resource.Attribute.spinnerDropDownItemStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinnerStyle = global::AutomationTest.Droid.Resource.Attribute.spinnerStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.splitTrack = global::AutomationTest.Droid.Resource.Attribute.splitTrack;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.srcCompat = global::AutomationTest.Droid.Resource.Attribute.srcCompat;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.stackFromEnd = global::AutomationTest.Droid.Resource.Attribute.stackFromEnd;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_above_anchor = global::AutomationTest.Droid.Resource.Attribute.state_above_anchor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_collapsed = global::AutomationTest.Droid.Resource.Attribute.state_collapsed;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_collapsible = global::AutomationTest.Droid.Resource.Attribute.state_collapsible;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.statusBarBackground = global::AutomationTest.Droid.Resource.Attribute.statusBarBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.statusBarScrim = global::AutomationTest.Droid.Resource.Attribute.statusBarScrim;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.subMenuArrow = global::AutomationTest.Droid.Resource.Attribute.subMenuArrow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.submitBackground = global::AutomationTest.Droid.Resource.Attribute.submitBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.subtitle = global::AutomationTest.Droid.Resource.Attribute.subtitle;
@@ -2300,33 +248,15 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.switchPadding = global::AutomationTest.Droid.Resource.Attribute.switchPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.switchStyle = global::AutomationTest.Droid.Resource.Attribute.switchStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.switchTextAppearance = global::AutomationTest.Droid.Resource.Attribute.switchTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabBackground = global::AutomationTest.Droid.Resource.Attribute.tabBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabContentStart = global::AutomationTest.Droid.Resource.Attribute.tabContentStart;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabGravity = global::AutomationTest.Droid.Resource.Attribute.tabGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorColor = global::AutomationTest.Droid.Resource.Attribute.tabIndicatorColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorHeight = global::AutomationTest.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMaxWidth = global::AutomationTest.Droid.Resource.Attribute.tabMaxWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMinWidth = global::AutomationTest.Droid.Resource.Attribute.tabMinWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMode = global::AutomationTest.Droid.Resource.Attribute.tabMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPadding = global::AutomationTest.Droid.Resource.Attribute.tabPadding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingBottom = global::AutomationTest.Droid.Resource.Attribute.tabPaddingBottom;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingEnd = global::AutomationTest.Droid.Resource.Attribute.tabPaddingEnd;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingStart = global::AutomationTest.Droid.Resource.Attribute.tabPaddingStart;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingTop = global::AutomationTest.Droid.Resource.Attribute.tabPaddingTop;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabSelectedTextColor = global::AutomationTest.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabTextAppearance = global::AutomationTest.Droid.Resource.Attribute.tabTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabTextColor = global::AutomationTest.Droid.Resource.Attribute.tabTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAllCaps = global::AutomationTest.Droid.Resource.Attribute.textAllCaps;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceLargePopupMenu = global::AutomationTest.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceListItem = global::AutomationTest.Droid.Resource.Attribute.textAppearanceListItem;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceListItemSecondary = global::AutomationTest.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceListItemSmall = global::AutomationTest.Droid.Resource.Attribute.textAppearanceListItemSmall;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearancePopupMenuHeader = global::AutomationTest.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSearchResultSubtitle = global::AutomationTest.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSearchResultTitle = global::AutomationTest.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSmallPopupMenu = global::AutomationTest.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorAlertDialogListItem = global::AutomationTest.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorError = global::AutomationTest.Droid.Resource.Attribute.textColorError;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorSearchUrl = global::AutomationTest.Droid.Resource.Attribute.textColorSearchUrl;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.theme = global::AutomationTest.Droid.Resource.Attribute.theme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.thickness = global::AutomationTest.Droid.Resource.Attribute.thickness;
@@ -2336,10 +266,7 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tickMark = global::AutomationTest.Droid.Resource.Attribute.tickMark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tickMarkTint = global::AutomationTest.Droid.Resource.Attribute.tickMarkTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tickMarkTintMode = global::AutomationTest.Droid.Resource.Attribute.tickMarkTintMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tint = global::AutomationTest.Droid.Resource.Attribute.tint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tintMode = global::AutomationTest.Droid.Resource.Attribute.tintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.title = global::AutomationTest.Droid.Resource.Attribute.title;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleEnabled = global::AutomationTest.Droid.Resource.Attribute.titleEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleMargin = global::AutomationTest.Droid.Resource.Attribute.titleMargin;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleMarginBottom = global::AutomationTest.Droid.Resource.Attribute.titleMarginBottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleMarginEnd = global::AutomationTest.Droid.Resource.Attribute.titleMarginEnd;
@@ -2349,16 +276,11 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleTextAppearance = global::AutomationTest.Droid.Resource.Attribute.titleTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleTextColor = global::AutomationTest.Droid.Resource.Attribute.titleTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleTextStyle = global::AutomationTest.Droid.Resource.Attribute.titleTextStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.toolbarId = global::AutomationTest.Droid.Resource.Attribute.toolbarId;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.toolbarNavigationButtonStyle = global::AutomationTest.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.toolbarStyle = global::AutomationTest.Droid.Resource.Attribute.toolbarStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tooltipForegroundColor = global::AutomationTest.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tooltipFrameBackground = global::AutomationTest.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tooltipText = global::AutomationTest.Droid.Resource.Attribute.tooltipText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.track = global::AutomationTest.Droid.Resource.Attribute.track;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.trackTint = global::AutomationTest.Droid.Resource.Attribute.trackTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.trackTintMode = global::AutomationTest.Droid.Resource.Attribute.trackTintMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.useCompatPadding = global::AutomationTest.Droid.Resource.Attribute.useCompatPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.voiceIcon = global::AutomationTest.Droid.Resource.Attribute.voiceIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.windowActionBar = global::AutomationTest.Droid.Resource.Attribute.windowActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.windowActionBarOverlay = global::AutomationTest.Droid.Resource.Attribute.windowActionBarOverlay;
@@ -2413,22 +335,10 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.bright_foreground_material_light = global::AutomationTest.Droid.Resource.Color.bright_foreground_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.button_material_dark = global::AutomationTest.Droid.Resource.Color.button_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.button_material_light = global::AutomationTest.Droid.Resource.Color.button_material_light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_bottom_navigation_shadow_color = global::AutomationTest.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_error = global::AutomationTest.Droid.Resource.Color.design_error;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_end_color = global::AutomationTest.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_mid_color = global::AutomationTest.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_start_color = global::AutomationTest.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_end_inner_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_end_outer_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_top_inner_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_top_outer_color = global::AutomationTest.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_snackbar_background_color = global::AutomationTest.Droid.Resource.Color.design_snackbar_background_color;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_tint_password_toggle = global::AutomationTest.Droid.Resource.Color.design_tint_password_toggle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_disabled_material_dark = global::AutomationTest.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_disabled_material_light = global::AutomationTest.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_material_dark = global::AutomationTest.Droid.Resource.Color.dim_foreground_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_material_light = global::AutomationTest.Droid.Resource.Color.dim_foreground_material_light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.error_color_material = global::AutomationTest.Droid.Resource.Color.error_color_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.foreground_material_dark = global::AutomationTest.Droid.Resource.Color.foreground_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.foreground_material_light = global::AutomationTest.Droid.Resource.Color.foreground_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.highlighted_text_material_dark = global::AutomationTest.Droid.Resource.Color.highlighted_text_material_dark;
@@ -2468,8 +378,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.switch_thumb_material_light = global::AutomationTest.Droid.Resource.Color.switch_thumb_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.switch_thumb_normal_material_dark = global::AutomationTest.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.switch_thumb_normal_material_light = global::AutomationTest.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.tooltip_background_dark = global::AutomationTest.Droid.Resource.Color.tooltip_background_dark;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.tooltip_background_light = global::AutomationTest.Droid.Resource.Color.tooltip_background_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_action_bar_content_inset_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_action_bar_default_height_material = global::AutomationTest.Droid.Resource.Dimension.abc_action_bar_default_height_material;
@@ -2544,54 +452,8 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_title_material = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_title_material_toolbar = global::AutomationTest.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_inset_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_inset_vertical_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_padding_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_button_padding_vertical_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.compat_control_corner_material = global::AutomationTest.Droid.Resource.Dimension.compat_control_corner_material;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_appbar_elevation = global::AutomationTest.Droid.Resource.Dimension.design_appbar_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_active_text_size = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_elevation = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_height = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_item_max_width = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_item_min_width = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_margin = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_shadow_height = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_text_size = global::AutomationTest.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_sheet_modal_elevation = global::AutomationTest.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_sheet_peek_height_min = global::AutomationTest.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_border_width = global::AutomationTest.Droid.Resource.Dimension.design_fab_border_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_elevation = global::AutomationTest.Droid.Resource.Dimension.design_fab_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_image_size = global::AutomationTest.Droid.Resource.Dimension.design_fab_image_size;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_size_mini = global::AutomationTest.Droid.Resource.Dimension.design_fab_size_mini;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_size_normal = global::AutomationTest.Droid.Resource.Dimension.design_fab_size_normal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_translation_z_pressed = global::AutomationTest.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_elevation = global::AutomationTest.Droid.Resource.Dimension.design_navigation_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_icon_padding = global::AutomationTest.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_icon_size = global::AutomationTest.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_max_width = global::AutomationTest.Droid.Resource.Dimension.design_navigation_max_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_padding_bottom = global::AutomationTest.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_separator_vertical_padding = global::AutomationTest.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_action_inline_max_width = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_background_corner_radius = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_elevation = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_max_width = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_min_width = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_padding_horizontal = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_padding_vertical = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_text_size = global::AutomationTest.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_max_width = global::AutomationTest.Droid.Resource.Dimension.design_tab_max_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_scrollable_min_width = global::AutomationTest.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_text_size = global::AutomationTest.Droid.Resource.Dimension.design_tab_text_size;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_text_size_2line = global::AutomationTest.Droid.Resource.Dimension.design_tab_text_size_2line;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.disabled_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.disabled_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.fastscroll_default_thickness = global::AutomationTest.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.fastscroll_margin = global::AutomationTest.Droid.Resource.Dimension.fastscroll_margin;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.fastscroll_minimum_range = global::AutomationTest.Droid.Resource.Dimension.fastscroll_minimum_range;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.highlight_alpha_material_colored = global::AutomationTest.Droid.Resource.Dimension.highlight_alpha_material_colored;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.highlight_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.highlight_alpha_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.highlight_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.highlight_alpha_material_light;
@@ -2599,9 +461,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.hint_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.hint_alpha_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.hint_pressed_alpha_material_dark = global::AutomationTest.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.hint_pressed_alpha_material_light = global::AutomationTest.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_action_icon_size = global::AutomationTest.Droid.Resource.Dimension.notification_action_icon_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_action_text_size = global::AutomationTest.Droid.Resource.Dimension.notification_action_text_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_big_circle_margin = global::AutomationTest.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -2617,14 +476,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_subtext_size = global::AutomationTest.Droid.Resource.Dimension.notification_subtext_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_top_pad = global::AutomationTest.Droid.Resource.Dimension.notification_top_pad;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_top_pad_large_text = global::AutomationTest.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_corner_radius = global::AutomationTest.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_horizontal_padding = global::AutomationTest.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_margin = global::AutomationTest.Droid.Resource.Dimension.tooltip_margin;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::AutomationTest.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_precise_anchor_threshold = global::AutomationTest.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_vertical_padding = global::AutomationTest.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_y_offset_non_touch = global::AutomationTest.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.tooltip_y_offset_touch = global::AutomationTest.Droid.Resource.Dimension.tooltip_y_offset_touch;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_action_bar_item_background_material = global::AutomationTest.Droid.Resource.Drawable.abc_action_bar_item_background_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_btn_borderless_material = global::AutomationTest.Droid.Resource.Drawable.abc_btn_borderless_material;
@@ -2708,21 +559,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::AutomationTest.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_textfield_search_material = global::AutomationTest.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_vector_test = global::AutomationTest.Droid.Resource.Drawable.abc_vector_test;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password_1 = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password_1;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password_2 = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password_2;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password_3 = global::AutomationTest.Droid.Resource.Drawable.avd_hide_password_3;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password = global::AutomationTest.Droid.Resource.Drawable.avd_show_password;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password_1 = global::AutomationTest.Droid.Resource.Drawable.avd_show_password_1;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password_2 = global::AutomationTest.Droid.Resource.Drawable.avd_show_password_2;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password_3 = global::AutomationTest.Droid.Resource.Drawable.avd_show_password_3;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_bottom_navigation_item_background = global::AutomationTest.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_fab_background = global::AutomationTest.Droid.Resource.Drawable.design_fab_background;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_ic_visibility = global::AutomationTest.Droid.Resource.Drawable.design_ic_visibility;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_ic_visibility_off = global::AutomationTest.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_password_eye = global::AutomationTest.Droid.Resource.Drawable.design_password_eye;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_snackbar_background = global::AutomationTest.Droid.Resource.Drawable.design_snackbar_background;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.navigation_empty_icon = global::AutomationTest.Droid.Resource.Drawable.navigation_empty_icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_action_background = global::AutomationTest.Droid.Resource.Drawable.notification_action_background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_bg = global::AutomationTest.Droid.Resource.Drawable.notification_bg;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_bg_low = global::AutomationTest.Droid.Resource.Drawable.notification_bg_low;
@@ -2735,16 +571,8 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_template_icon_low_bg = global::AutomationTest.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_tile_bg = global::AutomationTest.Droid.Resource.Drawable.notification_tile_bg;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notify_panel_notification_icon_bg = global::AutomationTest.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.tooltip_frame_dark = global::AutomationTest.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.tooltip_frame_light = global::AutomationTest.Droid.Resource.Drawable.tooltip_frame_light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.ALT = global::AutomationTest.Droid.Resource.Id.ALT;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.CTRL = global::AutomationTest.Droid.Resource.Id.CTRL;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.FUNCTION = global::AutomationTest.Droid.Resource.Id.FUNCTION;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.META = global::AutomationTest.Droid.Resource.Id.META;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.MvvmCrossTagId = global::AutomationTest.Droid.Resource.Id.MvvmCrossTagId;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.MvxBindingTagUnique = global::AutomationTest.Droid.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.SHIFT = global::AutomationTest.Droid.Resource.Id.SHIFT;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.SYM = global::AutomationTest.Droid.Resource.Id.SYM;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.action0 = global::AutomationTest.Droid.Resource.Id.action0;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.action_bar = global::AutomationTest.Droid.Resource.Id.action_bar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.action_bar_activity_content = global::AutomationTest.Droid.Resource.Id.action_bar_activity_content;
@@ -2767,50 +595,25 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.activity_chooser_view_content = global::AutomationTest.Droid.Resource.Id.activity_chooser_view_content;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.add = global::AutomationTest.Droid.Resource.Id.add;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.alertTitle = global::AutomationTest.Droid.Resource.Id.alertTitle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.all = global::AutomationTest.Droid.Resource.Id.all;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.always = global::AutomationTest.Droid.Resource.Id.always;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.async = global::AutomationTest.Droid.Resource.Id.async;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.auto = global::AutomationTest.Droid.Resource.Id.auto;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.beginning = global::AutomationTest.Droid.Resource.Id.beginning;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.blocking = global::AutomationTest.Droid.Resource.Id.blocking;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.bottom = global::AutomationTest.Droid.Resource.Id.bottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.buttonPanel = global::AutomationTest.Droid.Resource.Id.buttonPanel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.cancel_action = global::AutomationTest.Droid.Resource.Id.cancel_action;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.center = global::AutomationTest.Droid.Resource.Id.center;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.center_horizontal = global::AutomationTest.Droid.Resource.Id.center_horizontal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.center_vertical = global::AutomationTest.Droid.Resource.Id.center_vertical;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.checkbox = global::AutomationTest.Droid.Resource.Id.checkbox;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.chronometer = global::AutomationTest.Droid.Resource.Id.chronometer;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.clip_horizontal = global::AutomationTest.Droid.Resource.Id.clip_horizontal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.clip_vertical = global::AutomationTest.Droid.Resource.Id.clip_vertical;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.collapseActionView = global::AutomationTest.Droid.Resource.Id.collapseActionView;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.container = global::AutomationTest.Droid.Resource.Id.container;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.contentPanel = global::AutomationTest.Droid.Resource.Id.contentPanel;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.coordinator = global::AutomationTest.Droid.Resource.Id.coordinator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.custom = global::AutomationTest.Droid.Resource.Id.custom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.customPanel = global::AutomationTest.Droid.Resource.Id.customPanel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.decor_content_parent = global::AutomationTest.Droid.Resource.Id.decor_content_parent;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.default_activity_button = global::AutomationTest.Droid.Resource.Id.default_activity_button;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_bottom_sheet = global::AutomationTest.Droid.Resource.Id.design_bottom_sheet;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_menu_item_action_area = global::AutomationTest.Droid.Resource.Id.design_menu_item_action_area;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_menu_item_action_area_stub = global::AutomationTest.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_menu_item_text = global::AutomationTest.Droid.Resource.Id.design_menu_item_text;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_navigation_view = global::AutomationTest.Droid.Resource.Id.design_navigation_view;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.disableHome = global::AutomationTest.Droid.Resource.Id.disableHome;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.edit_query = global::AutomationTest.Droid.Resource.Id.edit_query;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.end = global::AutomationTest.Droid.Resource.Id.end;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.end_padder = global::AutomationTest.Droid.Resource.Id.end_padder;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.enterAlways = global::AutomationTest.Droid.Resource.Id.enterAlways;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.enterAlwaysCollapsed = global::AutomationTest.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.exitUntilCollapsed = global::AutomationTest.Droid.Resource.Id.exitUntilCollapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.expand_activities_button = global::AutomationTest.Droid.Resource.Id.expand_activities_button;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.expanded_menu = global::AutomationTest.Droid.Resource.Id.expanded_menu;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill = global::AutomationTest.Droid.Resource.Id.fill;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill_horizontal = global::AutomationTest.Droid.Resource.Id.fill_horizontal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill_vertical = global::AutomationTest.Droid.Resource.Id.fill_vertical;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.@fixed = global::AutomationTest.Droid.Resource.Id.@fixed;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.forever = global::AutomationTest.Droid.Resource.Id.forever;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.ghost_view = global::AutomationTest.Droid.Resource.Id.ghost_view;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.home = global::AutomationTest.Droid.Resource.Id.home;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.homeAsUp = global::AutomationTest.Droid.Resource.Id.homeAsUp;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.icon = global::AutomationTest.Droid.Resource.Id.icon;
@@ -2818,46 +621,29 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.ifRoom = global::AutomationTest.Droid.Resource.Id.ifRoom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.image = global::AutomationTest.Droid.Resource.Id.image;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.info = global::AutomationTest.Droid.Resource.Id.info;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.italic = global::AutomationTest.Droid.Resource.Id.italic;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.item_touch_helper_previous_elevation = global::AutomationTest.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.largeLabel = global::AutomationTest.Droid.Resource.Id.largeLabel;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.left = global::AutomationTest.Droid.Resource.Id.left;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.line1 = global::AutomationTest.Droid.Resource.Id.line1;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.line3 = global::AutomationTest.Droid.Resource.Id.line3;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.listMode = global::AutomationTest.Droid.Resource.Id.listMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.list_item = global::AutomationTest.Droid.Resource.Id.list_item;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.masked = global::AutomationTest.Droid.Resource.Id.masked;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.media_actions = global::AutomationTest.Droid.Resource.Id.media_actions;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.message = global::AutomationTest.Droid.Resource.Id.message;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.middle = global::AutomationTest.Droid.Resource.Id.middle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.mini = global::AutomationTest.Droid.Resource.Id.mini;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.multiply = global::AutomationTest.Droid.Resource.Id.multiply;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.navigation_header_container = global::AutomationTest.Droid.Resource.Id.navigation_header_container;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.never = global::AutomationTest.Droid.Resource.Id.never;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.none = global::AutomationTest.Droid.Resource.Id.none;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.normal = global::AutomationTest.Droid.Resource.Id.normal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_background = global::AutomationTest.Droid.Resource.Id.notification_background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_main_column = global::AutomationTest.Droid.Resource.Id.notification_main_column;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_main_column_container = global::AutomationTest.Droid.Resource.Id.notification_main_column_container;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parallax = global::AutomationTest.Droid.Resource.Id.parallax;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parentPanel = global::AutomationTest.Droid.Resource.Id.parentPanel;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parent_matrix = global::AutomationTest.Droid.Resource.Id.parent_matrix;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.pin = global::AutomationTest.Droid.Resource.Id.pin;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.progress_circular = global::AutomationTest.Droid.Resource.Id.progress_circular;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.progress_horizontal = global::AutomationTest.Droid.Resource.Id.progress_horizontal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.radio = global::AutomationTest.Droid.Resource.Id.radio;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.right = global::AutomationTest.Droid.Resource.Id.right;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.right_icon = global::AutomationTest.Droid.Resource.Id.right_icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.right_side = global::AutomationTest.Droid.Resource.Id.right_side;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.save_image_matrix = global::AutomationTest.Droid.Resource.Id.save_image_matrix;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.save_non_transition_alpha = global::AutomationTest.Droid.Resource.Id.save_non_transition_alpha;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.save_scale_type = global::AutomationTest.Droid.Resource.Id.save_scale_type;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.screen = global::AutomationTest.Droid.Resource.Id.screen;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scroll = global::AutomationTest.Droid.Resource.Id.scroll;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollIndicatorDown = global::AutomationTest.Droid.Resource.Id.scrollIndicatorDown;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollIndicatorUp = global::AutomationTest.Droid.Resource.Id.scrollIndicatorUp;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollView = global::AutomationTest.Droid.Resource.Id.scrollView;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollable = global::AutomationTest.Droid.Resource.Id.scrollable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_badge = global::AutomationTest.Droid.Resource.Id.search_badge;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_bar = global::AutomationTest.Droid.Resource.Id.search_bar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_button = global::AutomationTest.Droid.Resource.Id.search_button;
@@ -2873,56 +659,32 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showCustom = global::AutomationTest.Droid.Resource.Id.showCustom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showHome = global::AutomationTest.Droid.Resource.Id.showHome;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showTitle = global::AutomationTest.Droid.Resource.Id.showTitle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.smallLabel = global::AutomationTest.Droid.Resource.Id.smallLabel;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snackbar_action = global::AutomationTest.Droid.Resource.Id.snackbar_action;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snackbar_text = global::AutomationTest.Droid.Resource.Id.snackbar_text;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snap = global::AutomationTest.Droid.Resource.Id.snap;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.spacer = global::AutomationTest.Droid.Resource.Id.spacer;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.split_action_bar = global::AutomationTest.Droid.Resource.Id.split_action_bar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_atop = global::AutomationTest.Droid.Resource.Id.src_atop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_in = global::AutomationTest.Droid.Resource.Id.src_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_over = global::AutomationTest.Droid.Resource.Id.src_over;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.start = global::AutomationTest.Droid.Resource.Id.start;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.status_bar_latest_event_content = global::AutomationTest.Droid.Resource.Id.status_bar_latest_event_content;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.submenuarrow = global::AutomationTest.Droid.Resource.Id.submenuarrow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.submit_area = global::AutomationTest.Droid.Resource.Id.submit_area;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.tabMode = global::AutomationTest.Droid.Resource.Id.tabMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.tag_transition_group = global::AutomationTest.Droid.Resource.Id.tag_transition_group;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text = global::AutomationTest.Droid.Resource.Id.text;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text2 = global::AutomationTest.Droid.Resource.Id.text2;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textSpacerNoButtons = global::AutomationTest.Droid.Resource.Id.textSpacerNoButtons;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textSpacerNoTitle = global::AutomationTest.Droid.Resource.Id.textSpacerNoTitle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text_input_password_toggle = global::AutomationTest.Droid.Resource.Id.text_input_password_toggle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textinput_counter = global::AutomationTest.Droid.Resource.Id.textinput_counter;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textinput_error = global::AutomationTest.Droid.Resource.Id.textinput_error;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.time = global::AutomationTest.Droid.Resource.Id.time;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.title = global::AutomationTest.Droid.Resource.Id.title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.titleDividerNoCustom = global::AutomationTest.Droid.Resource.Id.titleDividerNoCustom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.title_template = global::AutomationTest.Droid.Resource.Id.title_template;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.top = global::AutomationTest.Droid.Resource.Id.top;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.topPanel = global::AutomationTest.Droid.Resource.Id.topPanel;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.touch_outside = global::AutomationTest.Droid.Resource.Id.touch_outside;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_current_scene = global::AutomationTest.Droid.Resource.Id.transition_current_scene;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_layout_save = global::AutomationTest.Droid.Resource.Id.transition_layout_save;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_position = global::AutomationTest.Droid.Resource.Id.transition_position;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_scene_layoutid_cache = global::AutomationTest.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_transform = global::AutomationTest.Droid.Resource.Id.transition_transform;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.uniform = global::AutomationTest.Droid.Resource.Id.uniform;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.up = global::AutomationTest.Droid.Resource.Id.up;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.useLogo = global::AutomationTest.Droid.Resource.Id.useLogo;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.view_offset_helper = global::AutomationTest.Droid.Resource.Id.view_offset_helper;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.visible = global::AutomationTest.Droid.Resource.Id.visible;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.withText = global::AutomationTest.Droid.Resource.Id.withText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.wrap_content = global::AutomationTest.Droid.Resource.Id.wrap_content;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.abc_config_activityDefaultDur = global::AutomationTest.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.abc_config_activityShortDur = global::AutomationTest.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.app_bar_elevation_anim_duration = global::AutomationTest.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.bottom_sheet_slide_duration = global::AutomationTest.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.cancel_button_image_alpha = global::AutomationTest.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.config_tooltipAnimTime = global::AutomationTest.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.design_snackbar_text_max_lines = global::AutomationTest.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.hide_password_duration = global::AutomationTest.Droid.Resource.Integer.hide_password_duration;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.show_password_duration = global::AutomationTest.Droid.Resource.Integer.show_password_duration;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.status_bar_notification_info_maxnum = global::AutomationTest.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_action_bar_title_item = global::AutomationTest.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_action_bar_up_container = global::AutomationTest.Droid.Resource.Layout.abc_action_bar_up_container;
@@ -2950,20 +712,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_search_dropdown_item_icons_2line = global::AutomationTest.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_search_view = global::AutomationTest.Droid.Resource.Layout.abc_search_view;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_select_dialog_material = global::AutomationTest.Droid.Resource.Layout.abc_select_dialog_material;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_bottom_navigation_item = global::AutomationTest.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_bottom_sheet_dialog = global::AutomationTest.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_snackbar = global::AutomationTest.Droid.Resource.Layout.design_layout_snackbar;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_snackbar_include = global::AutomationTest.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_tab_icon = global::AutomationTest.Droid.Resource.Layout.design_layout_tab_icon;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_tab_text = global::AutomationTest.Droid.Resource.Layout.design_layout_tab_text;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_menu_item_action_area = global::AutomationTest.Droid.Resource.Layout.design_menu_item_action_area;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item = global::AutomationTest.Droid.Resource.Layout.design_navigation_item;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item_header = global::AutomationTest.Droid.Resource.Layout.design_navigation_item_header;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item_separator = global::AutomationTest.Droid.Resource.Layout.design_navigation_item_separator;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item_subheader = global::AutomationTest.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_menu = global::AutomationTest.Droid.Resource.Layout.design_navigation_menu;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_menu_item = global::AutomationTest.Droid.Resource.Layout.design_navigation_menu_item;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_text_input_password_icon = global::AutomationTest.Droid.Resource.Layout.design_text_input_password_icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_action = global::AutomationTest.Droid.Resource.Layout.notification_action;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_action_tombstone = global::AutomationTest.Droid.Resource.Layout.notification_action_tombstone;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_media_action = global::AutomationTest.Droid.Resource.Layout.notification_media_action;
@@ -2983,7 +731,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.select_dialog_multichoice_material = global::AutomationTest.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.select_dialog_singlechoice_material = global::AutomationTest.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.support_simple_spinner_dropdown_item = global::AutomationTest.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.tooltip = global::AutomationTest.Droid.Resource.Layout.tooltip;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_action_bar_home_description = global::AutomationTest.Droid.Resource.String.abc_action_bar_home_description;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_action_bar_up_description = global::AutomationTest.Droid.Resource.String.abc_action_bar_up_description;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_action_menu_overflow_description = global::AutomationTest.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -3013,29 +760,16 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_shareactionprovider_share_with = global::AutomationTest.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_shareactionprovider_share_with_application = global::AutomationTest.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_toolbar_collapse_description = global::AutomationTest.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.appbar_scrolling_view_behavior = global::AutomationTest.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.bottom_sheet_behavior = global::AutomationTest.Droid.Resource.String.bottom_sheet_behavior;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.character_counter_pattern = global::AutomationTest.Droid.Resource.String.character_counter_pattern;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.fab_scroll_shrink_grow_autohide_behavior = global::AutomationTest.Droid.Resource.String.fab_scroll_shrink_grow_autohide_behavior;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.password_toggle_content_description = global::AutomationTest.Droid.Resource.String.password_toggle_content_description;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye = global::AutomationTest.Droid.Resource.String.path_password_eye;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye_mask_strike_through = global::AutomationTest.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye_mask_visible = global::AutomationTest.Droid.Resource.String.path_password_eye_mask_visible;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_strike_through = global::AutomationTest.Droid.Resource.String.path_password_strike_through;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.search_menu_title = global::AutomationTest.Droid.Resource.String.search_menu_title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.status_bar_notification_info_overflow = global::AutomationTest.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.view_scroll_translation_autohide_behavior = global::AutomationTest.Droid.Resource.String.view_scroll_translation_autohide_behavior;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.AlertDialog_AppCompat = global::AutomationTest.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.AlertDialog_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.AlertDialog_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Animation_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Animation_AppCompat_DropDownUp = global::AutomationTest.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Animation_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Animation_Design_BottomSheetDialog = global::AutomationTest.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_AlertDialog_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Animation_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::AutomationTest.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Animation_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_DialogWindowTitle_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat;
@@ -3065,7 +799,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat_Title = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AutomationTest.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
@@ -3112,21 +845,15 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::AutomationTest.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::AutomationTest.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V14_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V21_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V22_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V22_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V23_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V23_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V23_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V26_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V26_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V26_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Theme_AppCompat = global::AutomationTest.Droid.Resource.Style.Base_V7_Theme_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Theme_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
@@ -3134,7 +861,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::AutomationTest.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::AutomationTest.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::AutomationTest.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_ActionBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
@@ -3192,8 +918,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::AutomationTest.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_Design_TabLayout = global::AutomationTest.Droid.Resource.Style.Base_Widget_Design_TabLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_ThemeOverlay_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
@@ -3205,8 +929,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_V14_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_V14_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_V21_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_V21_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_V21_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_V25_AppCompat = global::AutomationTest.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_V25_AppCompat_Light = global::AutomationTest.Droid.Resource.Style.Platform_V25_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_Widget_AppCompat_Spinner = global::AutomationTest.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::AutomationTest.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::AutomationTest.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
@@ -3250,7 +972,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Tooltip = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
@@ -3270,23 +991,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AutomationTest.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Info = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Time = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Counter = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Counter_Overflow = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Error = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Hint = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Snackbar_Message = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Tab = global::AutomationTest.Droid.Resource.Style.TextAppearance_Design_Tab;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AutomationTest.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AutomationTest.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -3311,12 +1015,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_AppCompat_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design = global::AutomationTest.Droid.Resource.Style.Theme_Design;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_BottomSheetDialog = global::AutomationTest.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light = global::AutomationTest.Droid.Resource.Style.Theme_Design_Light;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::AutomationTest.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_NoActionBar = global::AutomationTest.Droid.Resource.Style.Theme_Design_NoActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_Dark = global::AutomationTest.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -3396,19 +1094,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_Toolbar = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::AutomationTest.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Compat_NotificationActionContainer = global::AutomationTest.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Compat_NotificationActionText = global::AutomationTest.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_AppBarLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_BottomNavigationView = global::AutomationTest.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_BottomSheet_Modal = global::AutomationTest.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_CollapsingToolbar = global::AutomationTest.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_CoordinatorLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_FloatingActionButton = global::AutomationTest.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_NavigationView = global::AutomationTest.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_Snackbar = global::AutomationTest.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_TabLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_TextInputLayout = global::AutomationTest.Droid.Resource.Style.Widget_Design_TextInputLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Xml.Empty = global::AutomationTest.Droid.Resource.Xml.Empty;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ActionBar = global::AutomationTest.Droid.Resource.Styleable.ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ActionBar_background = global::AutomationTest.Droid.Resource.Styleable.ActionBar_background;
@@ -3463,23 +1148,9 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_showTitle = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::AutomationTest.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_android_background = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_elevation = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_expanded = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates = global::AutomationTest.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::AutomationTest.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::AutomationTest.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::AutomationTest.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView_android_src = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView_srcCompat = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView_tint = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView_tintMode = global::AutomationTest.Droid.Resource.Styleable.AppCompatImageView_tintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatSeekBar = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatSeekBar_android_thumb = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatSeekBar_tickMark = global::AutomationTest.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
@@ -3495,12 +1166,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_android_textAppearance = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_fontFamily = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTextView_textAllCaps = global::AutomationTest.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_actionBarDivider = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
@@ -3557,7 +1222,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorControlActivated = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorControlNormal = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorError = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorError;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorPrimary = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
@@ -3600,7 +1264,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_switchStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
@@ -3610,8 +1273,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_toolbarStyle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowActionBar = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
@@ -3622,38 +1283,8 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowNoTitle = global::AutomationTest.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_elevation = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemBackground = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemIconTint = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemTextColor = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_menu = global::AutomationTest.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::AutomationTest.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ButtonBarLayout = global::AutomationTest.Droid.Resource.Styleable.ButtonBarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ButtonBarLayout_allowStacking = global::AutomationTest.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_title = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_Layout = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::AutomationTest.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ColorStateListItem = global::AutomationTest.Droid.Resource.Styleable.ColorStateListItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ColorStateListItem_alpha = global::AutomationTest.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ColorStateListItem_android_alpha = global::AutomationTest.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
@@ -3662,21 +1293,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CompoundButton_android_button = global::AutomationTest.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CompoundButton_buttonTint = global::AutomationTest.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CompoundButton_buttonTintMode = global::AutomationTest.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_keylines = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::AutomationTest.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme = global::AutomationTest.Droid.Resource.Styleable.DesignTheme;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::AutomationTest.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme_bottomSheetStyle = global::AutomationTest.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme_textColorError = global::AutomationTest.Droid.Resource.Styleable.DesignTheme_textColorError;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
@@ -3686,35 +1302,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_spinBars = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_thickness = global::AutomationTest.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_backgroundTint = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_borderWidth = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_elevation = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_fabSize = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_rippleColor = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_useCompatPadding = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::AutomationTest.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily = global::AutomationTest.Droid.Resource.Styleable.FontFamily;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderAuthority = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderCerts = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderPackage = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamily_fontProviderQuery = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_font = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_font = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_fontStyle = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FontFamilyFont_fontWeight = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::AutomationTest.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AutomationTest.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -3744,7 +1331,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_actionLayout = global::AutomationTest.Droid.Resource.Styleable.MenuItem_actionLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_actionProviderClass = global::AutomationTest.Droid.Resource.Styleable.MenuItem_actionProviderClass;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_actionViewClass = global::AutomationTest.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_alphabeticModifiers = global::AutomationTest.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_android_checkable = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_checkable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_android_checked = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_checked;
@@ -3758,12 +1344,7 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_android_title = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_android_titleCondensed = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_android_visible = global::AutomationTest.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_contentDescription = global::AutomationTest.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_iconTint = global::AutomationTest.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_iconTintMode = global::AutomationTest.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_numericModifiers = global::AutomationTest.Droid.Resource.Styleable.MenuItem_numericModifiers;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_showAsAction = global::AutomationTest.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuItem_tooltipText = global::AutomationTest.Droid.Resource.Styleable.MenuItem_tooltipText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuView = global::AutomationTest.Droid.Resource.Styleable.MenuView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuView_android_headerBackground = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_headerBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MenuView_android_horizontalDivider = global::AutomationTest.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
@@ -3781,20 +1362,11 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxControl_MvxTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxControl_MvxTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxExpandableListView = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxImageView = global::AutomationTest.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxImageView_MvxSource = global::AutomationTest.Droid.Resource.Styleable.MvxImageView_MvxSource;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxListView = global::AutomationTest.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxListView_MvxItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView = global::AutomationTest.Droid.Resource.Styleable.NavigationView;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_android_background = global::AutomationTest.Droid.Resource.Styleable.NavigationView_android_background;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::AutomationTest.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_android_maxWidth = global::AutomationTest.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_elevation = global::AutomationTest.Droid.Resource.Styleable.NavigationView_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_headerLayout = global::AutomationTest.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemBackground = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemIconTint = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemTextAppearance = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemTextColor = global::AutomationTest.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_menu = global::AutomationTest.Droid.Resource.Styleable.NavigationView_menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.PopupWindow = global::AutomationTest.Droid.Resource.Styleable.PopupWindow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::AutomationTest.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.PopupWindow_android_popupBackground = global::AutomationTest.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
@@ -3804,22 +1376,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecycleListView = global::AutomationTest.Droid.Resource.Styleable.RecycleListView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::AutomationTest.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::AutomationTest.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView = global::AutomationTest.Droid.Resource.Styleable.RecyclerView;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_android_descendantFocusability = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_android_orientation = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_fastScrollEnabled = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_layoutManager = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_reverseLayout = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_spanCount = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_stackFromEnd = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrimInsetsFrameLayout = global::AutomationTest.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::AutomationTest.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrollingViewBehavior_Layout = global::AutomationTest.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::AutomationTest.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView = global::AutomationTest.Droid.Resource.Styleable.SearchView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_android_focusable = global::AutomationTest.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_android_imeOptions = global::AutomationTest.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -3838,10 +1394,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_submitBackground = global::AutomationTest.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_suggestionRowLayout = global::AutomationTest.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_voiceIcon = global::AutomationTest.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_android_maxWidth = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_elevation = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::AutomationTest.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner = global::AutomationTest.Droid.Resource.Styleable.Spinner;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner_android_dropDownWidth = global::AutomationTest.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner_android_entries = global::AutomationTest.Droid.Resource.Styleable.Spinner_android_entries;
@@ -3863,58 +1415,17 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_track = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_track;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_trackTint = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_trackTintMode = global::AutomationTest.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem = global::AutomationTest.Droid.Resource.Styleable.TabItem;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem_android_icon = global::AutomationTest.Droid.Resource.Styleable.TabItem_android_icon;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem_android_layout = global::AutomationTest.Droid.Resource.Styleable.TabItem_android_layout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem_android_text = global::AutomationTest.Droid.Resource.Styleable.TabItem_android_text;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout = global::AutomationTest.Droid.Resource.Styleable.TabLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabBackground = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabContentStart = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabGravity = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorColor = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorHeight = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMaxWidth = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMinWidth = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMode = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPadding = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingBottom = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingEnd = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingStart = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingTop = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabSelectedTextColor = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabTextColor = global::AutomationTest.Droid.Resource.Styleable.TabLayout_tabTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_fontFamily = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_shadowColor = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_shadowDx = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_shadowDy = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_shadowRadius = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_textColor = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_textColorHint = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_textColorLink = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_textSize = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textSize;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_textStyle = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_typeface = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_fontFamily = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_fontFamily;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_textAllCaps = global::AutomationTest.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_android_hint = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_android_textColorHint = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterMaxLength = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_errorEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_errorTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintTextAppearance = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleTint = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::AutomationTest.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar = global::AutomationTest.Droid.Resource.Styleable.Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar_android_gravity = global::AutomationTest.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar_android_minHeight = global::AutomationTest.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -3964,127 +1475,19 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxGroupItemTemplate;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxItemTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxItemTemplate;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxLang = global::AutomationTest.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxSource = global::AutomationTest.Droid.Resource.Attribute.MvxSource;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplate = global::AutomationTest.Droid.Resource.Attribute.MvxTemplate;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplateSelector = global::AutomationTest.Droid.Resource.Attribute.MvxTemplateSelector;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollEnabled = global::AutomationTest.Droid.Resource.Attribute.fastScrollEnabled;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::AutomationTest.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.font = global::AutomationTest.Droid.Resource.Attribute.font;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderAuthority = global::AutomationTest.Droid.Resource.Attribute.fontProviderAuthority;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderCerts = global::AutomationTest.Droid.Resource.Attribute.fontProviderCerts;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderFetchStrategy = global::AutomationTest.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderFetchTimeout = global::AutomationTest.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderPackage = global::AutomationTest.Droid.Resource.Attribute.fontProviderPackage;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderQuery = global::AutomationTest.Droid.Resource.Attribute.fontProviderQuery;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontStyle = global::AutomationTest.Droid.Resource.Attribute.fontStyle;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontWeight = global::AutomationTest.Droid.Resource.Attribute.fontWeight;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layoutManager = global::AutomationTest.Droid.Resource.Attribute.layoutManager;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.reverseLayout = global::AutomationTest.Droid.Resource.Attribute.reverseLayout;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.spanCount = global::AutomationTest.Droid.Resource.Attribute.spanCount;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.stackFromEnd = global::AutomationTest.Droid.Resource.Attribute.stackFromEnd;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Boolean.abc_action_bar_embed_tabs = global::AutomationTest.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_action_color_filter = global::AutomationTest.Droid.Resource.Color.notification_action_color_filter;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_icon_bg_color = global::AutomationTest.Droid.Resource.Color.notification_icon_bg_color;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.ripple_material_light = global::AutomationTest.Droid.Resource.Color.ripple_material_light;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.secondary_text_default_material_light = global::AutomationTest.Droid.Resource.Color.secondary_text_default_material_light;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_inset_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_inset_vertical_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_horizontal_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_vertical_material = global::AutomationTest.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_control_corner_material = global::AutomationTest.Droid.Resource.Dimension.compat_control_corner_material;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_default_thickness = global::AutomationTest.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_margin = global::AutomationTest.Droid.Resource.Dimension.fastscroll_margin;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_minimum_range = global::AutomationTest.Droid.Resource.Dimension.fastscroll_minimum_range;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::AutomationTest.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_action_icon_size = global::AutomationTest.Droid.Resource.Dimension.notification_action_icon_size;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_action_text_size = global::AutomationTest.Droid.Resource.Dimension.notification_action_text_size;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_big_circle_margin = global::AutomationTest.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_content_margin_start = global::AutomationTest.Droid.Resource.Dimension.notification_content_margin_start;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_large_icon_height = global::AutomationTest.Droid.Resource.Dimension.notification_large_icon_height;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_large_icon_width = global::AutomationTest.Droid.Resource.Dimension.notification_large_icon_width;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_main_column_padding_top = global::AutomationTest.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_media_narrow_margin = global::AutomationTest.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_right_icon_size = global::AutomationTest.Droid.Resource.Dimension.notification_right_icon_size;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_right_side_padding_top = global::AutomationTest.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_small_icon_background_padding = global::AutomationTest.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_small_icon_size_as_large = global::AutomationTest.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_subtext_size = global::AutomationTest.Droid.Resource.Dimension.notification_subtext_size;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_top_pad = global::AutomationTest.Droid.Resource.Dimension.notification_top_pad;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_top_pad_large_text = global::AutomationTest.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_action_background = global::AutomationTest.Droid.Resource.Drawable.notification_action_background;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg = global::AutomationTest.Droid.Resource.Drawable.notification_bg;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low = global::AutomationTest.Droid.Resource.Drawable.notification_bg_low;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low_normal = global::AutomationTest.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low_pressed = global::AutomationTest.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_normal = global::AutomationTest.Droid.Resource.Drawable.notification_bg_normal;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_normal_pressed = global::AutomationTest.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_icon_background = global::AutomationTest.Droid.Resource.Drawable.notification_icon_background;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_template_icon_bg = global::AutomationTest.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_template_icon_low_bg = global::AutomationTest.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_tile_bg = global::AutomationTest.Droid.Resource.Drawable.notification_tile_bg;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notify_panel_notification_icon_bg = global::AutomationTest.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvvmCrossTagId = global::AutomationTest.Droid.Resource.Id.MvvmCrossTagId;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvxBindingTagUnique = global::AutomationTest.Droid.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_container = global::AutomationTest.Droid.Resource.Id.action_container;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_divider = global::AutomationTest.Droid.Resource.Id.action_divider;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_image = global::AutomationTest.Droid.Resource.Id.action_image;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_text = global::AutomationTest.Droid.Resource.Id.action_text;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.actions = global::AutomationTest.Droid.Resource.Id.actions;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.async = global::AutomationTest.Droid.Resource.Id.async;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.blocking = global::AutomationTest.Droid.Resource.Id.blocking;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.chronometer = global::AutomationTest.Droid.Resource.Id.chronometer;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.forever = global::AutomationTest.Droid.Resource.Id.forever;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon = global::AutomationTest.Droid.Resource.Id.icon;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon_group = global::AutomationTest.Droid.Resource.Id.icon_group;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.info = global::AutomationTest.Droid.Resource.Id.info;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.italic = global::AutomationTest.Droid.Resource.Id.italic;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.item_touch_helper_previous_elevation = global::AutomationTest.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line1 = global::AutomationTest.Droid.Resource.Id.line1;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line3 = global::AutomationTest.Droid.Resource.Id.line3;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.normal = global::AutomationTest.Droid.Resource.Id.normal;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_background = global::AutomationTest.Droid.Resource.Id.notification_background;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column = global::AutomationTest.Droid.Resource.Id.notification_main_column;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column_container = global::AutomationTest.Droid.Resource.Id.notification_main_column_container;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_icon = global::AutomationTest.Droid.Resource.Id.right_icon;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_side = global::AutomationTest.Droid.Resource.Id.right_side;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_transition_group = global::AutomationTest.Droid.Resource.Id.tag_transition_group;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text = global::AutomationTest.Droid.Resource.Id.text;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text2 = global::AutomationTest.Droid.Resource.Id.text2;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.time = global::AutomationTest.Droid.Resource.Id.time;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.title = global::AutomationTest.Droid.Resource.Id.title;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Integer.status_bar_notification_info_maxnum = global::AutomationTest.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action = global::AutomationTest.Droid.Resource.Layout.notification_action;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action_tombstone = global::AutomationTest.Droid.Resource.Layout.notification_action_tombstone;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_custom_big = global::AutomationTest.Droid.Resource.Layout.notification_template_custom_big;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_icon_group = global::AutomationTest.Droid.Resource.Layout.notification_template_icon_group;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_part_chronometer = global::AutomationTest.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_part_time = global::AutomationTest.Droid.Resource.Layout.notification_template_part_time;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.String.status_bar_notification_info_overflow = global::AutomationTest.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Info = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Time = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Title = global::AutomationTest.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionContainer = global::AutomationTest.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionText = global::AutomationTest.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily = global::AutomationTest.Droid.Resource.Styleable.FontFamily;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderAuthority = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderCerts = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderPackage = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderQuery = global::AutomationTest.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_font = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_font = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontStyle = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontWeight = global::AutomationTest.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding = global::AutomationTest.Droid.Resource.Styleable.MvxBinding;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxBind = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxBind;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxLang = global::AutomationTest.Droid.Resource.Styleable.MvxBinding_MvxLang;
@@ -4092,6 +1495,8 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxControl_MvxTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxControl_MvxTemplate;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxImageView = global::AutomationTest.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxImageView_MvxSource = global::AutomationTest.Droid.Resource.Styleable.MvxImageView_MvxSource;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView = global::AutomationTest.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxItemTemplate = global::AutomationTest.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
@@ -4100,11 +1505,6 @@ namespace AutomationTest.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView = global::AutomationTest.Droid.Resource.Styleable.RecyclerView;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_orientation = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_layoutManager = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_layoutManager;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_reverseLayout = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_reverseLayout;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_spanCount = global::AutomationTest.Droid.Resource.Styleable.RecyclerView_spanCount;
@@ -4205,6 +1605,9 @@ namespace AutomationTest.Droid
 			
 			// aapt resource value: 0x7f010195
 			public const int MvxLang = 2130772373;
+			
+			// aapt resource value: 0x7f01019a
+			public const int MvxSource = 2130772378;
 			
 			// aapt resource value: 0x7f010196
 			public const int MvxTemplate = 2130772374;
@@ -6632,8 +4035,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090039
 			public const int SYM = 2131296313;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int action0 = 2131296435;
+			// aapt resource value: 0x7f0900b4
+			public const int action0 = 2131296436;
 			
 			// aapt resource value: 0x7f09008b
 			public const int action_bar = 2131296395;
@@ -6656,17 +4059,17 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090069
 			public const int action_bar_title = 2131296361;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int action_container = 2131296432;
+			// aapt resource value: 0x7f0900b1
+			public const int action_container = 2131296433;
 			
 			// aapt resource value: 0x7f09008c
 			public const int action_context_bar = 2131296396;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int action_divider = 2131296439;
+			// aapt resource value: 0x7f0900b8
+			public const int action_divider = 2131296440;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int action_image = 2131296433;
+			// aapt resource value: 0x7f0900b2
+			public const int action_image = 2131296434;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -6683,11 +4086,11 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09006b
 			public const int action_mode_close_button = 2131296363;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int action_text = 2131296434;
+			// aapt resource value: 0x7f0900b3
+			public const int action_text = 2131296435;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int actions = 2131296448;
+			// aapt resource value: 0x7f0900c1
+			public const int actions = 2131296449;
 			
 			// aapt resource value: 0x7f09006c
 			public const int activity_chooser_view_content = 2131296364;
@@ -6710,8 +4113,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090046
 			public const int auto = 2131296326;
 			
-			// aapt resource value: 0x7f09009b
-			public const int barcodeEditText = 2131296411;
+			// aapt resource value: 0x7f0900a8
+			public const int barcodeEditText = 2131296424;
 			
 			// aapt resource value: 0x7f090060
 			public const int barrier = 2131296352;
@@ -6725,11 +4128,17 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09003f
 			public const int bottom = 2131296319;
 			
+			// aapt resource value: 0x7f0900af
+			public const int button = 2131296431;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int button2 = 2131296432;
+			
 			// aapt resource value: 0x7f090072
 			public const int buttonPanel = 2131296370;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int cancel_action = 2131296436;
+			// aapt resource value: 0x7f0900b5
+			public const int cancel_action = 2131296437;
 			
 			// aapt resource value: 0x7f090047
 			public const int center = 2131296327;
@@ -6746,8 +4155,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090082
 			public const int checkbox = 2131296386;
 			
-			// aapt resource value: 0x7f0900bc
-			public const int chronometer = 2131296444;
+			// aapt resource value: 0x7f0900bd
+			public const int chronometer = 2131296445;
 			
 			// aapt resource value: 0x7f090050
 			public const int clip_horizontal = 2131296336;
@@ -6758,14 +4167,14 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09003b
 			public const int collapseActionView = 2131296315;
 			
-			// aapt resource value: 0x7f0900a4
-			public const int container = 2131296420;
+			// aapt resource value: 0x7f09009a
+			public const int container = 2131296410;
 			
 			// aapt resource value: 0x7f090075
 			public const int contentPanel = 2131296373;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int coordinator = 2131296421;
+			// aapt resource value: 0x7f09009d
+			public const int coordinator = 2131296413;
 			
 			// aapt resource value: 0x7f09007c
 			public const int custom = 2131296380;
@@ -6779,23 +4188,23 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09006f
 			public const int default_activity_button = 2131296367;
 			
-			// aapt resource value: 0x7f09009f
-			public const int depthEditText = 2131296415;
-			
-			// aapt resource value: 0x7f0900a7
-			public const int design_bottom_sheet = 2131296423;
-			
-			// aapt resource value: 0x7f0900ae
-			public const int design_menu_item_action_area = 2131296430;
-			
-			// aapt resource value: 0x7f0900ad
-			public const int design_menu_item_action_area_stub = 2131296429;
-			
 			// aapt resource value: 0x7f0900ac
-			public const int design_menu_item_text = 2131296428;
+			public const int depthEditText = 2131296428;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int design_navigation_view = 2131296427;
+			// aapt resource value: 0x7f09009f
+			public const int design_bottom_sheet = 2131296415;
+			
+			// aapt resource value: 0x7f0900a6
+			public const int design_menu_item_action_area = 2131296422;
+			
+			// aapt resource value: 0x7f0900a5
+			public const int design_menu_item_action_area_stub = 2131296421;
+			
+			// aapt resource value: 0x7f0900a4
+			public const int design_menu_item_text = 2131296420;
+			
+			// aapt resource value: 0x7f0900a3
+			public const int design_navigation_view = 2131296419;
 			
 			// aapt resource value: 0x7f090062
 			public const int dimensions = 2131296354;
@@ -6812,8 +4221,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090032
 			public const int end = 2131296306;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int end_padder = 2131296450;
+			// aapt resource value: 0x7f0900c3
+			public const int end_padder = 2131296451;
 			
 			// aapt resource value: 0x7f090041
 			public const int enterAlways = 2131296321;
@@ -6821,8 +4230,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090042
 			public const int enterAlwaysCollapsed = 2131296322;
 			
-			// aapt resource value: 0x7f09009c
-			public const int enterDimmsTextView = 2131296412;
+			// aapt resource value: 0x7f0900a9
+			public const int enterDimmsTextView = 2131296425;
 			
 			// aapt resource value: 0x7f090043
 			public const int exitUntilCollapsed = 2131296323;
@@ -6854,8 +4263,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090058
 			public const int gone = 2131296344;
 			
-			// aapt resource value: 0x7f09009e
-			public const int heightEditText = 2131296414;
+			// aapt resource value: 0x7f0900ab
+			public const int heightEditText = 2131296427;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -6866,8 +4275,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090071
 			public const int icon = 2131296369;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int icon_group = 2131296449;
+			// aapt resource value: 0x7f0900c2
+			public const int icon_group = 2131296450;
 			
 			// aapt resource value: 0x7f09003c
 			public const int ifRoom = 2131296316;
@@ -6875,8 +4284,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09006e
 			public const int image = 2131296366;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int info = 2131296445;
+			// aapt resource value: 0x7f0900be
+			public const int info = 2131296446;
 			
 			// aapt resource value: 0x7f090059
 			public const int invisible = 2131296345;
@@ -6887,8 +4296,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int largeLabel = 2131296419;
+			// aapt resource value: 0x7f09009c
+			public const int largeLabel = 2131296412;
 			
 			// aapt resource value: 0x7f09004b
 			public const int left = 2131296331;
@@ -6905,14 +4314,14 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090070
 			public const int list_item = 2131296368;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int masked = 2131296453;
+			// aapt resource value: 0x7f0900c6
+			public const int masked = 2131296454;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int media_actions = 2131296438;
+			// aapt resource value: 0x7f0900b7
+			public const int media_actions = 2131296439;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int message = 2131296451;
+			// aapt resource value: 0x7f0900c4
+			public const int message = 2131296452;
 			
 			// aapt resource value: 0x7f090033
 			public const int middle = 2131296307;
@@ -6923,8 +4332,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09002a
 			public const int multiply = 2131296298;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int navigation_header_container = 2131296426;
+			// aapt resource value: 0x7f0900a2
+			public const int navigation_header_container = 2131296418;
 			
 			// aapt resource value: 0x7f09003d
 			public const int never = 2131296317;
@@ -6935,14 +4344,14 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090020
 			public const int normal = 2131296288;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int notification_background = 2131296447;
+			// aapt resource value: 0x7f0900c0
+			public const int notification_background = 2131296448;
+			
+			// aapt resource value: 0x7f0900ba
+			public const int notification_main_column = 2131296442;
 			
 			// aapt resource value: 0x7f0900b9
-			public const int notification_main_column = 2131296441;
-			
-			// aapt resource value: 0x7f0900b8
-			public const int notification_main_column_container = 2131296440;
+			public const int notification_main_column_container = 2131296441;
 			
 			// aapt resource value: 0x7f09005e
 			public const int packed = 2131296350;
@@ -6974,20 +4383,20 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090084
 			public const int radio = 2131296388;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int resetButton = 2131296416;
+			// aapt resource value: 0x7f0900ad
+			public const int resetButton = 2131296429;
 			
 			// aapt resource value: 0x7f09004c
 			public const int right = 2131296332;
 			
-			// aapt resource value: 0x7f0900be
-			public const int right_icon = 2131296446;
+			// aapt resource value: 0x7f0900bf
+			public const int right_icon = 2131296447;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int right_side = 2131296442;
+			// aapt resource value: 0x7f0900bb
+			public const int right_side = 2131296443;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int saveButton = 2131296417;
+			// aapt resource value: 0x7f0900ae
+			public const int saveButton = 2131296430;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -7061,14 +4470,14 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090027
 			public const int showTitle = 2131296295;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int smallLabel = 2131296418;
+			// aapt resource value: 0x7f09009b
+			public const int smallLabel = 2131296411;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int snackbar_action = 2131296425;
+			// aapt resource value: 0x7f0900a1
+			public const int snackbar_action = 2131296417;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int snackbar_text = 2131296424;
+			// aapt resource value: 0x7f0900a0
+			public const int snackbar_text = 2131296416;
 			
 			// aapt resource value: 0x7f090045
 			public const int snap = 2131296325;
@@ -7100,8 +4509,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09004d
 			public const int start = 2131296333;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int status_bar_latest_event_content = 2131296437;
+			// aapt resource value: 0x7f0900b6
+			public const int status_bar_latest_event_content = 2131296438;
 			
 			// aapt resource value: 0x7f090085
 			public const int submenuarrow = 2131296389;
@@ -7127,8 +4536,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090078
 			public const int textSpacerNoTitle = 2131296376;
 			
-			// aapt resource value: 0x7f0900af
-			public const int text_input_password_toggle = 2131296431;
+			// aapt resource value: 0x7f0900a7
+			public const int text_input_password_toggle = 2131296423;
 			
 			// aapt resource value: 0x7f090014
 			public const int textinput_counter = 2131296276;
@@ -7136,8 +4545,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int time = 2131296443;
+			// aapt resource value: 0x7f0900bc
+			public const int time = 2131296444;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -7148,17 +4557,14 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09007e
 			public const int title_template = 2131296382;
 			
-			// aapt resource value: 0x7f09009a
-			public const int toolbar = 2131296410;
-			
 			// aapt resource value: 0x7f090040
 			public const int top = 2131296320;
 			
 			// aapt resource value: 0x7f09007d
 			public const int topPanel = 2131296381;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int touch_outside = 2131296422;
+			// aapt resource value: 0x7f09009e
+			public const int touch_outside = 2131296414;
 			
 			// aapt resource value: 0x7f09000f
 			public const int transition_current_scene = 2131296271;
@@ -7187,11 +4593,11 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int visible = 2131296452;
+			// aapt resource value: 0x7f0900c5
+			public const int visible = 2131296453;
 			
-			// aapt resource value: 0x7f09009d
-			public const int widthEditText = 2131296413;
+			// aapt resource value: 0x7f0900aa
+			public const int widthEditText = 2131296426;
 			
 			// aapt resource value: 0x7f09003e
 			public const int withText = 2131296318;
@@ -7382,67 +4788,76 @@ namespace AutomationTest.Droid
 			public const int design_text_input_password_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_action = 2130968617;
+			public const int fragment_dimm_packages = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action_tombstone = 2130968618;
+			public const int fragment_home = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_media_action = 2130968619;
+			public const int fragment_packages_list = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_cancel_action = 2130968620;
+			public const int notification_action = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_big_media = 2130968621;
+			public const int notification_action_tombstone = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media_custom = 2130968622;
+			public const int notification_media_action = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_narrow = 2130968623;
+			public const int notification_media_cancel_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow_custom = 2130968624;
+			public const int notification_template_big_media = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_custom_big = 2130968625;
+			public const int notification_template_big_media_custom = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_icon_group = 2130968626;
+			public const int notification_template_big_media_narrow = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_lines_media = 2130968627;
+			public const int notification_template_big_media_narrow_custom = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_media = 2130968628;
+			public const int notification_template_custom_big = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media_custom = 2130968629;
+			public const int notification_template_icon_group = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_part_chronometer = 2130968630;
+			public const int notification_template_lines_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_time = 2130968631;
+			public const int notification_template_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int select_dialog_item_material = 2130968632;
+			public const int notification_template_media_custom = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int select_dialog_multichoice_material = 2130968633;
+			public const int notification_template_part_chronometer = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_singlechoice_material = 2130968634;
+			public const int notification_template_part_time = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int splash_screen = 2130968635;
+			public const int select_dialog_item_material = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int support_simple_spinner_dropdown_item = 2130968636;
+			public const int select_dialog_multichoice_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int tooltip = 2130968637;
+			public const int select_dialog_singlechoice_material = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public const int splash_screen = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int support_simple_spinner_dropdown_item = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int tooltip = 2130968640;
 			
 			static Layout()
 			{
@@ -7566,8 +4981,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0a0010
 			public const int abc_toolbar_collapse_description = 2131361808;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int app_name = 2131361833;
+			// aapt resource value: 0x7f0a0027
+			public const int app_name = 2131361831;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int appbar_scrolling_view_behavior = 2131361822;
@@ -7576,28 +4991,31 @@ namespace AutomationTest.Droid
 			public const int bottom_sheet_behavior = 2131361823;
 			
 			// aapt resource value: 0x7f0a002f
-			public const int button_reset = 2131361839;
+			public const int button_dimms = 2131361839;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int button_reset = 2131361837;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int button_save = 2131361838;
 			
 			// aapt resource value: 0x7f0a0030
-			public const int button_save = 2131361840;
+			public const int button_show_packages = 2131361840;
 			
 			// aapt resource value: 0x7f0a0020
 			public const int character_counter_pattern = 2131361824;
 			
-			// aapt resource value: 0x7f0a002e
-			public const int depth_placeholder = 2131361838;
+			// aapt resource value: 0x7f0a002c
+			public const int depth_placeholder = 2131361836;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int enter_barcode = 2131361833;
+			
+			// aapt resource value: 0x7f0a0028
+			public const int enter_dimms_width_x_height_x_depth = 2131361832;
 			
 			// aapt resource value: 0x7f0a002b
-			public const int enter_barcode = 2131361835;
-			
-			// aapt resource value: 0x7f0a002a
-			public const int enter_dimms_width_x_height_x_depth = 2131361834;
-			
-			// aapt resource value: 0x7f0a0027
-			public const int fab_scroll_shrink_grow_autohide_behavior = 2131361831;
-			
-			// aapt resource value: 0x7f0a002d
-			public const int height_placeholder = 2131361837;
+			public const int height_placeholder = 2131361835;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int password_toggle_content_description = 2131361825;
@@ -7620,11 +5038,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0a0026
 			public const int status_bar_notification_info_overflow = 2131361830;
 			
-			// aapt resource value: 0x7f0a0028
-			public const int view_scroll_translation_autohide_behavior = 2131361832;
-			
-			// aapt resource value: 0x7f0a002c
-			public const int width_placeholder = 2131361836;
+			// aapt resource value: 0x7f0a002a
+			public const int width_placeholder = 2131361834;
 			
 			static String()
 			{
@@ -10783,6 +8198,12 @@ namespace AutomationTest.Droid
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			public static int[] MvxImageView = new int[] {
+					2130772378};
+			
+			// aapt resource value: 0
+			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
 					2130772375,

@@ -1,6 +1,6 @@
 ﻿using AutomationTest.Core.ViewModels;
-using MvvmCross.IoC;
-using MvvmCross.ViewModels;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 
 namespace AutomationTest.Core
 {
@@ -9,11 +9,11 @@ namespace AutomationTest.Core
         public override void Initialize()
         {
             base.Initialize();
-            CreatableTypes()
-                .EndingWith("Service")
+            CreatableTypes().EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-            RegisterAppStart<MainViewModel>();
+
+            RegisterAppStart<HomeViewModel>();
         }
     }
 }

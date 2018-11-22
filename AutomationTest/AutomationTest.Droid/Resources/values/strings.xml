@@ -7,4 +7,6 @@
   <string name="depth_placeholder">D</string>
   <string name="button_reset">Reset</string>
   <string name="button_save">Save</string>
+  <string name="button_dimms">Dimms</string>
+  <string name="button_show_packages">Show packages</string>
 </resources>

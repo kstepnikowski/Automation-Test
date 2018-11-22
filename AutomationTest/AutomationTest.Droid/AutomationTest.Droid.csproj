@@ -57,9 +57,15 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FragmentLookup\FragmentTypeLookup.cs" />
+    <Compile Include="FragmentLookup\IFragmentTypeLookup.cs" />
+    <Compile Include="Resources\Views\Fragments\DimmFragment.cs" />
+    <Compile Include="Resources\Views\Fragments\HomeFragment.cs" />
+    <Compile Include="Resources\Views\Fragments\PackagesListFragment.cs" />
     <Compile Include="Resources\Views\MainView.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Views\Presenters\DroidPresenter.cs" />
     <Compile Include="Resources\Views\SplashScreen.cs" />
     <Compile Include="Services\DroidPopupService.cs" />
     <Compile Include="Setup.cs" />
@@ -97,13 +103,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MvvmCross">
-      <Version>6.2.2</Version>
+      <Version>5.0.0</Version>
     </PackageReference>
     <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat">
-      <Version>6.2.2</Version>
+      <Version>5.0.0</Version>
     </PackageReference>
     <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView">
-      <Version>6.2.2</Version>
+      <Version>5.0.0</Version>
     </PackageReference>
     <PackageReference Include="MvvmValidation">
       <Version>3.1.0</Version>
@@ -131,6 +137,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\app_background.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_home.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_dimm_packages.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_packages_list.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
