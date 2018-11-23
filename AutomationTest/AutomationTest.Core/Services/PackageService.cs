@@ -28,9 +28,9 @@ namespace AutomationTest.Core.Services
         private ObservableCollection<PackageDTO> GetPackages()
         {
             var realm = Realm.GetInstance();
-            var packages = new ObservableCollection<PackageDTO>();
+            var data = realm.All<PackageDTO>();
            
-            return packages;
+            return new ObservableCollection<PackageDTO>(data);
         }
     }
 }
