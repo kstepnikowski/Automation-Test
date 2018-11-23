@@ -1,4 +1,4 @@
-﻿namespace AutomationTest.Core.Services
+﻿namespace AutomationTest.Core.PlatformServices
 {
     public interface IPopupService
     {

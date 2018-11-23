@@ -1,5 +1,5 @@
 ﻿using AutomationTest.Core;
-using AutomationTest.Core.Services;
+using AutomationTest.Core.PlatformServices;
 using AutomationTest.Droid.Services;
 using MvvmCross;
 using MvvmCross.Droid.Support.V7.AppCompat;

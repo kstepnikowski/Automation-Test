@@ -1,6 +1,6 @@
 ﻿using Android.App;
 using Android.Widget;
-using AutomationTest.Core.Services;
+using AutomationTest.Core.PlatformServices;
 
 namespace AutomationTest.Droid.Services
 {

@@ -1,6 +1,6 @@
 ﻿using AutomationTest.Core.Common;
 using AutomationTest.Core.Models.DTO;
-using AutomationTest.Core.Services;
+using AutomationTest.Core.PlatformServices;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
 using MvvmValidation;
