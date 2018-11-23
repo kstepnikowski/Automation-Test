@@ -1,6 +1,6 @@
 ﻿using Android.Content;
 using AutomationTest.Core;
-using AutomationTest.Core.Services;
+using AutomationTest.Core.PlatformServices;
 using AutomationTest.Droid.FragmentLookup;
 using AutomationTest.Droid.Resources.Views.Presenters;
 using AutomationTest.Droid.Services;
