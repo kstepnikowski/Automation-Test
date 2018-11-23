@@ -1,6 +1,8 @@
-﻿namespace AutomationTest.Core.Models.DTO
+﻿using Realms;
+
+namespace AutomationTest.Core.Models.DTO
 {
-    public class PackageDTO
+    public class PackageDTO : RealmObject
     {
         public string Barcode { get; set; }
         public string Width { get; set; }

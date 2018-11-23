@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using AutomationTest.Core.Models.PO;
 using AutomationTest.Core.Services;
 using MvvmCross.ViewModels;
@@ -7,6 +8,13 @@ namespace AutomationTest.Core.ViewModels
 {
     public class PackagesListViewModel : MvxViewModel
     {
+        private bool _isInfoVisible;
+
+        public bool IsInfoVisible
+        {
+            get => _isInfoVisible;
+            set { SetProperty(ref _isInfoVisible, value); }
+        }
         private MvxObservableCollection<PackageListItemPO> _packages;
 
         public MvxObservableCollection<PackageListItemPO> Packages
@@ -31,6 +39,7 @@ namespace AutomationTest.Core.ViewModels
         {
             var packages = await _packageService.GetPackageListItems();
             Packages = new MvxObservableCollection<PackageListItemPO>(packages);
+            IsInfoVisible = !Packages.Any();
         }
     }
 }

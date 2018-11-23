@@ -1,8 +1,10 @@
 ﻿using AutomationTest.Core.Common;
+using AutomationTest.Core.Models.DTO;
 using AutomationTest.Core.Services;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
 using MvvmValidation;
+using Realms;
 
 namespace AutomationTest.Core.ViewModels
 {
@@ -74,6 +76,8 @@ namespace AutomationTest.Core.ViewModels
                 return;
             }
 
+            var realm = Realm.GetInstance();
+            realm.Write(()=>realm.Add(new PackageDTO{Barcode=Barcode,Width=Width,Height=Height,Depth=Depth}));
             var message = $"Dimm ({Width} x {Height} x {Depth}) {Barcode} saved";
             _popupService.ShowMessage(message);
         }
