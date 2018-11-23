@@ -2865,44 +2865,44 @@ namespace AutomationTest.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0d004c
-			public const int abc_background_cache_hint_selector_material_dark = 2131558476;
-			
-			// aapt resource value: 0x7f0d004d
-			public const int abc_background_cache_hint_selector_material_light = 2131558477;
-			
-			// aapt resource value: 0x7f0d004e
-			public const int abc_btn_colored_borderless_text_material = 2131558478;
-			
 			// aapt resource value: 0x7f0d004f
-			public const int abc_btn_colored_text_material = 2131558479;
+			public const int abc_background_cache_hint_selector_material_dark = 2131558479;
 			
 			// aapt resource value: 0x7f0d0050
-			public const int abc_color_highlight_material = 2131558480;
+			public const int abc_background_cache_hint_selector_material_light = 2131558480;
 			
 			// aapt resource value: 0x7f0d0051
-			public const int abc_hint_foreground_material_dark = 2131558481;
+			public const int abc_btn_colored_borderless_text_material = 2131558481;
 			
 			// aapt resource value: 0x7f0d0052
-			public const int abc_hint_foreground_material_light = 2131558482;
+			public const int abc_btn_colored_text_material = 2131558482;
+			
+			// aapt resource value: 0x7f0d0053
+			public const int abc_color_highlight_material = 2131558483;
+			
+			// aapt resource value: 0x7f0d0054
+			public const int abc_hint_foreground_material_dark = 2131558484;
+			
+			// aapt resource value: 0x7f0d0055
+			public const int abc_hint_foreground_material_light = 2131558485;
 			
 			// aapt resource value: 0x7f0d0000
 			public const int abc_input_method_navigation_guard = 2131558400;
 			
-			// aapt resource value: 0x7f0d0053
-			public const int abc_primary_text_disable_only_material_dark = 2131558483;
-			
-			// aapt resource value: 0x7f0d0054
-			public const int abc_primary_text_disable_only_material_light = 2131558484;
-			
-			// aapt resource value: 0x7f0d0055
-			public const int abc_primary_text_material_dark = 2131558485;
-			
 			// aapt resource value: 0x7f0d0056
-			public const int abc_primary_text_material_light = 2131558486;
+			public const int abc_primary_text_disable_only_material_dark = 2131558486;
 			
 			// aapt resource value: 0x7f0d0057
-			public const int abc_search_url_text = 2131558487;
+			public const int abc_primary_text_disable_only_material_light = 2131558487;
+			
+			// aapt resource value: 0x7f0d0058
+			public const int abc_primary_text_material_dark = 2131558488;
+			
+			// aapt resource value: 0x7f0d0059
+			public const int abc_primary_text_material_light = 2131558489;
+			
+			// aapt resource value: 0x7f0d005a
+			public const int abc_search_url_text = 2131558490;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int abc_search_url_text_normal = 2131558401;
@@ -2913,29 +2913,29 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0d0003
 			public const int abc_search_url_text_selected = 2131558403;
 			
-			// aapt resource value: 0x7f0d0058
-			public const int abc_secondary_text_material_dark = 2131558488;
-			
-			// aapt resource value: 0x7f0d0059
-			public const int abc_secondary_text_material_light = 2131558489;
-			
-			// aapt resource value: 0x7f0d005a
-			public const int abc_tint_btn_checkable = 2131558490;
-			
 			// aapt resource value: 0x7f0d005b
-			public const int abc_tint_default = 2131558491;
+			public const int abc_secondary_text_material_dark = 2131558491;
 			
 			// aapt resource value: 0x7f0d005c
-			public const int abc_tint_edittext = 2131558492;
+			public const int abc_secondary_text_material_light = 2131558492;
 			
 			// aapt resource value: 0x7f0d005d
-			public const int abc_tint_seek_thumb = 2131558493;
+			public const int abc_tint_btn_checkable = 2131558493;
 			
 			// aapt resource value: 0x7f0d005e
-			public const int abc_tint_spinner = 2131558494;
+			public const int abc_tint_default = 2131558494;
 			
 			// aapt resource value: 0x7f0d005f
-			public const int abc_tint_switch_track = 2131558495;
+			public const int abc_tint_edittext = 2131558495;
+			
+			// aapt resource value: 0x7f0d0060
+			public const int abc_tint_seek_thumb = 2131558496;
+			
+			// aapt resource value: 0x7f0d0061
+			public const int abc_tint_spinner = 2131558497;
+			
+			// aapt resource value: 0x7f0d0062
+			public const int abc_tint_switch_track = 2131558498;
 			
 			// aapt resource value: 0x7f0d0049
 			public const int accent = 2131558473;
@@ -2985,8 +2985,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0d003c
 			public const int design_bottom_navigation_shadow_color = 2131558460;
 			
-			// aapt resource value: 0x7f0d0060
-			public const int design_error = 2131558496;
+			// aapt resource value: 0x7f0d0063
+			public const int design_error = 2131558499;
 			
 			// aapt resource value: 0x7f0d003d
 			public const int design_fab_shadow_end_color = 2131558461;
@@ -3012,8 +3012,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0d0044
 			public const int design_snackbar_background_color = 2131558468;
 			
-			// aapt resource value: 0x7f0d0061
-			public const int design_tint_password_toggle = 2131558497;
+			// aapt resource value: 0x7f0d0064
+			public const int design_tint_password_toggle = 2131558500;
 			
 			// aapt resource value: 0x7f0d0012
 			public const int dim_foreground_disabled_material_dark = 2131558418;
@@ -3042,8 +3042,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0d001a
 			public const int highlighted_text_material_light = 2131558426;
 			
-			// aapt resource value: 0x7f0d004b
-			public const int ic_launcher_background = 2131558475;
+			// aapt resource value: 0x7f0d004e
+			public const int ic_launcher_background = 2131558478;
 			
 			// aapt resource value: 0x7f0d001b
 			public const int material_blue_grey_800 = 2131558427;
@@ -3089,6 +3089,9 @@ namespace AutomationTest.Droid
 			
 			// aapt resource value: 0x7f0d003b
 			public const int notification_material_background_media_default_color = 2131558459;
+			
+			// aapt resource value: 0x7f0d004b
+			public const int package_item_text_color = 2131558475;
 			
 			// aapt resource value: 0x7f0d0047
 			public const int primary = 2131558471;
@@ -3138,17 +3141,23 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0d0034
 			public const int secondary_text_disabled_material_light = 2131558452;
 			
+			// aapt resource value: 0x7f0d004d
+			public const int separator_bottom_background_color = 2131558477;
+			
+			// aapt resource value: 0x7f0d004c
+			public const int separator_left_background_color = 2131558476;
+			
 			// aapt resource value: 0x7f0d0035
 			public const int switch_thumb_disabled_material_dark = 2131558453;
 			
 			// aapt resource value: 0x7f0d0036
 			public const int switch_thumb_disabled_material_light = 2131558454;
 			
-			// aapt resource value: 0x7f0d0062
-			public const int switch_thumb_material_dark = 2131558498;
+			// aapt resource value: 0x7f0d0065
+			public const int switch_thumb_material_dark = 2131558501;
 			
-			// aapt resource value: 0x7f0d0063
-			public const int switch_thumb_material_light = 2131558499;
+			// aapt resource value: 0x7f0d0066
+			public const int switch_thumb_material_light = 2131558502;
 			
 			// aapt resource value: 0x7f0d0037
 			public const int switch_thumb_normal_material_dark = 2131558455;
@@ -4113,8 +4122,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090046
 			public const int auto = 2131296326;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int barcodeEditText = 2131296424;
+			// aapt resource value: 0x7f0900a9
+			public const int barcodeEditText = 2131296425;
 			
 			// aapt resource value: 0x7f090060
 			public const int barrier = 2131296352;
@@ -4182,8 +4191,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09006f
 			public const int default_activity_button = 2131296367;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int depthEditText = 2131296428;
+			// aapt resource value: 0x7f0900ad
+			public const int depthEditText = 2131296429;
 			
 			// aapt resource value: 0x7f09009f
 			public const int design_bottom_sheet = 2131296415;
@@ -4227,8 +4236,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090042
 			public const int enterAlwaysCollapsed = 2131296322;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int enterDimmsTextView = 2131296425;
+			// aapt resource value: 0x7f0900aa
+			public const int enterDimmsTextView = 2131296426;
 			
 			// aapt resource value: 0x7f090043
 			public const int exitUntilCollapsed = 2131296323;
@@ -4260,8 +4269,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090058
 			public const int gone = 2131296344;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int heightEditText = 2131296427;
+			// aapt resource value: 0x7f0900ac
+			public const int heightEditText = 2131296428;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -4380,8 +4389,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f090084
 			public const int radio = 2131296388;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int resetButton = 2131296429;
+			// aapt resource value: 0x7f0900ae
+			public const int resetButton = 2131296430;
 			
 			// aapt resource value: 0x7f09004c
 			public const int right = 2131296332;
@@ -4392,8 +4401,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0900bc
 			public const int right_side = 2131296444;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int saveButton = 2131296430;
+			// aapt resource value: 0x7f0900af
+			public const int saveButton = 2131296431;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -4557,8 +4566,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f09007e
 			public const int title_template = 2131296382;
 			
-			// aapt resource value: 0x7f0900af
-			public const int toolbar = 2131296431;
+			// aapt resource value: 0x7f0900a8
+			public const int toolbar = 2131296424;
 			
 			// aapt resource value: 0x7f090040
 			public const int top = 2131296320;
@@ -4599,8 +4608,8 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0900c6
 			public const int visible = 2131296454;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int widthEditText = 2131296426;
+			// aapt resource value: 0x7f0900ab
+			public const int widthEditText = 2131296427;
 			
 			// aapt resource value: 0x7f09003e
 			public const int withText = 2131296318;

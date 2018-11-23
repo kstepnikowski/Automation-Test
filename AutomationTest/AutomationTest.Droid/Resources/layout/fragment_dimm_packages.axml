@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
+
+  <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:title="@string/app_name"
+    android:background="@drawable/app_background">
+
+    <TextView
+      style="@style/TextAppearance.AppCompat.Title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textColor="@color/text_color"
+      android:textSize="20sp"
+      android:textStyle="normal"
+      android:text="@string/app_name" />
+  </android.support.v7.widget.Toolbar>
+
     <EditText
         android:id="@+id/barcodeEditText"
         android:layout_width="0dp"
@@ -12,9 +31,12 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="@string/enter_barcode"
+        android:textSize="15sp"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:MvxBind="Text Barcode; Error Errors['Barcode']"/>
 
     <TextView
         android:id="@+id/enterDimmsTextView"
@@ -26,7 +48,7 @@
         android:text="@string/enter_dimms_width_x_height_x_depth"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barcodeEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/barcodeEditText"/>
 
     <EditText
         android:id="@+id/widthEditText"
@@ -39,10 +61,10 @@
         android:hint="@string/width_placeholder"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
+        app:MvxBind="Text Width; Error Errors['Width']"/>
 
     <EditText
-
         android:id="@+id/heightEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,7 +75,8 @@
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toStartOf="@+id/depthEditText"
         app:layout_constraintStart_toEndOf="@+id/widthEditText"
-        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
+        app:MvxBind="Text Height; Error Errors['Height']"/>
 
     <EditText
         android:id="@+id/depthEditText"
@@ -66,7 +89,8 @@
         android:hint="@string/depth_placeholder"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/enterDimmsTextView"
+        app:MvxBind="Text Depth; Error Errors['Depth']"/>
 
     <Button
         android:id="@+id/resetButton"
@@ -77,8 +101,9 @@
         android:text="@string/button_reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border_button"
         android:textColor="@color/text_color"
-        android:background="@drawable/border_button" />
+        app:MvxBind="Click ResetCommand"/>
 
     <Button
         android:id="@+id/saveButton"
@@ -90,7 +115,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/border_button"
-        android:textColor="@color/text_color"/>
+        android:textColor="@color/text_color"
+        app:MvxBind="Click SaveCommand"/>
 
 
 </android.support.constraint.ConstraintLayout>

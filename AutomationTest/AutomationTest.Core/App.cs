@@ -1,5 +1,7 @@
-﻿using AutomationTest.Core.ViewModels;
+﻿using AutomationTest.Core.Infrastructure;
+using AutomationTest.Core.ViewModels;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
 
 namespace AutomationTest.Core
@@ -13,6 +15,7 @@ namespace AutomationTest.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
+            Mvx.RegisterSingleton(MapperConfigurator.InitializeProfiles().CreateMapper());
             RegisterAppStart<MainContainerViewModel>();
         }
     }
