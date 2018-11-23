@@ -10,7 +10,7 @@ using MvvmCross.Platform;
 
 namespace AutomationTest.Droid.Resources.Views
 {
-    [Activity(MainLauncher = true,ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainView : MvxCachingFragmentCompatActivity<HomeViewModel>
     {
         protected override void OnCreate(Bundle savedInstanceState)
