@@ -57,9 +57,11 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Resources\Views\MainView.cs" />
+    <Compile Include="Resources\Views\DimmPackagesView.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Views\HomeView.cs" />
+    <Compile Include="Resources\Views\PackagesListView.cs" />
     <Compile Include="Resources\Views\SplashScreen.cs" />
     <Compile Include="Services\DroidPopupService.cs" />
     <Compile Include="Setup.cs" />
@@ -70,7 +72,7 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_main.axml">
+    <AndroidResource Include="Resources\layout\dimm_packages.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\values\colors.xml" />
@@ -131,6 +133,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\app_background.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\main.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\packages_list.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

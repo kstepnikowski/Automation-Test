@@ -13,7 +13,7 @@ namespace AutomationTest.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-            RegisterAppStart<MainViewModel>();
+            RegisterAppStart<HomeViewModel>();
         }
     }
 }

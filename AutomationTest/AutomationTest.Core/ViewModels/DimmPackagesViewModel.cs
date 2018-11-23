@@ -6,7 +6,7 @@ using MvvmValidation;
 
 namespace AutomationTest.Core.ViewModels
 {
-    public class MainViewModel : MvxViewModel
+    public class DimmPackagesViewModel : MvxViewModel
     {
         #region Properties
         private string _barcode;
@@ -60,7 +60,7 @@ namespace AutomationTest.Core.ViewModels
 
         private readonly IPopupService _popupService;
 
-        public MainViewModel(IPopupService popupService)
+        public DimmPackagesViewModel(IPopupService popupService)
         {
             _popupService = popupService;
             ResetCommand = new MvxCommand(ResetAction);
