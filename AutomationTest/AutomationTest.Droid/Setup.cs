@@ -5,13 +5,13 @@ using AutomationTest.Droid.FragmentLookup;
 using AutomationTest.Droid.Resources.Views.Presenters;
 using AutomationTest.Droid.Services;
 using MvvmCross.Core.ViewModels;
-using MvvmCross.Droid.Platform;
+using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Droid.Views;
 using MvvmCross.Platform;
 
 namespace AutomationTest.Droid
 {
-    public class Setup : MvxAndroidSetup
+    public class Setup : MvxAppCompatSetup
     {
 
         public Setup(Context applicationContext) : base(applicationContext)

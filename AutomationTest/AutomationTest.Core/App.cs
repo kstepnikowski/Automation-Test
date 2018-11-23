@@ -13,7 +13,7 @@ namespace AutomationTest.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<HomeViewModel>();
+            RegisterAppStart<MainContainerViewModel>();
         }
     }
 }
