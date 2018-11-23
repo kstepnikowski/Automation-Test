@@ -4,4 +4,7 @@
   <color name="primaryDark">#0288D1</color>
   <color name="accent">#5F395A</color>
   <color name="text_color">#FFFFFF</color>
+  <color name="package_item_text_color">#555555</color>
+  <color name="separator_left_background_color">#FF4789</color>
+  <color name="separator_bottom_background_color">#40333333</color>
 </resources>
