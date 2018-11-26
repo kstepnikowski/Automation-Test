@@ -11,10 +11,12 @@ namespace AutomationTest.Core.Services
     public class PackageService : IPackageService
     {
         private readonly IMapper _mapper;
+        private readonly Realm _realm;
 
         public PackageService(IMapper mapper)
         {
             _mapper = mapper;
+            _realm = Realm.GetInstance();
         }
 
         public async Task<IEnumerable<PackageListItemPO>> GetPackageListItems()
@@ -25,10 +27,14 @@ namespace AutomationTest.Core.Services
             return await Task.FromResult(packagesPO);
         }
 
+        public void AddPackage(PackageDTO package)
+        {
+            _realm.Write(() => _realm.Add(package));
+        }
+
         private ObservableCollection<PackageDTO> GetPackages()
         {
-            var realm = Realm.GetInstance();
-            var data = realm.All<PackageDTO>();
+            var data = _realm.All<PackageDTO>();
            
             return new ObservableCollection<PackageDTO>(data);
         }

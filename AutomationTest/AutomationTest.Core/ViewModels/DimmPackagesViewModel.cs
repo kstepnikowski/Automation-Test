@@ -1,10 +1,10 @@
 ﻿using AutomationTest.Core.Common;
 using AutomationTest.Core.Models.DTO;
 using AutomationTest.Core.PlatformServices;
+using AutomationTest.Core.Services;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
 using MvvmValidation;
-using Realms;
 
 namespace AutomationTest.Core.ViewModels
 {
@@ -61,10 +61,12 @@ namespace AutomationTest.Core.ViewModels
 #endregion
 
         private readonly IPopupService _popupService;
+        private readonly IPackageService _packageService;
 
-        public DimmPackagesViewModel(IPopupService popupService)
+        public DimmPackagesViewModel(IPopupService popupService, IPackageService packageService)
         {
             _popupService = popupService;
+            _packageService = packageService;
             ResetCommand = new MvxCommand(ResetAction);
             SaveCommand = new MvxCommand(SaveAction);
         }
@@ -76,8 +78,7 @@ namespace AutomationTest.Core.ViewModels
                 return;
             }
 
-            var realm = Realm.GetInstance();
-            realm.Write(()=>realm.Add(new PackageDTO{Barcode=Barcode,Width=Width,Height=Height,Depth=Depth}));
+           _packageService.AddPackage(new PackageDTO{Barcode=Barcode,Width=Width,Height=Height,Depth=Depth});
             var message = $"Dimm ({Width} x {Height} x {Depth}) {Barcode} saved";
             _popupService.ShowMessage(message);
         }
