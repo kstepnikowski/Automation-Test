@@ -36,6 +36,10 @@ Realm 3.3.0
 
 ![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/emptyPackagesList.png?raw=true)
 
+#### Show popup if you want to delete package
+
+![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/delete.png?raw=true)
+
 ## Contributions
 
 * [Krzysztof Stępnikowski](https://github.com/kstepnikowski)
