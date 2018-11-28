@@ -6972,7 +6972,7 @@ namespace AutomationTest.Droid
 			public const int notification_main_column_container = 2131296442;
 			
 			// aapt resource value: 0x7f0900cb
-			public const int packages = 2131296459;
+			public const int packagesRecyclerView = 2131296459;
 			
 			// aapt resource value: 0x7f09005e
 			public const int packed = 2131296350;

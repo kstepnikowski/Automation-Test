@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using AutomationTest.Core.Models.DTO;
 using AutomationTest.Core.Models.PO;
@@ -30,6 +31,17 @@ namespace AutomationTest.Core.Services
         public void AddPackage(PackageDTO package)
         {
             _realm.Write(() => _realm.Add(package));
+        }
+
+        public void DeletePackage(PackageListItemPO package)
+        {
+            var packageDTO = _realm.All<PackageDTO>().First(x => x.Barcode.Equals(package.Barcode));
+
+            using (var trans = _realm.BeginWrite())
+            {
+                _realm.Remove(packageDTO);
+                trans.Commit();
+            }  
         }
 
         private ObservableCollection<PackageDTO> GetPackages()
