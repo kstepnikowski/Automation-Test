@@ -14,8 +14,7 @@ namespace AutomationTest.Droid.Behaviors
         {
         }
 
-        public SwipeToDeleteTouchHelperCallback() : base(0,
-            ItemTouchHelper.Left | ItemTouchHelper.AnimationTypeSwipeCancel)
+        public SwipeToDeleteTouchHelperCallback() : base(0,ItemTouchHelper.Left)
         {
         }
 
