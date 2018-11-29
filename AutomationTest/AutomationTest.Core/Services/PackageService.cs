@@ -46,7 +46,7 @@ namespace AutomationTest.Core.Services
 
         private ObservableCollection<PackageDTO> GetPackages()
         {
-            var data = _realm.All<PackageDTO>();
+            var data = _realm.All<PackageDTO>().OrderByDescending(x=>x.Barcode);
            
             return new ObservableCollection<PackageDTO>(data);
         }
