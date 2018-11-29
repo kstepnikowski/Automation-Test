@@ -10,6 +10,7 @@ namespace AutomationTest.Core.ViewModels
 {
     public class PackagesListViewModel : MvxViewModel
     {
+#region Properties
         private bool _isInfoVisible;
 
         public bool IsInfoVisible
@@ -25,6 +26,7 @@ namespace AutomationTest.Core.ViewModels
             get => _packages;
             set => SetProperty(ref _packages, value);
         }
+#endregion
 
         public IMvxCommand DeletePackageCommand { get; }
 
@@ -49,11 +51,17 @@ namespace AutomationTest.Core.ViewModels
             var packages = await _packageService.GetPackageListItems();
             foreach (var packageListItemPo in packages)
             {
-                packageListItemPo.DeleteCommand = new MvxCommand<PackageListItemPO>(DeletePackageAction);
+                packageListItemPo.DeleteCommand = new MvxCommand<PackageListItemPO>(SwipeToDeletePackageAction);
             }
 
             Packages = new MvxObservableCollection<PackageListItemPO>(packages);
             IsInfoVisible = !Packages.Any();
+        }
+
+        private async void SwipeToDeletePackageAction(PackageListItemPO package)
+        {
+            _packageService.DeletePackage(package);
+            await UpdatePackagesList();
         }
 
         private void DeletePackageAction(PackageListItemPO package)
