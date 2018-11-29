@@ -47,6 +47,14 @@ namespace AutomationTest.Core.ViewModels
             get => _errors;
             set => SetProperty(ref _errors, value);
         }
+
+        private bool _isBarcodeEnabled=true;
+
+        public bool IsBarcodeEnabled
+        {
+            get => _isBarcodeEnabled;
+            set => SetProperty(ref _isBarcodeEnabled, value);
+        }
 #endregion
 
 #region Commands
@@ -95,7 +103,11 @@ namespace AutomationTest.Core.ViewModels
 
         private void ResetAction()
         {
-            Barcode = string.Empty;
+            if (IsBarcodeEnabled)
+            {
+                Barcode = string.Empty;
+            }
+
             Width = string.Empty;
             Height = string.Empty;
             Depth = string.Empty;
@@ -118,6 +130,7 @@ namespace AutomationTest.Core.ViewModels
         //Invoke when package can be edited
         public void Prepare(PackageListItemPO parameter)
         {
+            IsBarcodeEnabled = false;
             if (parameter != null)
             {
                 _packageListItemPo = parameter;
