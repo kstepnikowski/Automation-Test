@@ -18,7 +18,7 @@ Realm 3.3.0
 * Validation for input texts
 * Clearing all input texts by one click on the button 
 * Adding a package to the local database
-* Removing the package from the local database
+* Removing the package from the local database (by alert dialog or swipe to delete)
 * Getting a list of all packages from the local database
 
 ## Visuals
@@ -40,13 +40,13 @@ Realm 3.3.0
 
 ![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/packagesList.png?raw=true)
 
-#### Show information about list of packages is empty
+#### Show information when the list of packages is empty
 
 ![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/emptyPackagesList.png?raw=true)
 
-#### Show alert dialog if you want to delete package
+#### Show alert dialog if you want to delete package or swipe to delete
 
-![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/delete.png?raw=true)
+![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/swipe2delete.gif?raw=true)
 
 ## Contributions
 
