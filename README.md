@@ -18,8 +18,9 @@ Realm 3.3.0
 * Validation for input texts
 * Clearing all input texts by one click on the button 
 * Adding a package to the local database
+* Updating information about package (without barcode - it's unique)
 * Removing the package from the local database (by alert dialog or swipe to delete)
-* Getting a list of all packages from the local database
+* Displaying list of packages from the local database
 
 ## Visuals
 
@@ -43,6 +44,10 @@ Realm 3.3.0
 #### Show information when the list of packages is empty
 
 ![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/emptyPackagesList.png?raw=true)
+
+#### Swipe to edit if you want to update information about package
+
+![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/screenshots/swipe2edit.gif?raw=true)
 
 #### Show alert dialog if you want to delete package or swipe to delete
 
