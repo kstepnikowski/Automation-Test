@@ -9,6 +9,8 @@ namespace AutomationTest.Core.Services
     {
         Task<IEnumerable<PackageListItemPO>> GetPackageListItems();
         void AddPackage(PackageDTO package);
-       void DeletePackage(PackageListItemPO package);
+        void EditPackage(PackageDTO package);
+        void DeletePackage(PackageListItemPO package);
+        PackageDTO GetPackage(PackageListItemPO package);
     }
 }

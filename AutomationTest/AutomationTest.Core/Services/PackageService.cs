@@ -33,15 +33,28 @@ namespace AutomationTest.Core.Services
             _realm.Write(() => _realm.Add(package));
         }
 
+        public void EditPackage(PackageDTO package)
+        {
+            _realm.Write(() => _realm.Add(package,true));
+        }
+
         public void DeletePackage(PackageListItemPO package)
         {
-            var packageDTO = _realm.All<PackageDTO>().First(x => x.Barcode.Equals(package.Barcode));
+            var packageDTO = GetPackage(package);
 
-            using (var trans = _realm.BeginWrite())
+            _realm.Write(() => _realm.Remove(packageDTO));
+        }
+
+        public PackageDTO GetPackage(PackageListItemPO package)
+        {
+            if (package == null)
             {
-                _realm.Remove(packageDTO);
-                trans.Commit();
-            }  
+                return null;
+            }
+
+            var packageDTO = _realm.All<PackageDTO>().FirstOrDefault(x => x.Barcode.Equals(package.Barcode));
+
+            return packageDTO;
         }
 
         private ObservableCollection<PackageDTO> GetPackages()

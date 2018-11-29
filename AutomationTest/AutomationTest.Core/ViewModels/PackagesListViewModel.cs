@@ -4,6 +4,7 @@ using AutomationTest.Core.Models.PO;
 using AutomationTest.Core.PlatformServices;
 using AutomationTest.Core.Services;
 using MvvmCross.Commands;
+using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 
 namespace AutomationTest.Core.ViewModels
@@ -32,11 +33,13 @@ namespace AutomationTest.Core.ViewModels
 
         private readonly IPackageService _packageService;
         private readonly IPopupService _popupService;
+        private readonly IMvxNavigationService _navigationService;
 
-        public PackagesListViewModel(IPackageService packageService, IPopupService popupService)
+        public PackagesListViewModel(IPackageService packageService, IPopupService popupService, IMvxNavigationService navigationService)
         {
             _packageService = packageService;
             _popupService = popupService;
+            _navigationService = navigationService;
             DeletePackageCommand = new MvxCommand<PackageListItemPO>(DeletePackageAction);
         }
 
@@ -52,10 +55,16 @@ namespace AutomationTest.Core.ViewModels
             foreach (var packageListItemPo in packages)
             {
                 packageListItemPo.DeleteCommand = new MvxCommand<PackageListItemPO>(SwipeToDeletePackageAction);
+                packageListItemPo.EditCommand = new MvxCommand<PackageListItemPO>(SwipeToEditPackageAction);
             }
 
             Packages = new MvxObservableCollection<PackageListItemPO>(packages);
             IsInfoVisible = !Packages.Any();
+        }
+
+        private async void SwipeToEditPackageAction(PackageListItemPO package)
+        {
+            await _navigationService.Navigate<DimmPackagesViewModel,PackageListItemPO>(package);
         }
 
         private async void SwipeToDeletePackageAction(PackageListItemPO package)
