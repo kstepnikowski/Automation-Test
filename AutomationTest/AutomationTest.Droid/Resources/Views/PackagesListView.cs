@@ -18,7 +18,9 @@ namespace AutomationTest.Droid.Resources.Views
             SetContentView(Resource.Layout.packages_list);
             var recyclerView = FindViewById<MvxRecyclerView>(Resource.Id.packagesRecyclerView);
             var itemTouchHelper = new ItemTouchHelper(new SwipeToDeleteTouchHelperCallback());
+            var editItemTouchHelper = new ItemTouchHelper(new SwipeToEditTouchHelperCallback());
             itemTouchHelper.AttachToRecyclerView(recyclerView);
+            editItemTouchHelper.AttachToRecyclerView(recyclerView);
         }
     }
 }
