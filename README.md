@@ -1,9 +1,9 @@
-# Xamarin AutomationTest
+# ![demo](https://github.com/kstepnikowski/Xamarin.Native.AutomationTest/blob/master/AutomationTest/AutomationTest.Droid/Resources/drawable/ic_launcher_round.png?raw=true)Xamarin AutomationTest
 
 Xamarin AutomationTest is a Xamarin Native mobile application.
 
 
-## Usage frameworks and libraries
+## Usage
 
 ```
 Automapper 8.0.0
@@ -12,6 +12,14 @@ MvvmCross.Plugin.Visability 6.2.2
 MvvmValidation 3.1.0
 Realm 3.3.0
 ```
+## Features
+
+* Starting app with a splash screen
+* Validation for input texts
+* Clearing all input texts by one click on the button 
+* Adding a package to the local database
+* Removing the package from the local database
+* Getting a list of all packages from the local database
 
 ## Visuals
 
