@@ -7711,6 +7711,9 @@ namespace AutomationTest.Droid
 			// aapt resource value: 0x7f0b015f
 			public const int Animation_Design_BottomSheetDialog = 2131427679;
 			
+			// aapt resource value: 0x7f0b0184
+			public const int AppCompatAlertDialogStyle = 2131427716;
+			
 			// aapt resource value: 0x7f0b009a
 			public const int Base_AlertDialog_AppCompat = 2131427482;
 			
