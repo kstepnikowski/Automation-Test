@@ -10,9 +10,8 @@ namespace AutomationTest.Core.ViewModels
 {
     public class DimmPackagesViewModel : MvxViewModel
     {
-        #region Properties
+#region Properties
         private string _barcode;
-
         public string Barcode
         {
             get => _barcode;
@@ -20,7 +19,6 @@ namespace AutomationTest.Core.ViewModels
         }
 
         private string _width;
-
         public string Width
         {
             get => _width;
@@ -28,7 +26,6 @@ namespace AutomationTest.Core.ViewModels
         }
 
         private string _height;
-
         public string Height
         {
             get => _height;
@@ -36,7 +33,6 @@ namespace AutomationTest.Core.ViewModels
         }
 
         private string _depth;
-
         public string Depth
         {
             get => _depth;
@@ -44,16 +40,14 @@ namespace AutomationTest.Core.ViewModels
         }
 
         private ObservableDictionary<string, string> _errors;
-
         public ObservableDictionary<string, string> Errors
         {
             get => _errors;
             set { SetProperty(ref _errors, value); }
         }
+#endregion
 
-        #endregion
-
-        #region Commands
+#region Commands
 
         public IMvxCommand ResetCommand { get; }
         public IMvxCommand SaveCommand { get; }
@@ -103,7 +97,6 @@ namespace AutomationTest.Core.ViewModels
             Errors = result.AsObservableDictionary();
 
             return result.IsValid;
-
         }
     }
 }
