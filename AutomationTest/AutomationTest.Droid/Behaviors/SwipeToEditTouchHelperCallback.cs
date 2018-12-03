@@ -41,7 +41,7 @@ namespace AutomationTest.Droid.Behaviors
             var itemView = viewHolder.ItemView;
             var itemHeight = itemView.Bottom - itemView.Top;
 
-            // Draw the red delete background
+            // Draw the green edit background
             var background = new ColorDrawable { Color = Color.ParseColor("#4CAF50") };
             background.SetBounds(itemView.Left, itemView.Top, itemView.Left+(int)dX, itemView.Bottom);
             background.Draw(c);
@@ -49,14 +49,14 @@ namespace AutomationTest.Droid.Behaviors
             var context = Mvx.IoCProvider.Resolve<IMvxAndroidCurrentTopActivity>().Activity;
             var editIcon = ContextCompat.GetDrawable(context, Resource.Drawable.baseline_edit_white_24);
 
-            // Calculate position of delete icon
+            // Calculate position of edit icon
             var iconTop = itemView.Top + (itemHeight - editIcon.IntrinsicHeight) / 2;
             var iconMargin = (itemHeight + editIcon.IntrinsicHeight) / 2;
             var iconLeft = itemView.Left + iconMargin - editIcon.IntrinsicWidth;
             var iconRight = itemView.Left + iconMargin;
             var iconBottom = iconTop + editIcon.IntrinsicHeight;
 
-            // Draw the delete icon
+            // Draw the edit icon
             editIcon.SetBounds(iconLeft, iconTop, iconRight, iconBottom);
             editIcon.Draw(c);
         }
